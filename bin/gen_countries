@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#
+# generate the file with the list of distinct origins and destinations
+
+cat \
+    <(echo 'iso,name,show') \
+    <(sort \
+        <(cat data/test_data.csv.orig | tail --lines=+2 | grep -E -v '^[[:space:]]*$' | cut -d, -f2) \
+        <(cat data/test_data.csv.orig | tail --lines=+2 | grep -E -v '^[[:space:]]*$' | cut -d, -f4) \
+        | uniq | sed -e 's/^\(.*\)$/\1,\1,1/g') > data/test_countries.csv
+
+# -*- mode: bash; -*-

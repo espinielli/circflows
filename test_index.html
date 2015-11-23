@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+	<title>Flights flows to/from Europe | Performance Review Unit, Eurocontrol</title>
+	<meta name=description content="Flights flowing in and out of Europe in a circular plot.">
+	<meta name=viewport content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.png" type="image/png">
+	<link href="css/normalize.css" rel="stylesheet" media="all">
+  <link href="css/styles.css" rel="stylesheet" media="all">
+
+	<!--[if lt IE 9]><script src=javascripts/html5shiv-printshiv.js></script><![endif]-->
+  <script src="lib/d3.min.js"></script>
+  <script src="lib/circular-flows.min.js"></script>
+</head>
+<body>
+  <div id=container class="container">
+
+  	<header role="banner">
+  		<h1>Test</h1>
+      <hr>
+  	</header>
+
+  	<div class="wrap">
+  		<main role="main">
+        <nav role=navigation>
+          <div id="timeline"></div>
+        </nav>
+        <div id="diagram"></div>
+  		</main>
+  	</div>
+  </div>
+
+  <script>
+    (function() {
+
+      var datafile = 'json/test_data.json';
+      var aLittleBit = Math.PI / 100000;
+      // var cols = 'd7191c fdae61 ffffbf abd9e9 2c7bb6'; // colorbrewer 5 classes/diverging/colorblind safe, print safe
+      // var cols = 'cd3d08 ec8f00 6dae29 683f92 b60275 2058a5 00a592 009d3c 378974 ffca00'; // original set
+      var cols = 'e41a1c 377eb8 4daf4a 984ea3 ff7f00 ffff33 a65628 f781bf 999999';
+
+
+      d3.json(datafile, function(data) {
+        var now = 1;
+        var chart = Globalmigration.chart(data, {
+          element: '#diagram',
+          now: now,
+          animationDuration: 500,
+          margin: 125,
+          arcPadding: 0.04,
+          layout: {
+            alpha: -85, // start angle for first region, zero is up North
+            threshold: -1,
+            labelThreshold: -1,
+            sortSubgroups: d3.ascending,
+            colors: cols.split(' ')
+              .map(function(c) { return '#' + c; })
+          }
+        });
+
+        Globalmigration.timeline(chart, {
+          now: now,
+          element: '#timeline',
+          incr: 1
+        });
+
+        chart.draw(now);
+      });
+    })();
+
+  </script>
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-62697169-2', 'auto');
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>

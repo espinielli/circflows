@@ -1,0 +1,49 @@
+#!/usr/bin/env Rscript
+#
+#!/usr/bin/env littler
+# Prepare the flow data
+#
+# Copyright (C) 2015         Enrico Spinielli
+#
+# Released under MIT
+
+suppressMessages(library("dplyr"))
+suppressMessages(library("stringr"))
+suppressMessages(library("magrittr"))
+suppressMessages(library("tidyr"))
+
+data_dir = "/Users/espin/git/PRU/flows/data/"
+raw_flows_file = "test_data.csv.orig"
+extra_flows_file = "test_data.csv"
+
+mydf <- read.csv(paste(data_dir,raw_flows_file, sep=""),
+                 stringsAsFactors = FALSE,
+                 na.strings = c(""))
+flows <- tbl_df(mydf)
+rm(mydf)
+
+# rename the columns
+flows %<>%
+  rename(
+    year = time,
+    origin_iso = origin,
+    destination_iso = destination,
+    originregion_name = origingroup,
+    destinationregion_name = destinationgroup)
+
+# make the name the same of the iso
+flows %<>%
+  mutate(
+  	origin_name = origin_iso,
+  	destination_name = destination_iso)
+
+# prepend "countryflow_"" to year columns (i.e. from "2007" to "countryflow_2007") and spread
+flows %<>%
+  mutate(year=paste('countryflow', year, sep="_")) %>%
+  spread(year, measure, fill=0)
+
+
+flows %>%
+  write.csv(.,file = paste(data_dir,extra_flows_file, sep=""),row.names=FALSE)
+
+# -*- mode: R; -*-

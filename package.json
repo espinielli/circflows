@@ -1,0 +1,44 @@
+{
+  "name": "circular_plot",
+  "description": "Circular plot for flows",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/euctrl-pru/website",
+  "author": {
+    "name": "Enrico Spinielli",
+    "email": "enrico.spinielli@eurocontrol.int"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "bin": {
+  },
+  "//": "see also http://blog.npmjs.org/post/118810260230/building-a-simple-command-line-tool-with-npm",
+  "scripts": {
+    "compile_flows": "bin/compile.js",
+    "generate_flows": "bin/gen_flows",
+    "generate_regions": "bin/gen_regions",
+    "generate_countries": "bin/gen_countries",
+    "generate_years": "bin/gen_years",
+    "start": "http-server",
+    "generate:test": "PATH=bin:$PATH gen_test_data",
+    "compile:test": "npm run -s compile -- -f './data/test_data.csv' -o 'json/test_data.json' -r './data/test_regions.csv'  -t './data/test_years.csv'",
+    "doit": "npm run -s compile_flows -- -f './data/extra-flows.csv' -o 'json/extra-flows.json' -r './data/regions.csv'  -t './data/years.csv'"
+  },
+  "devDependencies": {
+    "d3-dsv": "^0.1.5",
+    "lodash": "^3.10.1",
+    "queue-async": "^1.0.7",
+    "shelljs": "^0.5.3",
+    "yargs": "^3.30.0"
+  },
+  "keywords": []
+}
+
+
+

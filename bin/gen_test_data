@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#
+# generate the test data files from test_data.csv.orig:
+#  - test_data.csv
+#  - test_countries.csv
+#  - test_regions.csv
+#  - test_years.csv
+# generate the file with the list of distinct origins and destinations
+
+gen_flows && gen_countries && gen_regions && gen_years
+
+# -*- mode: bash; -*-
