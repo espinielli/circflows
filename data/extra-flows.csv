@@ -1,0 +1,265 @@
+"origin_iso","origin_name","originregion_name","destination_iso","destination_name","destinationregion_name","countryflow_2007","countryflow_2008","countryflow_2009","countryflow_2010","countryflow_2011","countryflow_2012","countryflow_2013","countryflow_2014"
+"AE","United Arab Emirates","Middle East","CH","Switzerland","Eurocontrol",0,0,0,0,1828,2023,2024,2218
+"AE","United Arab Emirates","Middle East","DE","Germany","Eurocontrol",7048,7440,7136,7464,8037,8847,8317,8667
+"AE","United Arab Emirates","Middle East","FR","France","Eurocontrol",2762,2624,2718,2817,2900,2970,3344,3491
+"AE","United Arab Emirates","Middle East","GB","United Kingdom","Eurocontrol",9611,10036,9846,9430,9922,10221,11002,11141
+"AE","United Arab Emirates","Middle East","IT","Italy","Eurocontrol",0,0,2019,2394,2528,2923,3329,3457
+"AE","United Arab Emirates","Middle East","LB","Lebanon","Middle East",0,0,0,0,0,0,2749,3262
+"AE","United Arab Emirates","Middle East","NL","Netherlands","Eurocontrol",2345,2110,0,2639,2877,2317,2595,2651
+"AE","United Arab Emirates","Middle East","RU","Russian Federation","Asia",0,0,0,0,1992,0,0,2187
+"AE","United Arab Emirates","Middle East","TR","Turkey","Eurocontrol",1998,2455,2709,2970,2989,2918,3516,3585
+"AE","United Arab Emirates","Middle East","UA","Ukraine","Eurocontrol",0,0,0,0,0,0,2073,0
+"AE","United Arab Emirates","Middle East","US","United States","America",0,0,2582,3019,3156,3243,3690,4666
+"AM","Armenia","Eurocontrol","RU","Russian Federation","Asia",5292,5821,5564,6237,6006,6950,6291,7472
+"AT","Austria","Eurocontrol","EG","Egypt","Middle East",0,1862,1835,1995,0,0,0,0
+"AT","Austria","Eurocontrol","RU","Russian Federation","Asia",4475,5413,4767,5120,5601,5558,6040,5820
+"AZ","Azerbaijan","Asia","AZ","Azerbaijan","Asia",2883,4324,4485,2451,3658,3593,3002,2169
+"AZ","Azerbaijan","Asia","TR","Turkey","Eurocontrol",0,1879,2090,2458,3099,3610,4461,4312
+"BE","Belgium","Eurocontrol","EG","Egypt","Middle East",0,1946,0,0,0,0,0,0
+"BE","Belgium","Eurocontrol","MA","Morocco","Africa",2954,3036,3290,3847,4341,4175,4541,4615
+"BE","Belgium","Eurocontrol","US","United States","America",3448,4014,4025,4277,4441,3944,3767,3898
+"BG","Bulgaria","Eurocontrol","RU","Russian Federation","Asia",1843,2178,2130,2798,3242,3609,3978,4169
+"BR","Brazil","America","ES","Spain","Eurocontrol",1929,2073,0,0,2039,1916,1905,2142
+"BR","Brazil","America","FR","France","Eurocontrol",2341,2761,2414,2374,2395,2099,1954,1868
+"BR","Brazil","America","PT","Portugal","Eurocontrol",3002,3341,2963,3294,3537,3611,3551,3700
+"CA","Canada","America","DE","Germany","Eurocontrol",3777,4031,3949,4197,4309,4020,3810,3925
+"CA","Canada","America","FR","France","Eurocontrol",3662,3738,3619,3721,3680,3457,3412,3406
+"CA","Canada","America","GB","United Kingdom","Eurocontrol",10527,9296,8006,8083,7790,7837,7495,7416
+"CH","Switzerland","Eurocontrol","AE","United Arab Emirates","Middle East",0,0,0,0,0,2042,2008,2206
+"CH","Switzerland","Eurocontrol","EG","Egypt","Middle East",0,1900,1981,2045,0,0,0,0
+"CH","Switzerland","Eurocontrol","IL","Israel","Middle East",0,0,0,0,1950,1908,1899,1917
+"CH","Switzerland","Eurocontrol","RU","Russian Federation","Asia",3491,3931,3743,3868,4496,5093,5084,5064
+"CH","Switzerland","Eurocontrol","US","United States","America",5509,5450,5356,5847,6172,6234,6303,6372
+"CN","China","Asia","DE","Germany","Eurocontrol",4051,4449,4240,4567,4856,4825,4868,5522
+"CN","China","Asia","FR","France","Eurocontrol",2828,2764,2456,2587,2769,3155,3191,3279
+"CN","China","Asia","GB","United Kingdom","Eurocontrol",0,0,0,0,0,1877,2144,2464
+"CN","China","Asia","NL","Netherlands","Eurocontrol",2449,2621,2201,2416,2984,3045,3260,3556
+"CY","Cyprus","Eurocontrol","RU","Russian Federation","Asia",0,1905,0,2246,2791,3298,3692,4277
+"CZ","Czech Republic","Eurocontrol","RU","Russian Federation","Asia",3678,4503,4579,4733,5679,6543,7247,6632
+"DE","Germany","Eurocontrol","AE","United Arab Emirates","Middle East",5842,6239,6363,6586,7075,8229,8149,8246
+"DE","Germany","Eurocontrol","BR","Brazil","America",0,0,0,0,0,1919,1846,0
+"DE","Germany","Eurocontrol","CA","Canada","America",3722,3964,4020,4176,4340,4137,3981,4047
+"DE","Germany","Eurocontrol","CN","China","Asia",3891,4231,4023,4715,5172,5154,5460,6332
+"DE","Germany","Eurocontrol","EG","Egypt","Middle East",8090,8447,8291,8877,7001,8373,6700,6686
+"DE","Germany","Eurocontrol","IL","Israel","Middle East",2067,2283,2695,2933,3000,3315,3679,4054
+"DE","Germany","Eurocontrol","IN","India","Asia",3704,3845,4322,4523,4266,3623,3661,3442
+"DE","Germany","Eurocontrol","JP","Japan","Asia",2505,2422,2294,2357,2493,2884,2919,3292
+"DE","Germany","Eurocontrol","KR","Korea, Republic of","Asia",1896,2181,2207,2128,2116,1921,1939,1962
+"DE","Germany","Eurocontrol","MA","Morocco","Africa",1864,2083,1986,2374,2615,2287,2957,2846
+"DE","Germany","Eurocontrol","QA","Qatar","Middle East",0,0,0,0,2293,2417,2637,2696
+"DE","Germany","Eurocontrol","RU","Russian Federation","Asia",20716,22245,20190,20289,24171,25334,24960,24814
+"DE","Germany","Eurocontrol","SA","Saudi Arabia","Middle East",0,0,0,0,0,1885,2073,1930
+"DE","Germany","Eurocontrol","SG","Singapore","Asia",0,0,0,1931,2166,2024,0,0
+"DE","Germany","Eurocontrol","TH","Thailand","Asia",2214,2185,2025,2144,2318,2073,0,1888
+"DE","Germany","Eurocontrol","TN","Tunisia","Africa",4474,4526,4477,4369,3107,3955,4001,4182
+"DE","Germany","Eurocontrol","US","United States","America",27272,27596,25172,25866,27262,26951,26396,25433
+"DK","Denmark","Eurocontrol","IS","Iceland","America",1852,0,0,0,0,0,0,0
+"DK","Denmark","Eurocontrol","US","United States","America",2159,2073,1969,2009,1859,0,0,2152
+"DZ","Algeria","Africa","ES","Spain","Eurocontrol",0,0,1978,2641,2787,2565,3123,3312
+"DZ","Algeria","Africa","FR","France","Eurocontrol",11992,12442,13491,14771,15643,16788,18224,18984
+"DZ","Algeria","Africa","TR","Turkey","Eurocontrol",0,0,0,0,0,0,0,1906
+"EE","Estonia","Eurocontrol","RU","Russian Federation","Asia",0,0,0,0,0,2515,1935,0
+"EG","Egypt","Middle East","AT","Austria","Eurocontrol",0,1855,1848,2009,0,0,0,0
+"EG","Egypt","Middle East","BE","Belgium","Eurocontrol",2148,2462,2247,2416,2071,0,0,0
+"EG","Egypt","Middle East","CH","Switzerland","Eurocontrol",0,1890,1959,2039,0,0,0,0
+"EG","Egypt","Middle East","DE","Germany","Eurocontrol",7928,8234,8148,8717,6778,8193,6619,6516
+"EG","Egypt","Middle East","FR","France","Eurocontrol",3167,3725,3508,3846,2462,2235,0,0
+"EG","Egypt","Middle East","GB","United Kingdom","Eurocontrol",5474,5933,6537,7101,6071,5542,5731,5725
+"EG","Egypt","Middle East","IT","Italy","Eurocontrol",8046,8486,8378,9051,5629,6719,5561,5103
+"EG","Egypt","Middle East","LB","Lebanon","Middle East",0,0,0,2013,0,1957,2500,2324
+"EG","Egypt","Middle East","NL","Netherlands","Eurocontrol",0,0,0,1861,1922,2051,0,0
+"EG","Egypt","Middle East","PL","Poland","Eurocontrol",1845,2954,2464,3301,2195,2775,0,0
+"EG","Egypt","Middle East","RU","Russian Federation","Asia",6496,7654,9211,12282,7970,10328,10066,13417
+"EG","Egypt","Middle East","TR","Turkey","Eurocontrol",0,0,1998,2591,2547,2645,3212,3391
+"EG","Egypt","Middle East","UA","Ukraine","Eurocontrol",2411,2985,0,2259,1851,0,1834,2146
+"ES","Spain","Eurocontrol","BR","Brazil","America",1951,2133,0,1922,2285,2130,2113,2394
+"ES","Spain","Eurocontrol","DZ","Algeria","Africa",0,0,1990,2639,2796,2574,3089,3272
+"ES","Spain","Eurocontrol","IL","Israel","Middle East",0,2039,1934,2241,2486,2240,2188,2325
+"ES","Spain","Eurocontrol","MA","Morocco","Africa",8262,7822,8861,9834,9270,7740,8255,8193
+"ES","Spain","Eurocontrol","MX","Mexico","America",1888,1913,0,1869,1838,0,0,0
+"ES","Spain","Eurocontrol","RU","Russian Federation","Asia",3863,4477,3549,4500,6281,7834,9358,9255
+"ES","Spain","Eurocontrol","US","United States","America",5169,5976,6324,7068,7795,7243,6886,7325
+"FI","Finland","Eurocontrol","RU","Russian Federation","Asia",2987,3560,3204,3188,3405,3057,2776,3526
+"FR","France","Eurocontrol","AE","United Arab Emirates","Middle East",2698,2792,2809,2878,3008,3128,3458,3536
+"FR","France","Eurocontrol","BR","Brazil","America",2363,2773,2455,2385,2380,2119,1952,1879
+"FR","France","Eurocontrol","CA","Canada","America",3628,3777,3616,3708,3713,3481,3428,3427
+"FR","France","Eurocontrol","CN","China","Asia",2960,2885,2791,3058,3282,3582,3433,3537
+"FR","France","Eurocontrol","DZ","Algeria","Africa",12093,12597,13582,14833,15673,16796,18201,18977
+"FR","France","Eurocontrol","EG","Egypt","Middle East",3364,3809,3546,3896,2462,2273,0,0
+"FR","France","Eurocontrol","IL","Israel","Middle East",2632,2755,2542,2658,2975,3022,3473,3600
+"FR","France","Eurocontrol","IN","India","Asia",2171,2236,0,0,1915,0,0,1991
+"FR","France","Eurocontrol","JP","Japan","Asia",2910,2754,2441,2084,2226,2271,2253,2714
+"FR","France","Eurocontrol","MA","Morocco","Africa",20218,20698,20587,22024,21256,20426,21530,21431
+"FR","France","Eurocontrol","MQ","Martinique","America",2816,2768,2668,2666,2829,2907,3203,3026
+"FR","France","Eurocontrol","RU","Russian Federation","Asia",7393,8574,7316,7551,8702,9629,10538,10044
+"FR","France","Eurocontrol","SA","Saudi Arabia","Middle East",0,0,0,1835,0,0,0,0
+"FR","France","Eurocontrol","SN","Senegal","Africa",1837,0,0,0,0,0,0,0
+"FR","France","Eurocontrol","TN","Tunisia","Africa",14840,15586,15359,15792,12297,14463,12860,12102
+"FR","France","Eurocontrol","US","United States","America",17070,18111,17054,16934,18267,17313,17354,17284
+"GB","United Kingdom","Eurocontrol","AE","United Arab Emirates","Middle East",8890,9483,9567,9383,10019,10381,11039,11070
+"GB","United Kingdom","Eurocontrol","CA","Canada","America",10172,9032,7766,7942,7722,7689,7513,7360
+"GB","United Kingdom","Eurocontrol","CN","China","Asia",0,0,0,0,0,1876,2150,2454
+"GB","United Kingdom","Eurocontrol","EG","Egypt","Middle East",5231,5708,6426,6972,5945,5530,5674,5689
+"GB","United Kingdom","Eurocontrol","HK","Hong Kong","Asia",4089,3842,3611,3152,3264,3142,2793,2936
+"GB","United Kingdom","Eurocontrol","IL","Israel","Middle East",2085,2466,2594,2263,2323,2227,2826,2831
+"GB","United Kingdom","Eurocontrol","IN","India","Asia",6204,6149,5896,5699,5952,5033,5646,5920
+"GB","United Kingdom","Eurocontrol","IS","Iceland","America",3172,2487,2086,2133,2396,2544,3143,3702
+"GB","United Kingdom","Eurocontrol","JP","Japan","Asia",2294,2269,1841,0,0,0,0,0
+"GB","United Kingdom","Eurocontrol","MA","Morocco","Africa",3409,2303,2431,3006,3329,2967,3346,3989
+"GB","United Kingdom","Eurocontrol","NG","Nigeria","Africa",0,0,0,1859,1892,1863,0,0
+"GB","United Kingdom","Eurocontrol","QA","Qatar","Middle East",2083,2312,2251,2254,2343,2498,2455,2945
+"GB","United Kingdom","Eurocontrol","RU","Russian Federation","Asia",5334,5846,5115,5156,5764,5739,5640,5696
+"GB","United Kingdom","Eurocontrol","SA","Saudi Arabia","Middle East",0,0,0,2020,2204,2187,2064,2305
+"GB","United Kingdom","Eurocontrol","SG","Singapore","Asia",2851,2929,2685,2471,2534,2653,2311,2135
+"GB","United Kingdom","Eurocontrol","TN","Tunisia","Africa",1986,0,0,2197,0,2103,2478,2436
+"GB","United Kingdom","Eurocontrol","US","United States","America",50565,49781,43362,41596,44414,44632,44471,45958
+"GB","United Kingdom","Eurocontrol","ZA","South Africa","Africa",3133,2919,2888,2835,2814,2807,2617,2610
+"GR","Greece","Eurocontrol","IL","Israel","Middle East",0,0,0,2418,2725,2881,2898,3431
+"GR","Greece","Eurocontrol","RU","Russian Federation","Asia",3174,3895,3053,3723,5310,6449,9288,8776
+"HK","Hong Kong","Asia","GB","United Kingdom","Eurocontrol",4026,3784,3551,3099,3218,3132,2769,2902
+"IE","Ireland","Eurocontrol","US","United States","America",7318,7764,6927,6591,6873,6295,6809,7452
+"IL","Israel","Middle East","CH","Switzerland","Eurocontrol",0,0,0,0,1946,1887,1873,1901
+"IL","Israel","Middle East","DE","Germany","Eurocontrol",2309,2567,2931,3161,3188,3511,3782,4129
+"IL","Israel","Middle East","ES","Spain","Eurocontrol",0,2032,1931,2246,2458,2225,2202,2318
+"IL","Israel","Middle East","FR","France","Eurocontrol",2671,2819,2592,2748,3024,3089,3511,3682
+"IL","Israel","Middle East","GB","United Kingdom","Eurocontrol",2108,2452,2582,2260,2273,2226,2805,2850
+"IL","Israel","Middle East","GR","Greece","Eurocontrol",0,0,0,2167,2527,2681,2706,3221
+"IL","Israel","Middle East","IT","Italy","Eurocontrol",2723,3023,3343,3744,3630,3595,3833,4081
+"IL","Israel","Middle East","RU","Russian Federation","Asia",2335,2974,2913,3489,3819,3762,3794,3989
+"IL","Israel","Middle East","TR","Turkey","Eurocontrol",3827,4849,3744,2634,2645,3040,4595,5372
+"IL","Israel","Middle East","UA","Ukraine","Eurocontrol",0,0,0,0,2158,2256,2011,1905
+"IL","Israel","Middle East","US","United States","America",2621,2739,2740,2897,2720,2622,2666,2663
+"IN","India","Asia","DE","Germany","Eurocontrol",3250,3374,4055,4092,3881,3858,3850,3804
+"IN","India","Asia","FR","France","Eurocontrol",1867,0,0,0,0,0,0,0
+"IN","India","Asia","GB","United Kingdom","Eurocontrol",6853,6721,6547,6294,6523,5545,6072,6070
+"IN","India","Asia","US","United States","America",0,1898,1827,0,1850,0,0,0
+"IQ","Iraq","Middle East","TR","Turkey","Eurocontrol",0,0,0,0,1893,3346,3885,4711
+"IR","Iran, Islamic Republic of","Middle East","SY","Syrian Arab Republic","Middle East",0,0,0,2369,0,0,0,0
+"IR","Iran, Islamic Republic of","Middle East","TR","Turkey","Eurocontrol",0,1904,2566,3480,4457,5132,5809,7874
+"IS","Iceland","America","DK","Denmark","Eurocontrol",1852,0,0,0,0,0,0,0
+"IS","Iceland","America","GB","United Kingdom","Eurocontrol",3223,2811,2218,2273,2361,2420,2933,3535
+"IT","Italy","Eurocontrol","AE","United Arab Emirates","Middle East",0,0,2300,2842,2849,3241,3515,3494
+"IT","Italy","Eurocontrol","EG","Egypt","Middle East",7815,8299,8276,8964,5575,6648,5482,4995
+"IT","Italy","Eurocontrol","IL","Israel","Middle East",2675,3010,3344,3740,3658,3613,3839,4138
+"IT","Italy","Eurocontrol","MA","Morocco","Africa",3288,3569,3912,5227,4967,3905,4571,4514
+"IT","Italy","Eurocontrol","QA","Qatar","Middle East",0,0,0,0,0,1975,2076,2139
+"IT","Italy","Eurocontrol","RU","Russian Federation","Asia",7154,7502,6485,7559,8870,9640,11803,11731
+"IT","Italy","Eurocontrol","TN","Tunisia","Africa",5326,5034,4553,4536,2794,3487,3614,3695
+"IT","Italy","Eurocontrol","US","United States","America",9015,9144,7843,7782,7749,7175,7328,8233
+"JO","Jordan","Middle East","TR","Turkey","Eurocontrol",0,0,0,0,1908,2056,2127,2453
+"JP","Japan","Asia","DE","Germany","Eurocontrol",2171,2164,2093,2238,2459,2885,2931,3278
+"JP","Japan","Asia","FR","France","Eurocontrol",2896,2749,2411,2051,2148,2194,2197,2833
+"JP","Japan","Asia","GB","United Kingdom","Eurocontrol",2193,2181,0,0,0,0,0,0
+"KR","Korea, Republic of","Asia","DE","Germany","Eurocontrol",0,1826,0,0,1953,0,0,0
+"KW","Kuwait","Middle East","TR","Turkey","Eurocontrol",0,0,0,0,0,0,0,2128
+"KZ","Kazakhstan","Asia","DE","Germany","Eurocontrol",2467,2684,1973,1948,0,0,0,0
+"KZ","Kazakhstan","Asia","TR","Turkey","Eurocontrol",1995,2296,2287,2432,3124,3188,3403,3765
+"LB","Lebanon","Middle East","AE","United Arab Emirates","Middle East",0,0,0,0,0,0,2768,3262
+"LB","Lebanon","Middle East","EG","Egypt","Middle East",0,0,0,2110,0,2004,2551,2311
+"LB","Lebanon","Middle East","TR","Turkey","Eurocontrol",0,0,0,0,2354,2854,2787,3149
+"LV","Latvia","Eurocontrol","RU","Russian Federation","Asia",0,0,0,0,3186,3881,4188,4235
+"LY","Libya","Africa","TR","Turkey","Eurocontrol",0,0,0,2291,0,3205,3575,3048
+"MA","Morocco","Africa","BE","Belgium","Eurocontrol",2940,2993,3294,3862,4370,4185,4548,4547
+"MA","Morocco","Africa","DE","Germany","Eurocontrol",1848,2064,1984,2436,2627,2235,2961,2853
+"MA","Morocco","Africa","ES","Spain","Eurocontrol",7650,7717,8841,9756,9259,7841,8312,8244
+"MA","Morocco","Africa","FR","France","Eurocontrol",20180,20727,20600,21771,21111,20462,21613,21470
+"MA","Morocco","Africa","GB","United Kingdom","Eurocontrol",3433,2331,2451,3007,3328,2952,3340,4000
+"MA","Morocco","Africa","IT","Italy","Eurocontrol",3270,3582,3909,5241,4982,3905,4604,4501
+"MA","Morocco","Africa","MA","Morocco","Africa",19852,21012,23022,24360,20319,16064,17240,19044
+"MA","Morocco","Africa","NL","Netherlands","Eurocontrol",0,0,0,0,0,0,2220,2238
+"MD","Moldova, Republic of","Eurocontrol","RU","Russian Federation","Asia",0,0,0,0,0,0,1831,2447
+"MQ","Martinique","America","FR","France","Eurocontrol",2920,2840,2748,2791,2935,2914,3223,3047
+"MX","Mexico","America","ES","Spain","Eurocontrol",1877,1926,0,1865,0,0,0,0
+"NG","Nigeria","Africa","GB","United Kingdom","Eurocontrol",0,1835,0,0,1845,1848,0,0
+"NL","Netherlands","Eurocontrol","AE","United Arab Emirates","Middle East",1923,0,0,2519,2722,1964,2455,2700
+"NL","Netherlands","Eurocontrol","CN","China","Asia",1956,2192,1948,2434,2721,2943,3169,3314
+"NL","Netherlands","Eurocontrol","MA","Morocco","Africa",0,0,0,0,0,0,2214,2223
+"NL","Netherlands","Eurocontrol","RU","Russian Federation","Asia",1870,2223,2236,2636,2807,2846,2648,3129
+"NL","Netherlands","Eurocontrol","US","United States","America",12661,13465,11528,11082,11670,11155,11140,11128
+"PL","Poland","Eurocontrol","EG","Egypt","Middle East",1841,2956,2463,3279,2197,2760,0,0
+"PL","Poland","Eurocontrol","RU","Russian Federation","Asia",1873,1850,0,2005,2517,2653,2526,2242
+"PT","Portugal","Eurocontrol","BR","Brazil","America",3100,3448,2995,3300,3549,3607,3558,3705
+"PT","Portugal","Eurocontrol","US","United States","America",0,0,0,0,0,0,0,1833
+"QA","Qatar","Middle East","DE","Germany","Eurocontrol",0,0,0,0,2203,2440,2572,2609
+"QA","Qatar","Middle East","GB","United Kingdom","Eurocontrol",2095,2322,2273,2258,2326,2505,2454,3103
+"QA","Qatar","Middle East","IT","Italy","Eurocontrol",0,0,0,0,0,1973,2054,2010
+"QA","Qatar","Middle East","TR","Turkey","Eurocontrol",0,0,0,0,0,0,0,1953
+"QA","Qatar","Middle East","US","United States","America",0,0,0,0,0,0,0,2044
+"RS","Serbia","Eurocontrol","RU","Russian Federation","Asia",2080,2494,2365,2623,2851,3024,3780,4064
+"RU","Russian Federation","Asia","AE","United Arab Emirates","Middle East",0,0,0,0,2439,2741,2874,3328
+"RU","Russian Federation","Asia","AM","Armenia","Eurocontrol",5227,5771,5535,6245,5998,6916,6274,7496
+"RU","Russian Federation","Asia","AT","Austria","Eurocontrol",4491,5393,4904,5319,5756,5739,6302,6074
+"RU","Russian Federation","Asia","BG","Bulgaria","Eurocontrol",1865,2164,2116,2824,3245,3622,3992,4148
+"RU","Russian Federation","Asia","CH","Switzerland","Eurocontrol",3465,3937,3739,3829,4465,4991,5067,5033
+"RU","Russian Federation","Asia","CY","Cyprus","Eurocontrol",0,1922,0,2272,2775,3296,3677,4279
+"RU","Russian Federation","Asia","CZ","Czech Republic","Eurocontrol",3571,4496,4540,4717,5689,6600,7249,6636
+"RU","Russian Federation","Asia","DE","Germany","Eurocontrol",20827,22362,20428,20593,24851,25713,25431,25352
+"RU","Russian Federation","Asia","EE","Estonia","Eurocontrol",0,0,0,0,0,2517,1893,0
+"RU","Russian Federation","Asia","EG","Egypt","Middle East",6522,7660,9203,12242,8102,10427,10121,13476
+"RU","Russian Federation","Asia","ES","Spain","Eurocontrol",3860,4413,3513,4451,6256,7788,9298,9233
+"RU","Russian Federation","Asia","FI","Finland","Eurocontrol",2949,3607,3179,3180,3420,3053,2806,3562
+"RU","Russian Federation","Asia","FR","France","Eurocontrol",7251,8631,7199,7454,8617,9565,10348,9967
+"RU","Russian Federation","Asia","GB","United Kingdom","Eurocontrol",5369,5901,5145,5216,5922,5746,5732,5755
+"RU","Russian Federation","Asia","GR","Greece","Eurocontrol",3170,3881,3049,3757,5274,6399,9250,8762
+"RU","Russian Federation","Asia","IL","Israel","Middle East",2303,2968,2916,3465,3824,3799,3810,3963
+"RU","Russian Federation","Asia","IT","Italy","Eurocontrol",7196,7459,6429,7506,8812,9643,11753,11734
+"RU","Russian Federation","Asia","LV","Latvia","Eurocontrol",0,0,0,0,3187,3911,4215,4256
+"RU","Russian Federation","Asia","MD","Moldova, Republic of","Eurocontrol",0,0,0,0,0,0,1838,2435
+"RU","Russian Federation","Asia","NL","Netherlands","Eurocontrol",0,2058,2179,2637,2762,2838,2688,3219
+"RU","Russian Federation","Asia","PL","Poland","Eurocontrol",1934,1953,0,2041,2553,2714,2572,2303
+"RU","Russian Federation","Asia","RS","Serbia","Eurocontrol",2073,2536,2399,2607,2896,3083,3846,4132
+"RU","Russian Federation","Asia","RU","Russian Federation","Asia",14806,18519,13364,10319,12545,11591,12013,12264
+"RU","Russian Federation","Asia","SE","Sweden","Eurocontrol",0,1826,0,0,1833,1993,0,1871
+"RU","Russian Federation","Asia","TR","Turkey","Eurocontrol",14570,16236,16216,18846,20691,20855,23996,26151
+"RU","Russian Federation","Asia","UA","Ukraine","Eurocontrol",10997,12028,11200,13901,16434,19410,21708,10817
+"RU","Russian Federation","Asia","US","United States","America",0,0,2081,2049,2391,2478,2787,2773
+"SA","Saudi Arabia","Middle East","DE","Germany","Eurocontrol",0,0,0,0,0,0,1833,0
+"SA","Saudi Arabia","Middle East","GB","United Kingdom","Eurocontrol",0,0,0,1999,2131,2104,1953,2298
+"SA","Saudi Arabia","Middle East","TR","Turkey","Eurocontrol",3658,4234,4033,4789,6206,7197,8061,9576
+"SE","Sweden","Eurocontrol","RU","Russian Federation","Asia",0,1843,0,0,0,1929,0,1917
+"SG","Singapore","Asia","DE","Germany","Eurocontrol",0,0,0,1933,2144,2025,0,0
+"SG","Singapore","Asia","GB","United Kingdom","Eurocontrol",2838,2905,2656,2456,2527,2647,2300,2131
+"SN","Senegal","Africa","FR","France","Eurocontrol",1940,0,0,0,0,0,0,0
+"TH","Thailand","Asia","DE","Germany","Eurocontrol",2034,2066,1953,1992,1990,0,0,0
+"TJ","Tajikistan","Asia","TR","Turkey","Eurocontrol",0,0,0,0,0,0,1836,0
+"TN","Tunisia","Africa","DE","Germany","Eurocontrol",4457,4516,4457,4335,3081,3912,3934,4137
+"TN","Tunisia","Africa","FR","France","Eurocontrol",14789,15508,15266,15768,12377,14472,12904,12106
+"TN","Tunisia","Africa","GB","United Kingdom","Eurocontrol",1983,0,0,2205,0,2099,2469,2426
+"TN","Tunisia","Africa","IT","Italy","Eurocontrol",5320,5035,4585,4547,2800,3514,3637,3713
+"TR","Turkey","Eurocontrol","AE","United Arab Emirates","Middle East",1940,2481,2635,2884,2928,2841,3399,3464
+"TR","Turkey","Eurocontrol","AZ","Azerbaijan","Asia",0,1864,2100,2466,3096,3613,4468,4302
+"TR","Turkey","Eurocontrol","DZ","Algeria","Africa",0,0,0,0,0,0,0,2082
+"TR","Turkey","Eurocontrol","EG","Egypt","Middle East",0,0,1905,2482,2349,2467,3114,3208
+"TR","Turkey","Eurocontrol","IL","Israel","Middle East",3902,4912,3776,2681,2627,2981,4566,5332
+"TR","Turkey","Eurocontrol","IQ","Iraq","Middle East",0,0,0,0,2087,3391,4054,4676
+"TR","Turkey","Eurocontrol","IR","Iran, Islamic Republic of","Middle East",0,2017,2710,3665,4910,5622,6165,8292
+"TR","Turkey","Eurocontrol","JO","Jordan","Middle East",0,0,0,0,0,1949,2037,2247
+"TR","Turkey","Eurocontrol","KW","Kuwait","Middle East",0,0,0,0,0,0,0,2147
+"TR","Turkey","Eurocontrol","KZ","Kazakhstan","Asia",2167,2449,2424,2612,3220,3318,3614,3905
+"TR","Turkey","Eurocontrol","LB","Lebanon","Middle East",0,0,0,0,2430,2845,2852,3252
+"TR","Turkey","Eurocontrol","LY","Libya","Africa",0,0,0,2369,0,3279,3657,3094
+"TR","Turkey","Eurocontrol","QA","Qatar","Middle East",0,0,0,0,0,0,0,1960
+"TR","Turkey","Eurocontrol","RU","Russian Federation","Asia",14590,16158,16213,18949,20844,20929,24072,26301
+"TR","Turkey","Eurocontrol","SA","Saudi Arabia","Middle East",3519,4253,4245,4897,6348,7264,8056,9548
+"TR","Turkey","Eurocontrol","US","United States","America",0,0,0,0,1853,2372,2688,2782
+"UA","Ukraine","Eurocontrol","AE","United Arab Emirates","Middle East",0,0,0,0,0,0,2065,0
+"UA","Ukraine","Eurocontrol","EG","Egypt","Middle East",2423,2997,0,2276,1869,0,1849,2155
+"UA","Ukraine","Eurocontrol","IL","Israel","Middle East",0,0,0,0,2167,2247,1992,1893
+"UA","Ukraine","Eurocontrol","RU","Russian Federation","Asia",11108,11945,11143,13959,16353,19294,21569,10728
+"US","United States","America","AE","United Arab Emirates","Middle East",0,1904,2901,3391,4112,4268,4780,5948
+"US","United States","America","BE","Belgium","Eurocontrol",4778,5411,4700,5161,5532,4901,4404,4326
+"US","United States","America","CH","Switzerland","Eurocontrol",5633,5589,5416,5971,6295,6330,6385,6469
+"US","United States","America","DE","Germany","Eurocontrol",27154,27560,25155,26220,27739,27286,26316,25744
+"US","United States","America","DK","Denmark","Eurocontrol",2160,1962,0,0,0,0,0,2314
+"US","United States","America","ES","Spain","Eurocontrol",5308,6018,6444,7122,7861,7301,6969,7411
+"US","United States","America","FR","France","Eurocontrol",17268,18459,17197,17126,18347,17503,17678,17653
+"US","United States","America","GB","United Kingdom","Eurocontrol",51470,50451,44143,42956,45887,45856,45739,47195
+"US","United States","America","IE","Ireland","Eurocontrol",6807,7249,6399,5621,5892,5417,6041,6501
+"US","United States","America","IL","Israel","Middle East",2644,2761,2746,2905,2770,2667,2708,2723
+"US","United States","America","IN","India","Asia",0,2130,1954,0,2131,0,1826,0
+"US","United States","America","IT","Italy","Eurocontrol",9154,9174,7838,7743,7500,6948,6955,7838
+"US","United States","America","NL","Netherlands","Eurocontrol",12337,13287,11537,11389,11993,11530,11592,11776
+"US","United States","America","QA","Qatar","Middle East",0,0,0,0,0,0,0,2069
+"US","United States","America","RU","Russian Federation","Asia",0,0,2038,2037,2410,2441,2621,2649
+"US","United States","America","TR","Turkey","Eurocontrol",0,0,0,0,1847,2429,2712,2817
+"ZA","South Africa","Africa","GB","United Kingdom","Eurocontrol",2934,2869,2872,2822,2811,2762,2576,2562
