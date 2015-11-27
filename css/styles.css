@@ -118,11 +118,11 @@ hr {
   right: 0;
 }
 
-#play-buttons {
+#playtime {
   margin: 15px auto;
   text-align: center;
   position: absolute;
-  top: 50px;
+  top: 38px;
   left: 0;
   right: 0;
 }

@@ -36,11 +36,36 @@
       return index;
     }
 
-    var play = playdiv.select('.fa-play');
+    var svg = playdiv.append("svg")
+      .attr("width", "70")
+      .attr("height", "30");
+
+    // Play button
+    var play = svg.append("g")
+      .attr("transform", "translate(0,0)");
+
+    // Stop button
+    var stop = svg.append("g")
+      .attr("transform", "translate(40,0)");
+
+
+    // Play button details
+    play.append("rect")
+      .attr("width", 30)
+      .attr("height", 30)
+      .style("fill-opacity", 0.0);
+
+    play.append("path")
+      .attr("d", "M5 0 L5 30 L30 15 Z")
+      .style("fill", "black");
+
+    play.append("title")
+      .text("Play");
+
     play.on('click', function() {
       // change look
-      play.style('opacity', 0.4);
-      stop.style('opacity', 1.0);
+      play.style('fill-opacity', 0.4);
+      stop.style('fill-opacity', 1.0);
       current = getCurrentSelected();
       // TODO: we should disable mouse click while playing...
 
@@ -52,12 +77,52 @@
       }, 1500); // 1.5 seconds
     });
 
-    var stop = playdiv.select('.fa-stop')
-        .style('opacity', 0.4);
+
+
+
+    // Stop button details
+    stop.append("rect")
+      .attr("width", 30)
+      .attr("height", 30)
+      .style("fill-opacity", 0.0);
+
+    stop.append("path")
+      .attr("d", "M2 2 L2 28 L28 28 L28 2 Z")
+      .style("fill", "black");
+    stop.style('fill-opacity', 0.4);
+
+    stop.append("title")
+      .text("Stop");
+
     stop.on('click', function() {
-      stop.style('opacity', 0.4);
-      play.style('opacity', 1.0);
+      stop.style('fill-opacity', 0.4);
+      play.style('fill-opacity', 1.0);
       clearInterval(playInterval);
     });
+
+
+    // var play = playdiv.select('.fa-play');
+    // play.on('click', function() {
+    //   // change look
+    //   play.style('opacity', 0.4);
+    //   stop.style('opacity', 1.0);
+    //   current = getCurrentSelected();
+    //   // TODO: we should disable mouse click while playing...
+
+    //   // iterate thru all radio buttons and simulate a click event
+    //   playInterval = setInterval(function() {
+    //     current = (current + 1) % len;
+    //     actions[current].action.apply(actions[current].button, [actions[current].d, actions[current].i]);
+    //     // TODO: revive tooltip? How?!!!
+    //   }, 1500); // 1.5 seconds
+    // });
+
+    // var stop = playdiv.select('.fa-stop')
+    //     .style('opacity', 0.4);
+    // stop.on('click', function() {
+    //   stop.style('opacity', 0.4);
+    //   play.style('opacity', 1.0);
+    //   clearInterval(playInterval);
+    // });
   };
 })(window.Globalmigration || (window.Globalmigration = {}));

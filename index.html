@@ -10,7 +10,6 @@
   <link href="css/styles.css" rel="stylesheet" media="all">
 
 	<!--[if lt IE 9]><script src=javascripts/html5shiv-printshiv.js></script><![endif]-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script src="lib/d3.min.js"></script>
   <script src="lib/circular-flows.min.js"></script>
 </head>
@@ -33,10 +32,7 @@
   		<main role="main">
         <nav role=navigation>
           <div id="timeline"></div>
-          <div id="play-buttons">
-            <span><i title="Play" class="fa fa-play fa-2x"></i></span> &nbsp; &nbsp;
-            <span><i title="Stop" class="fa fa-stop fa-2x"></i></span>
-          </div>
+          <div id="playtime"></div>
         </nav>
         <div id="diagram"></div>
   		</main>
@@ -216,7 +212,7 @@
           element: '#diagram',
           now: now,
           animationDuration: 500,
-          margin: 125,
+          margin: 145,
           arcPadding: 0.04,
           layout: {
             alpha: -85, // start angle for first region, zero is up North
@@ -235,7 +231,7 @@
         });
 
         Globalmigration.playtime(chart, {
-          element: '#play-buttons',
+          element: '#playtime',
           timeline: '#timeline'
         });
 
