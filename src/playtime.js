@@ -1,5 +1,5 @@
 (function(scope) {
-  scope.playtime = function(diagram, config) {
+  scope.playtime = function(config) {
     config = config || {};
     config.element = config.element || 'body';
     config.timeline = config.timeline || 'body';
@@ -29,7 +29,6 @@
       timelinediv.selectAll('form .year input').each(function(d, i) {
         var that = d3.select(this);
         if (that.property('checked') === true) {
-          console.log('found it: ' + i);
           index = +i;
         }
       });
@@ -63,21 +62,21 @@
       .text("Play");
 
     play.on('click', function() {
-      // change look
+      // action: disable "Play"/enable "Stop"
+      play.on("click", null);
+      stop.on("click", stopAction);
+      // look: disable "Play"/enable "Stop"
       play.style('fill-opacity', 0.4);
       stop.style('fill-opacity', 1.0);
-      current = getCurrentSelected();
-      // TODO: we should disable mouse click while playing...
 
-      // iterate thru all radio buttons and simulate a click event
+      // starting from currently selected iterate thru all radio buttons and simulate a click event
+      current = getCurrentSelected();
       playInterval = setInterval(function() {
         current = (current + 1) % len;
         actions[current].action.apply(actions[current].button, [actions[current].d, actions[current].i]);
-        // TODO: revive tooltip? How?!!!
       }, 1500); // 1.5 seconds
     });
-
-
+    var playAction = play.on("click");
 
 
     // Stop button details
@@ -95,34 +94,17 @@
       .text("Stop");
 
     stop.on('click', function() {
+      // action: disable "Stop"/enable "Play"
+      play.on("click", playAction);
+      stop.on("click", null);
+      // look: disable "Stop"/enable "Play"
       stop.style('fill-opacity', 0.4);
       play.style('fill-opacity', 1.0);
+
       clearInterval(playInterval);
     });
+    var stopAction = stop.on("click");
 
 
-    // var play = playdiv.select('.fa-play');
-    // play.on('click', function() {
-    //   // change look
-    //   play.style('opacity', 0.4);
-    //   stop.style('opacity', 1.0);
-    //   current = getCurrentSelected();
-    //   // TODO: we should disable mouse click while playing...
-
-    //   // iterate thru all radio buttons and simulate a click event
-    //   playInterval = setInterval(function() {
-    //     current = (current + 1) % len;
-    //     actions[current].action.apply(actions[current].button, [actions[current].d, actions[current].i]);
-    //     // TODO: revive tooltip? How?!!!
-    //   }, 1500); // 1.5 seconds
-    // });
-
-    // var stop = playdiv.select('.fa-stop')
-    //     .style('opacity', 0.4);
-    // stop.on('click', function() {
-    //   stop.style('opacity', 0.4);
-    //   play.style('opacity', 1.0);
-    //   clearInterval(playInterval);
-    // });
   };
 })(window.Globalmigration || (window.Globalmigration = {}));
