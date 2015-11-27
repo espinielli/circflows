@@ -70,56 +70,10 @@
           incr: 1
         });
 
-        // ------------ HACK -------------
-        var radios = d3.selectAll("#timeline form .year input"),
-        len = radios[0].length,
-        current = len - 1,
-        actions = [],
-        playInterval;
-
-        // create an array of objects in order to be able to simulate click on buttons when animating
-        // this is enormously ugly code, bleah!
-        radios.each(function (d, i) {
-          actions[i] = {"button": this, "action": d3.select(this).on("click"), "d": d, "i": i};
-        })
-
-        function getCurrentSelected() {
-          var index;
-          d3.selectAll("#timeline form .year input").each(function(d, i){
-            var that = d3.select(this);
-            if (that.property("checked") === true) {
-              index = +i;
-            }
-          });
-          return index;
-        }
-
-        var play = d3.select(".fa-play");
-        play.on("click", function () {
-          // change look
-          play.style("opacity", 0.4);
-          stop.style("opacity", 1.0);
-          current = getCurrentSelected();
-          // TODO: we should disable mouse click while playing...
-
-          // iterate thru all radio buttons and simulate a click event
-          playInterval = setInterval(function () {
-            current = (current + 1) % len;
-            actions[current].action.apply(actions[current].button, [actions[current].d, actions[current].i]);
-            // TODO: revive tooltip? How?!!!
-          }, 1500); // 1.5 seconds
+        Globalmigration.playtime(chart, {
+          element: '#play-buttons',
+          timeline: '#timeline'
         });
-
-
-        var stop = d3.select(".fa-stop")
-          .style("opacity", 0.4);
-        stop.on("click", function () {
-          stop.style("opacity", 0.4);
-          play.style("opacity", 1.0);
-          clearInterval(playInterval);
-        });
-        // ------------ end of HACK -------------
-
 
         chart.draw(now);
       });
