@@ -178,17 +178,86 @@ This JSON file has 3 properties:
 The aim of this part is to describe the 3 different blocks of the graph and to detail how they can be customized via
 the configuration parameters, CSS and/or javascript.
 
+The three parts are instantioated as follows
+
+```js
+(function() {
+  var datafile = 'json/test_data.json';
+  d3.json(datafile, function(error, data) {
+    if (error) throw error;
+
+    var chartConfig = { ... },
+        timelineConfig = { ... },
+        playtimeConfig = { ... };
+
+    var chart = Globalmigration.chart(data, chartConfig);
+    Globalmigration.timeline(chart, timelineConfig);
+    Globalmigration.playtime(playtimeConfig);
+
+    chart.draw(now);
+  });
+})();
+```
+
+The relevant code for the plot is wrapped in an [Immediatelly-Invoked Function Expression](iife)
+
+```js
+(function() {
+  ... // plot code (any code as a matter of fact)
+})();
+```
+
+which garantees isolation from the rest of the javascript loaded by the HTML page.
+This avoid variable hoisting from within blocks, protects against polluting the global environment and simultaneously allows public access to methods while retaining privacy for variables defined within the function. See also [ the relevant article on Wikipedia](iife-wiki).
+
+[iife]: <http://benalman.com/news/2010/11/immediately-invoked-function-expression/> "Immediatelly-Invoked Function Expression"
+[iife-wiki]: <https://en.wikipedia.org/wiki/Immediately-invoked_function_expression> "Wikipedia: Immediatelly-Invoked Function Expression"
+
+
+
 ### The Circle
+
+The circular plot below is a representation of the content of the matrix above (note that the `a` region is not expanded).
+
+![circular plot](images/circplot.svg)
+
+
+Origins and destinations are represented by the circle’s segments proportional to the the sum of their in/out flows.
+
+Each entity (region/country) is assigned a colour. The colours are configurable via the `colors` property of the `config.layout` object, see [Configurations](#configurations) section below.
+
+
+Flows have the same colour as their origin and the width indicates their size.
+The direction of the flow is also shown by the gap between flow and country/region: small gap indicates origin; large gap indicates destination.
+
+![Origins and destinations](images/flowsdirection.png)
+
+
 
 ### The Timeline
 
-The timeline is composed of a group of radio buttons and two "buttons" for play/stop cycling through them.
+The timeline is composed of a group buttons that allow to select the relevant time entity.
+
+![Timeline buttons](images/timeline_buttons.png)
+
+These buttons are in fact radio buttons with a `display` style set to `none` so to hide the circular holes,
+
+![Timeline buttons](images/timeline_buttons_radio.png)
 
 The appearance of the timeline buttons can be controlled via CSS class `year`.
 
 
 
 ### The Play/Stop Commands
+
+The `Play` button iterates through the timeline entities and will provide an animated transition between the
+different plots.
+
+![Play/Stop buttons](images/playstop_buttons.png)
+
+
+## Configurations
+
 
 
 <!-- -*- mode: markdown; -*- -->
