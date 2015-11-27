@@ -42,7 +42,9 @@
       var cols = 'e41a1c 377eb8 4daf4a 984ea3 ff7f00 ffff33 a65628 f781bf 999999';
 
 
-      d3.json(datafile, function(data) {
+      d3.json(datafile, function(error, data) {
+        if (error) throw error;
+
         var now = 1;
         var chart = Globalmigration.chart(data, {
           element: '#diagram',
