@@ -16,8 +16,7 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "bin": {
-  },
+  "bin": {},
   "//": "see also http://blog.npmjs.org/post/118810260230/building-a-simple-command-line-tool-with-npm",
   "scripts": {
     "compile_flows": "bin/compile.js",
@@ -26,19 +25,18 @@
     "generate_countries": "bin/gen_countries",
     "generate_years": "bin/gen_years",
     "start": "http-server",
+    "build:lib": "uglifyjs src/countrymerge.js src/layout.js src/chord.js src/timeline.js ./src/chart.js -o lib/circular-flows.min.js -c unused=false -m",
     "generate:test": "PATH=bin:$PATH gen_test_data",
     "compile:test": "npm run -s compile -- -f './data/test_data.csv' -o 'json/test_data.json' -r './data/test_regions.csv'  -t './data/test_years.csv'",
-    "doit": "npm run -s compile_flows -- -f './data/extra-flows.csv' -o 'json/extra-flows.json' -r './data/regions.csv'  -t './data/years.csv'"
+    "doit": "npm run build:lib && npm run -s compile_flows -- -f './data/extra-flows.csv' -o 'json/extra-flows.json' -r './data/regions.csv'  -t './data/years.csv'"
   },
   "devDependencies": {
     "d3-dsv": "^0.1.5",
     "lodash": "^3.10.1",
     "queue-async": "^1.0.7",
     "shelljs": "^0.5.3",
+    "uglify-js": "^2.6.1",
     "yargs": "^3.30.0"
   },
   "keywords": []
 }
-
-
-
