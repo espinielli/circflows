@@ -219,7 +219,7 @@ This avoid variable hoisting from within blocks, protects against polluting the 
 
 The circular plot below is a representation of the content of the matrix above (note that the `a` region is not expanded).
 
-![circular plot](images/circplot.svg)
+![circular plot](https://rawgit.com/espinielli/circflows/master/images/circplot.svg)
 
 
 Origins and destinations are represented by the circle’s segments proportional to the the sum of their in/out flows.
