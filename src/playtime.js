@@ -24,7 +24,7 @@
         });
 
         function getCurrentSelected() {
-            var index;
+            var index = 0;
             timelinediv.selectAll("form .year input").each(function( d, i ) {
                 var that = d3.select( this );
                 if ( that.property("checked") === true ) {

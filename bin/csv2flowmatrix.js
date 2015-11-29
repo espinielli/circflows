@@ -9,9 +9,10 @@ var fs = require( "fs" ),
 
 module.exports  = {
 
-    toMatrix: function( flowsFile, resultFile, regionsFile, yearsFile, indexes ) {
+    toMatrix: function( flowsFile, resultFile, regionsFile, yearsFile ) {
         var flows;
-        // indexes are the columns in the CSV. The following is the default
+        // We should pass `indexes` as last arg, it will be the index of the columns in the CSV.
+        // The following is the default
         //
         //   0: origin_iso
         //   1: originregion_name
@@ -23,7 +24,7 @@ module.exports  = {
         // TODO: remove named indexes in order to be able to feed a CSV with
         //       headers not necessarily named as above (i.e. origin_iso, origin_name ...)
         //       Use d3.csv.parseRows with accessor, https://github.com/mbostock/d3/wiki/CSV#parseRows
-        indexes = indexes || [ 0, 1, 2, 3, 4, 5 ];
+        // indexes = indexes || [ 0, 1, 2, 3, 4, 5 ];
 
         function readInput( error, movements, regions, years ) {
             var data = {

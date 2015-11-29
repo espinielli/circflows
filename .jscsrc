@@ -1,3 +1,4 @@
 {
-    "preset": "idiomatic"
+    "preset": "idiomatic",
+    "verbose": true
 }
