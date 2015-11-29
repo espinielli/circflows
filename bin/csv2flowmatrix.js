@@ -1,97 +1,110 @@
-/*jshint devel: true */
+/*jshint devel: true, camelcase: false */
 /* globals require, module */
+// jscs:disable requireCamelCaseOrUpperCaseIdentifiers
 "use strict";
-var fs = require('fs'),
-    queue = require('queue-async'),
-    d3dsv = require('d3-dsv'),
-    lodash = require('lodash');
+var fs = require( "fs" ),
+    queue = require( "queue-async" ),
+    d3dsv = require( "d3-dsv" ),
+    lodash = require( "lodash" );
 
 module.exports  = {
 
-    toMatrix: function (flowsFile, resultFile, regionsFile, yearsFile) {
+    toMatrix: function( flowsFile, resultFile, regionsFile, yearsFile, indexes ) {
         var flows;
+        // indexes are the columns in the CSV. The following is the default
+        //
+        //   0: origin_iso
+        //   1: originregion_name
+        //   2: destination_iso
+        //   3: destinationregion_name
+        //   4: origin_name
+        //   5: destination_name
+        // ...: "countryflow_" + <year>
+        // TODO: remove named indexes in order to be able to feed a CSV with
+        //       headers not necessarily named as above (i.e. origin_iso, origin_name ...)
+        //       Use d3.csv.parseRows with accessor, https://github.com/mbostock/d3/wiki/CSV#parseRows
+        indexes = indexes || [ 0, 1, 2, 3, 4, 5 ];
 
-        function readInput(error, movements, regions, years) {
+        function readInput( error, movements, regions, years ) {
             var data = {
-                years: {},
-                migrations: {},
-                regions: {}
-            },
+                    years: {},
+                    migrations: {},
+                    regions: {}
+                },
                 sortedRegions = [],
                 objs = [],
                 regionCountryNamesMapping,
                 matrix = {};
 
 
-            if (error) {
-                console.log(error);
+            if ( error ) {
+                console.log( error );
             }
 
-            objs = d3dsv.csv.parse(years);
-            objs.forEach(function (d) { data.years[d.year] = {}; });
-            years = Object.keys(data.years);
+            objs = d3dsv.csv.parse( years );
+            objs.forEach(function( d ) { data.years[ d.year ] = {}; });
+            years = Object.keys( data.years );
 
-            objs = d3dsv.csv.parse(regions);
-            sortedRegions = objs.map(function (d) { return d.name; });
+            objs = d3dsv.csv.parse( regions );
+            sortedRegions = objs.map(function( d ) { return d.name; });
 
-            objs = d3dsv.csv.parse(movements);
-
-
+            objs = d3dsv.csv.parse( movements );
 
             var value,
                 origin_country,
                 origin_region;
-            objs.forEach(function (d) {
+            objs.forEach(function( d ) {
                 // collect region-country mappings
-                origin_region = data.regions[d.originregion_name] = data.regions[d.originregion_name] || [];
-                if (origin_region.indexOf(d.origin_name) === -1) {
-                    origin_region.push(d.origin_name);
+                console.log();
+                origin_region = data.regions[ d.originregion_name ] = data.regions[ d.originregion_name ] || [];
+                if ( origin_region.indexOf( d.origin_name ) === -1 ) {
+                    origin_region.push( d.origin_name );
                 }
 
                 // collect migration data
-                origin_country = data.migrations[d.origin_name] = data.migrations[d.origin_name] || {};
+                origin_country = data.migrations[ d.origin_name ] = data.migrations[ d.origin_name ] || {};
                 // country to country
-                origin_country[d.destination_name] = origin_country[d.destination_name] || {};
+                origin_country[ d.destination_name ] = origin_country[ d.destination_name ] || {};
                 // country to region
-                origin_country[d.destinationregion_name] = origin_country[d.destinationregion_name] || {};
-                origin_region = data.migrations[d.originregion_name] = data.migrations[d.originregion_name] || {};
+                origin_country[ d.destinationregion_name ] = origin_country[ d.destinationregion_name ] || {};
+                origin_region = data.migrations[ d.originregion_name ] = data.migrations[ d.originregion_name ] || {};
                 // region to country
-                origin_region[d.destination_name] = origin_region[d.destination_name] || {};
+                origin_region[ d.destination_name ] = origin_region[ d.destination_name ] || {};
                 // region to region
-                origin_region[d.destinationregion_name] = origin_region[d.destinationregion_name] || {};
+                origin_region[ d.destinationregion_name ] = origin_region[ d.destinationregion_name ] || {};
 
-                years.forEach(function (year) {
-                    value = parseInt(d['countryflow_' + year], 10);
+                years.forEach(function( year ) {
+                    value = parseInt( d[ "countryflow_" + year ], 10 );
                     // country to country
-                    origin_country[d.destination_name][year] = value;
+                    origin_country[ d.destination_name ][ year ] = value;
                     // country to region
-                    origin_country[d.destinationregion_name][year] = origin_country[d.destinationregion_name][year] || 0;
-                    origin_country[d.destinationregion_name][year] += value;
+                    origin_country[ d.destinationregion_name ][ year ] = origin_country[ d.destinationregion_name ][ year ] || 0;
+                    origin_country[ d.destinationregion_name ][ year ] += value;
                     // region to country
-                    origin_region[d.destination_name][year] = origin_region[d.destination_name][year] || 0;
-                    origin_region[d.destination_name][year] += value;
+                    origin_region[ d.destination_name ][ year ] = origin_region[ d.destination_name ][ year ] || 0;
+                    origin_region[ d.destination_name ][ year ] += value;
                     // region to region
-                    origin_region[d.destinationregion_name][year] = origin_region[d.destinationregion_name][year] || 0;
-                    origin_region[d.destinationregion_name][year] += value;
+                    origin_region[ d.destinationregion_name ][ year ] = origin_region[ d.destinationregion_name ][ year ] || 0;
+                    origin_region[ d.destinationregion_name ][ year ] += value;
                 });
 
             });
 
-            function regional (memo, region) {
-                memo.indices.push(memo.keys.length);
-                memo.keys.push(region);
-                memo.keys = memo.keys.concat(data.regions[region] && data.regions[region].sort());
+            function regional ( memo, region ) {
+                memo.indices.push( memo.keys.length );
+                memo.keys.push( region );
+                memo.keys = memo.keys.concat( data.regions[ region ] && data.regions[ region ].sort() );
                 return memo;
             }
 
-            regionCountryNamesMapping = lodash.union(sortedRegions, Object.keys(data.regions)).reduce(regional, {indices: [], keys: []});
+            regionCountryNamesMapping = lodash.union( sortedRegions, Object.keys( data.regions ) ).reduce( regional, { indices: [], keys: [] });
 
-            years.forEach(function (year) {
-                matrix[year] = regionCountryNamesMapping.keys.map(function (source) {
-                    return regionCountryNamesMapping.keys.map(function (destination) {
-                        return data.migrations[source] &&
-                            data.migrations[source][destination] &&
-                            data.migrations[source][destination][year];
+            years.forEach(function( year ) {
+                matrix[ year ] = regionCountryNamesMapping.keys.map(function( source ) {
+                    return regionCountryNamesMapping.keys.map(function( destination ) {
+                        return data.migrations[ source ] &&
+                            data.migrations[ source ][ destination ] &&
+                            data.migrations[ source ][ destination ][ year ];
                     });
                 });
             });
@@ -105,16 +118,16 @@ module.exports  = {
                 matrix: matrix
             };
 
-            fs.writeFile(resultFile, JSON.stringify(flows));
+            fs.writeFile( resultFile, JSON.stringify( flows ) );
 
         }
 
 
         queue()
-            .defer(fs.readFile, flowsFile, "utf8")
-            .defer(fs.readFile, regionsFile, "utf8")
-            .defer(fs.readFile, yearsFile, "utf8")
-            .await(readInput);
+            .defer( fs.readFile, flowsFile, "utf8")
+            .defer( fs.readFile, regionsFile, "utf8")
+            .defer( fs.readFile, yearsFile, "utf8")
+            .await( readInput );
 
     }
 

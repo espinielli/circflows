@@ -8,7 +8,7 @@
 
 // Basically a d3.layout.chord, but with
 // Depends on countrymerge.js
-(function(scope) {
+(function( scope ) {
   // from d3/layout/chord.js
 
   // import "../arrays/range";
@@ -35,21 +35,21 @@
         alpha;
 
     // get region from country index
-    function region(index) {
+    function region( index ) {
       var r = 0;
-      for (var i = 0; i < data.regions.length; i++) {
-        if (data.regions[i] > index) {
+      for ( var i = 0; i < data.regions.length; i++ ) {
+        if ( data.regions[ i ] > index ) {
           break;
         }
         r = i;
       }
-      return data.regions[r];
+      return data.regions[ r ];
     }
 
     function relayout() {
       var subgroups = {},
           groupSums = [],
-          groupIndex = d3.range(n),
+          groupIndex = d3.range( n ),
           subgroupIndex = [],
           k,
           x,
@@ -57,42 +57,48 @@
           i,
           j;
 
-      data = data || { matrix: {}, names: [], regions: []};
-      year = year || Object.keys(data.matrix)[0];
-      matrix = year && data.matrix[year] || [];
+      data = data || { matrix: {}, names: [], regions: [] };
+      year = year || Object.keys( data.matrix )[ 0 ];
+      matrix = year && data.matrix[ year ] || [];
 
       chords = [];
       groups = [];
 
       // Compute the sum.
-      k = 0, i = -1; while (++i < n) {
-        x = 0, j = -1; while (++j < n) {
-          x += matrix[indices[i]][indices[j]];
-          x += matrix[indices[j]][indices[i]];
+      k = 0; i = -1; while ( ++i < n ) {
+        x = 0; j = -1; while ( ++j < n ) {
+          x += matrix[ indices[ i ] ][ indices[ j ] ];
+          x += matrix[ indices[ j ] ][ indices[ i ] ];
           // if (x === 0) {
           //   x = 1;
           // }
         }
-        groupSums.push(x);
-        subgroupIndex.push({source: d3.range(n), target: d3.range(n)});
+        groupSums.push( x );
+        subgroupIndex.push({ source: d3.range( n ), target: d3.range( n ) });
         k += x;
       }
 
       // Sort groups…
-      if (sortGroups) {
-        groupIndex.sort(function(a, b) {
-          return sortGroups(groupSums[a], groupSums[b]);
+      if ( sortGroups ) {
+        groupIndex.sort(function( a, b ) {
+          return sortGroups( groupSums[ a ], groupSums[ b ] );
         });
       }
 
       // Sort subgroups…
-      if (sortSubgroups) {
-        subgroupIndex.forEach(function(d, i) {
-          d.source.sort(function(a, b) {
-            return sortSubgroups(matrix[indices[i]][indices[a]], matrix[indices[i]][indices[b]]);
+      if ( sortSubgroups ) {
+        subgroupIndex.forEach(function( d, i ) {
+          d.source.sort(function( a, b ) {
+            return sortSubgroups(
+              matrix[ indices[ i ] ][ indices[ a ] ],
+              matrix[ indices[ i ] ][ indices[ b ] ]
+            );
           });
-          d.target.sort(function(a, b) {
-            return sortSubgroups(matrix[indices[a]][indices[i]], matrix[indices[b]][indices[i]]);
+          d.target.sort(function( a, b ) {
+            return sortSubgroups(
+              matrix[ indices[ a ] ][ indices[ i ] ],
+              matrix[ indices[ b ] ][ indices[ i ] ]
+            );
           });
         });
       }
@@ -107,20 +113,21 @@
 
       // Compute the start and end angle for each group and subgroup.
       // Note: Opera has a bug reordering object literal properties!
-      x = chord.alpha(), i = -1; while (++i < n) {
+      x = chord.alpha(); i = -1; while ( ++i < n ) {
         var inflow = 0;
         var outflow = 0;
 
-        var di = groupIndex[i];
+        var di = groupIndex[ i ],
+          dj;
         // targets
-        x0 = x, j = -1; while (++j < n) {
-          var dj = subgroupIndex[di].target[j],
-              v = matrix[indices[dj]][indices[di]],
-              a0 = x,
-              d = v * k;
+        x0 = x; j = -1; while ( ++j < n ) {
+          dj = subgroupIndex[ di ].target[ j ];
+          v = matrix[ indices[ dj ] ][ indices[ di ] ];
+          a0 = x;
+          d = v * k;
           x += d;
-          subgroups['target' + '-' + di + "-" + dj] = {
-            originalIndex: indices[dj],
+          subgroups[ "target" + "-" + di + "-" + dj ] = {
+            originalIndex: indices[ dj ],
             index: di,
             subindex: dj,
             startAngle: a0,
@@ -131,14 +138,14 @@
         }
         var lastX0 = x0;
         // sources
-        x0 = x, j = -1; while (++j < n) {
-          var dj = subgroupIndex[di].source[j],
-              v = matrix[indices[di]][indices[dj]],
-              a0 = x,
-              d = v * k;
+        x0 = x; j = -1; while ( ++j < n ) {
+          dj = subgroupIndex[ di ].source[ j ];
+          v = matrix[ indices[ di ] ][ indices[ dj ] ];
+          a0 = x;
+          d = v * k;
           x += d;
-          subgroups['source' + '-' + di + "-" + dj] = {
-            originalIndex: indices[di],
+          subgroups[ "source" + "-" + di + "-" + dj ] = {
+            originalIndex: indices[ di ],
             index: di,
             subindex: dj,
             startAngle: a0,
@@ -147,34 +154,34 @@
           };
           outflow += v;
         }
-        
-        groups[di] = {
-          id: indices[di],
-          region: region(indices[di]),
+
+        groups[ di ] = {
+          id: indices[ di ],
+          region: region( indices[ di ] ),
           index: di,
           startAngle: lastX0,
           endAngle: x,
           angle: lastX0 + (x - lastX0) / 2,
           inflow: inflow,
           outflow: outflow,
-          value: Math.round((x - lastX0) / k)
+          value: Math.round( (x - lastX0) / k )
         };
         x += padding;
       }
 
       // Generate chords for each (non-empty) subgroup-subgroup link.
-      i = -1; while (++i < n) {
-        j = i - 1; while (++j < n) {
-          var source = subgroups['source' + '-' + i + "-" + j],
-              target = subgroups['target' + '-' + j + "-" + i];
-          if (i === j) {
-            if (threshold === null || source.value > threshold) {
-              var target = subgroups['target' + '-' + i + "-" + j];
+      i = -1; while ( ++i < n ) {
+        j = i - 1; while ( ++j < n ) {
+          var source = subgroups[ "source" + "-" + i + "-" + j ],
+              target = subgroups[ "target" + "-" + j + "-" + i ];
+          if ( i === j ) {
+            if ( threshold === null || source.value > threshold ) {
+              var t = subgroups[ "target" + "-" + i + "-" + j ];
               chords.push({
-                id: 'source-' + indices[i] + "-" + indices[j],
+                id: "source-" + indices[ i ] + "-" + indices[ j ],
                 source: {
-                  id: indices[source.index],
-                  region: region(indices[source.index]),
+                  id: indices[ source.index ],
+                  region: region( indices[ source.index ] ),
                   index: source.index,
                   subindex: source.subindex,
                   startAngle: source.startAngle,
@@ -182,23 +189,23 @@
                   value: source.value
                 },
                 target: {
-                  id: indices[target.index],
-                  region: region(indices[target.index]),
-                  index: target.index,
-                  subindex: target.subindex,
-                  startAngle: target.startAngle,
-                  endAngle: target.startAngle + target.dAngle,
-                  value: target.value
+                  id: indices[ t.index ],
+                  region: region( indices[ t.index ] ),
+                  index: t.index,
+                  subindex: t.subindex,
+                  startAngle: t.startAngle,
+                  endAngle: t.startAngle + t.dAngle,
+                  value: t.value
                 }
               });
             }
           } else {
-            if (threshold === null || source.value > threshold) {
+            if ( threshold === null || source.value > threshold ) {
               chords.push({
-                id: 'source-' + indices[i] + "-" + indices[j],
+                id: "source-" + indices[ i ] + "-" + indices[ j ],
                 source: {
-                  id: indices[source.index],
-                  region: region(indices[source.index]),
+                  id: indices[ source.index ],
+                  region: region( indices[ source.index ] ),
                   index: source.index,
                   subindex: source.subindex,
                   startAngle: source.startAngle,
@@ -206,8 +213,8 @@
                   value: source.value
                 },
                 target: {
-                  id: indices[target.index],
-                  region: region(indices[target.index]),
+                  id: indices[ target.index ],
+                  region: region( indices[ target.index ] ),
                   index: target.index,
                   subindex: target.subindex,
                   startAngle: target.startAngle,
@@ -216,28 +223,28 @@
                 }
               });
             }
-            var source = subgroups['source' + '-' + j + "-" + i],
-                target = subgroups['target' + '-' + i + "-" + j];
-            if (threshold === null || source.value > threshold) {
+            var s = subgroups[ "source" + "-" + j + "-" + i ],
+                tt = subgroups[ "target" + "-" + i + "-" + j ];
+            if ( threshold === null || s.value > threshold ) {
               chords.push({
-                id: 'target-' + indices[i] + "-" + indices[j],
+                id: "target-" + indices[ i ] + "-" + indices[ j ],
                 source: {
-                  id: indices[source.index],
-                  region: region(indices[source.index]),
-                  index: source.index,
-                  subindex: source.subindex,
-                  startAngle: source.startAngle,
-                  endAngle: source.startAngle + source.dAngle,
-                  value: source.value
+                  id: indices[ s.index ],
+                  region: region( indices[ s.index ] ),
+                  index: s.index,
+                  subindex: s.subindex,
+                  startAngle: s.startAngle,
+                  endAngle: s.startAngle + s.dAngle,
+                  value: s.value
                 },
                 target: {
-                  id: indices[target.index],
-                  region: region(indices[target.index]),
-                  index: target.index,
-                  subindex: target.subindex,
-                  startAngle: target.startAngle,
-                  endAngle: target.startAngle + target.dAngle,
-                  value: target.value
+                  id: indices[ tt.index ],
+                  region: region( indices[ tt.index ] ),
+                  index: tt.index,
+                  subindex: tt.subindex,
+                  startAngle: tt.startAngle,
+                  endAngle: tt.startAngle + tt.dAngle,
+                  value: tt.value
                 }
               });
             }
@@ -245,17 +252,21 @@
         }
       }
 
-      if (sortChords) resort();
+      if ( sortChords ) {
+        resort();
+      }
     }
 
     function resort() {
-      chords.sort(function(a, b) {
-        return sortChords(a.source.value, b.source.value);
+      chords.sort(function( a, b ) {
+        return sortChords( a.source.value, b.source.value );
       });
     }
 
-    chord.data = function(x) {
-      if (!arguments.length) return data;
+    chord.data = function( x ) {
+      if ( !arguments.length ) {
+        return data;
+      }
       data = x;
       indices = data.regions.slice();
       n = indices.length;
@@ -263,83 +274,106 @@
       return chord;
     };
 
-    chord.year = function(x) {
-      if (!arguments.length) return year;
+    chord.year = function( x ) {
+      if ( !arguments.length ) {
+        return year;
+      }
       year = x;
       chords = groups = null;
       return chord;
     };
 
-    chord.countries = function(x) {
-      if (!arguments.length) return countries;
+    chord.countries = function( x ) {
+      if ( !arguments.length ) {
+        return countries;
+      }
       countries = x;
-      indices = scope.countrymerge(data, countries);
+      indices = scope.countrymerge( data, countries );
       n = indices.length;
       chords = groups = null;
       return chord;
     };
 
-    chord.padding = function(x) {
-      if (!arguments.length) return padding;
+    chord.padding = function( x ) {
+      if ( !arguments.length ) {
+        return padding;
+      }
       padding = x;
       chords = groups = null;
       return chord;
     };
 
-    chord.threshold = function(x) {
-      if (!arguments.length) return threshold;
+    chord.threshold = function( x ) {
+      if ( !arguments.length ) {
+        return threshold;
+      }
       threshold = x;
       chords = groups = null;
       return chord;
     };
 
-    chord.sortGroups = function(x) {
-      if (!arguments.length) return sortGroups;
+    chord.sortGroups = function( x ) {
+      if ( !arguments.length ) {
+        return sortGroups;
+      }
       sortGroups = x;
       chords = groups = null;
       return chord;
     };
 
-    chord.sortSubgroups = function(x) {
-      if (!arguments.length) return sortSubgroups;
+    chord.sortSubgroups = function( x ) {
+      if ( !arguments.length ) {
+        return sortSubgroups;
+      }
       sortSubgroups = x;
       chords = null;
       return chord;
     };
 
-    chord.sortChords = function(x) {
-      if (!arguments.length) return sortChords;
+    chord.sortChords = function( x ) {
+      if ( !arguments.length ) {
+        return sortChords;
+      }
       sortChords = x;
-      if (chords) resort();
+      if ( chords ) {
+        resort();
+      }
       return chord;
     };
 
     chord.chords = function() {
-      if (!chords) relayout();
+      if ( !chords ) {
+        relayout();
+      }
       return chords;
     };
 
     chord.groups = function() {
-      if (!groups) relayout();
+      if ( !groups ) {
+        relayout();
+      }
       return groups;
     };
 
     // start angle for first region (decimal degrees)
     // (stored internally in radians)
-    chord.alpha = function(x) {
-      if (!arguments.length) return alpha * degrees;
-      alpha = (x === 0) ? 0.00001 : x; // small but not zero
+    chord.alpha = function( x ) {
+      if ( !arguments.length ) {
+        return alpha * degrees;
+      }
+      // small but not zero
+      alpha = (x === 0) ? 0.00001 : x;
       alpha *= radians;
-      alpha = alpha.mod(2*π);
+      alpha = alpha.mod( 2 * π );
       chords = groups = null;
       return chord;
     };
 
     // proper modulus (works taking the sign of the divisor not of the dividend)
-    Number.prototype.mod = function (n) {
+    Number.prototype.mod = function( n ) {
             return ((this % n) + n) % n;
     };
 
     return chord;
   };
-})(window.Globalmigration || (window.Globalmigration = {}));
+})( window.Globalmigration || (window.Globalmigration = {}) );
