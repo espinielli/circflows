@@ -25,7 +25,7 @@
     "generate_countries": "bin/gen_countries",
     "generate_years": "bin/gen_years",
     "start": "http-server",
-    "build:lib": "uglifyjs src/countrymerge.js src/layout.js src/chord.js src/timeline.js src/chart.js src/playtime.js -o lib/circular-flows.min.js -c unused=false -m",
+    "build:lib": "uglifyjs src/countrymerge.js src/layout.js src/chord.js src/timeline.js src/chart.js src/playtime.js -o lib/circular-flows.min.js -c unused=false -m --source-map circular-flows.min.js.map",
     "generate:test": "PATH=bin:$PATH gen_test_data",
     "compile:test": "npm run -s compile_flows -- -f data/test_data.csv -o json/test_data.json -r data/test_regions.csv  -t data/test_years.csv",
     "doit": "npm run build:lib && npm run -s compile_flows -- -f data/extra-flows.csv -o json/extra-flows.json -r data/regions.csv  -t data/years.csv"
