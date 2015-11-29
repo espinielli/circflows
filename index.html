@@ -202,45 +202,45 @@
     (function() {
 
       var datafile = 'json/extra-flows.json';
-      var aLittleBit = Math.PI / 100000;
       var cols = 'cd3d08 ec8f00 6dae29 683f92 b60275 2058a5 00a592 009d3c 378974 ffca00'; // original set
 
 
       d3.json(datafile, function(error, data) {
         if (error) throw error;
 
-        var now = 2014;
-        var chart = Globalmigration.chart(data, {
-          element: '#diagram',
-          now: now,
-          animationDuration: 500,
-          margin: 145,
-          arcPadding: 0.04,
-          layout: {
-            alpha: -85, // start angle for first region, zero is up North
-            threshold: 1,
-            labelThreshold: 2,
-            sortSubgroups: d3.ascending,
-            colors: cols.split(' ')
-              .map(function(c) { return '#' + c; })
-          }
-        });
+        var now = 2014,
+          chartConfig = {
+            element: '#diagram',
+            now: now,
+            animationDuration: 500,
+            margin: 145,
+            arcPadding: 0.04,
+            layout: {
+              alpha: -85, // start angle for first region, zero is up North
+              threshold: 1,
+              labelThreshold: 2,
+              sortSubgroups: d3.ascending,
+              colors: cols.split(' ')
+                .map(function(c) { return '#' + c; })
+            }
+          },
+          timelineConfig = {
+            now: now,
+            element: '#timeline',
+            incr: 1
+          },
+          playtimeConfig = {
+            element: '#playtime',
+            timeline: '#timeline'
+          };
 
-        Globalmigration.timeline(chart, {
-          now: now,
-          element: '#timeline',
-          incr: 1
-        });
-
-        Globalmigration.playtime({
-          element: '#playtime',
-          timeline: '#timeline'
-        });
+        var chart = Globalmigration.chart(data, chartConfig);
+        Globalmigration.timeline(chart, timelineConfig);
+        Globalmigration.playtime(playtimeConfig);
 
         chart.draw(now);
       });
     })();
-
   </script>
 
 
