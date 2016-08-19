@@ -12,7 +12,7 @@ suppressMessages(library("stringr"))
 suppressMessages(library("magrittr"))
 suppressMessages(library("tidyr"))
 
-data_dir = "/Users/espin/git/PRU/flows/data/"
+data_dir = "/Users/espin/repos/PRU/flows/data/"
 raw_flows_file = "test_data.csv.orig"
 extra_flows_file = "test_data.csv"
 

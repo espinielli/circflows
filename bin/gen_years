@@ -1,12 +1,89 @@
 #!/usr/bin/env bash
-#
-# generate the file with the list of distinct origins and destinations
+
+#-- Version: 1.0
+#-- Author: Enrico Spinielli
+#-- Date: 2016/01/26
+#-- Copyright (C) 2015 Eurocontrol/PRU
+
+
+##- Usage: gen_years <input CSV> <output CSV>
+##  Generate the support file with the list of years in the dataset
+##-
+##- Options:
+##-   -h, --help              Print a usage message summarizing the command-line options, then exit.
+##-   -V, --version           Output version information and exit.
+##-
+##- Examples:
+##- $ gen_years data/ifr_flows_2007-2014.csv data/intra_years.csv
+##-
+##- Caveat: be sure to use gnu-getopt and not OSX builtin or Git Bash missing one ;-)
+
+SCRIPT=$(basename ${BASH_SOURCE[0]})
+
+help=$(grep "^##-" "${SCRIPT}" | cut -c 4-)
+version=$(grep "^#--"  "${SCRIPT}" | cut -c 4-)
+opt_h() {
+  echo "$help"
+}
+
+opt_v() {
+  echo "$version"
+}
+
+
+
+# Execute getopt
+TEMP=$(getopt -o :hV --long ",help,version" -n "$SCRIPT" -- "$@");
+eval set -- "$TEMP"
+
+while true; do
+   case $1 in
+   -h|--help)
+       opt_h
+       exit
+       ;;
+   -V|--version)
+      opt_v
+      exit
+      ;;
+   --)
+      shift
+      break
+      ;;
+   \?)
+      echo "Invalid option: -$OPTARG" >&2
+      opt_h
+      exit 1
+      ;;
+   *)
+      echo "Internal error!"
+      exit 1
+      ;;
+   esac
+done
+
+# there are 2 mandatory arguments
+if (( $# != 2 )); then
+   echo "Error: illegal number of parameters"
+   opt_h
+   exit 1
+else
+    fin=$1
+    fou=$2
+fi
+
+if [ ! -f $fin ]
+then
+    echo "Error: input file does not exist"
+    opt_h
+    exit 1
+fi
 
 cat \
     <(echo 'year') \
     <(sort \
-        <(cat data/test_data.csv.orig | tail --lines=+2 | grep -E -v '^[[:space:]]*$' | cut -d, -f1) \
-       | uniq) > data/test_years.csv
+        <(cat $fin | tail --lines=+2 | grep -E -v '^[[:space:]]*$' | cut -d, -f1) \
+       | uniq) > $fou
 
 
 # -*- mode: bash; -*-

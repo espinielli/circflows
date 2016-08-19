@@ -353,8 +353,9 @@
     // Transition countries to region:
     // Use first country's start angle and last countries end angle.
     function meltPreviousGroupArc( d ) {
+      var outcome = undefined;
       if ( d.id !== d.region ) {
-        return;
+        return outcome;
       }
 
       var range = getCountryRange( d.id );
@@ -362,25 +363,27 @@
       var end = previous.groups[ range.end ];
 
       if ( !start || !end ) {
-        return;
+        return outcome;
       }
 
-      return {
+      outcome = {
         angle: start.startAngle + (end.endAngle - start.startAngle) / 2,
         startAngle: start.startAngle,
         endAngle: end.endAngle
       };
+      return outcome;
     }
 
     // Used to set the startpoint for
     // countries -> region
     // transition, that is closing a region.
     function meltPreviousChord( d ) {
+      var c = undefined;
       if ( d.source.id !== d.source.region ) {
-        return;
+        return c;
       }
 
-      var c = {
+      c = {
         source: {},
         target: {}
       };

@@ -1,0 +1,478 @@
+"origin_iso","destination_iso","originregion_name","destinationregion_name","origin_name","destination_name","ftype","countryflow_2001","countryflow_2002","countryflow_2003","countryflow_2004","countryflow_2005","countryflow_2006","countryflow_2007","countryflow_2008","countryflow_2009","countryflow_2010","countryflow_2011","countryflow_2012","countryflow_2013","countryflow_2014","countryflow_2015"
+"AL","IT","ESRA East","ESRA Mediterranean","Albania","Italy","internal",1837,0,1961,2296,3662,3635,4099,4038,4560,5208,6013,5747,5563,4651,5250
+"AT","AT","ESRA North-West","ESRA North-West","Austria","Austria","internal",26609,27496,26917,27130,28439,28310,29742,30166,28798,28274,23785,23752,22753,21149,19137
+"AT","BE","ESRA North-West","ESRA North-West","Austria","Belgium","internal",3745,4092,3717,3743,3718,3923,4145,3954,3343,3151,2945,2587,2731,2704,2692
+"AT","BG","ESRA North-West","ESRA East","Austria","Bulgaria","internal",0,0,0,0,2006,2089,2534,2968,2439,2767,2782,3186,2457,2328,2272
+"AT","CH","ESRA North-West","ESRA North-West","Austria","Switzerland","internal",11831,11279,10825,11831,10676,8593,9136,10018,9429,9318,9792,9452,9892,9288,9427
+"AT","CZ","ESRA North-West","ESRA East","Austria","Czech Republic","internal",2519,2630,2572,3060,3455,3978,4056,3483,2970,3021,3209,2716,2542,2429,2515
+"AT","DE","ESRA North-West","ESRA North-West","Austria","Germany","internal",33590,33059,38609,41754,42811,44359,48850,51061,48160,48111,46996,43764,41402,42308,41965
+"AT","DK","ESRA North-West","ESRA North-West","Austria","Denmark","internal",1934,2092,2389,2264,2532,2241,2253,2351,1866,2228,2310,2410,2295,2162,0
+"AT","ES","ESRA North-West","ESRA Mediterranean","Austria","Spain","internal",3503,3570,3727,4095,4327,4955,5341,5593,4530,4863,5704,5789,5244,5778,6025
+"AT","FR","ESRA North-West","ESRA North-West","Austria","France","internal",6567,6488,6358,6356,8098,8079,8849,9084,7674,7826,7594,7656,6833,6679,6660
+"AT","GB","ESRA North-West","ESRA North-West","Austria","United Kingdom","internal",6896,6755,7409,8660,8789,8538,8909,8640,7807,7280,7596,7307,6593,6984,7553
+"AT","GR","ESRA North-West","ESRA Mediterranean","Austria","Greece","internal",3979,3823,4048,3892,3816,4129,4124,3905,3331,3213,2890,2732,3231,3557,3979
+"AT","HR","ESRA North-West","ESRA East","Austria","Croatia","internal",2379,2738,2770,3252,3563,3672,3816,3890,3525,3355,3273,3133,2930,3001,3013
+"AT","HU","ESRA North-West","ESRA East","Austria","Hungary","internal",1877,2132,1873,2398,1931,1950,1865,1872,1833,1875,1838,1848,1871,1915,1828
+"AT","IT","ESRA North-West","ESRA Mediterranean","Austria","Italy","internal",7496,7864,8741,11039,10908,11378,12477,11904,9115,9571,9766,9080,8690,9344,9007
+"AT","NL","ESRA North-West","ESRA North-West","Austria","Netherlands","internal",6016,5631,5444,4536,4120,3484,3756,4121,3732,3816,3961,3971,3908,3971,3966
+"AT","PL","ESRA North-West","ESRA East","Austria","Poland","internal",2924,2656,2879,3206,3129,2949,3200,3965,3489,3351,3651,3468,3116,2745,2686
+"AT","RO","ESRA North-West","ESRA East","Austria","Romania","internal",0,0,0,2138,2647,3248,3959,4574,4371,4668,4294,4657,3491,3434,3241
+"AT","RS","ESRA North-West","ESRA East","Austria","Serbia","internal",0,0,0,0,0,2359,2666,2896,2764,3309,3429,3969,3290,3139,2948
+"AT","SE","ESRA North-West","ESRA North-West","Austria","Sweden","internal",0,0,0,0,2037,2507,2759,2826,2683,2683,2805,2068,0,0,0
+"AT","SI","ESRA North-West","ESRA East","Austria","Slovenia","internal",0,0,0,2124,2603,2083,2023,2287,2050,1978,0,1858,0,0,0
+"AT","TR","ESRA North-West","ESRA Mediterranean","Austria","Turkey","internal",3889,3816,3457,3988,4192,3626,3719,3879,3505,3949,4649,4649,5190,5300,5480
+"AT","UA","ESRA North-West","ESRA East","Austria","Ukraine","internal",0,0,2040,2293,2678,3378,3797,4289,4029,3940,3850,3643,3511,2472,2372
+"BE","AT","ESRA North-West","ESRA North-West","Belgium","Austria","internal",3803,4154,3775,3694,3603,3879,4082,3937,3374,3062,3014,2704,2813,2767,2794
+"BE","BE","ESRA North-West","ESRA North-West","Belgium","Belgium","internal",4714,4349,5109,5525,4800,4566,4752,5967,6299,7060,7943,6238,6221,6268,5609
+"BE","CH","ESRA North-West","ESRA North-West","Belgium","Switzerland","internal",6013,5763,5221,5564,5343,5234,5885,6130,5468,5756,6097,6022,5725,5710,6074
+"BE","CZ","ESRA North-West","ESRA East","Belgium","Czech Republic","internal",0,0,0,2033,2173,2097,2582,2645,2556,2321,2493,2046,2032,2029,2317
+"BE","DE","ESRA North-West","ESRA North-West","Belgium","Germany","internal",21338,17249,16519,16421,16534,17711,18397,18339,16486,14631,15474,14741,13771,13595,15080
+"BE","DK","ESRA North-West","ESRA North-West","Belgium","Denmark","internal",5913,4924,4615,4440,4525,3773,4094,4070,3390,3567,3902,3722,3506,3420,3970
+"BE","ES","ESRA North-West","ESRA Mediterranean","Belgium","Spain","internal",16048,13530,14876,15409,16241,16772,16845,16117,14899,16399,17750,16528,17356,19645,20901
+"BE","FI","ESRA North-West","ESRA North-West","Belgium","Finland","internal",0,0,2199,2202,0,2009,2084,1904,0,0,2141,0,0,0,0
+"BE","FR","ESRA North-West","ESRA North-West","Belgium","France","internal",19307,14626,14757,13709,14223,14537,15399,15515,14339,14625,15028,15414,15330,15939,16141
+"BE","GB","ESRA North-West","ESRA North-West","Belgium","United Kingdom","internal",31294,30016,23812,21631,21451,21251,22255,19291,16783,15712,15912,16140,14647,14250,14533
+"BE","GR","ESRA North-West","ESRA Mediterranean","Belgium","Greece","internal",3664,2970,3697,3802,3671,3654,3579,3308,3181,3118,3453,3050,2978,3583,3714
+"BE","HU","ESRA North-West","ESRA East","Belgium","Hungary","internal",0,0,0,0,0,0,1880,0,0,1963,1837,2112,1993,1981,2140
+"BE","IE","ESRA North-West","ESRA North-West","Belgium","Ireland","internal",2976,2988,3360,3080,2482,2285,1905,2018,1960,0,0,0,1997,1964,2370
+"BE","IT","ESRA North-West","ESRA Mediterranean","Belgium","Italy","internal",16582,16078,16272,14880,13799,14494,14676,14287,14161,15503,16053,15847,15573,16514,16311
+"BE","NL","ESRA North-West","ESRA North-West","Belgium","Netherlands","internal",7200,5403,4887,4522,4092,4517,4221,3874,3372,3129,3359,3197,3056,2945,2935
+"BE","NO","ESRA North-West","ESRA North-West","Belgium","Norway","internal",0,0,0,0,0,0,0,0,0,1875,1850,0,0,0,1838
+"BE","PL","ESRA North-West","ESRA East","Belgium","Poland","internal",2331,0,0,2110,1976,2148,2577,2687,2728,2835,2829,2824,2506,3039,3858
+"BE","PT","ESRA North-West","ESRA Mediterranean","Belgium","Portugal","internal",3350,2259,2780,3172,3175,3269,3779,4262,3988,3948,3912,3640,3660,4735,5140
+"BE","RO","ESRA North-West","ESRA East","Belgium","Romania","internal",0,0,0,0,0,0,0,0,0,0,0,0,0,0,2233
+"BE","SE","ESRA North-West","ESRA North-West","Belgium","Sweden","internal",5506,4944,6132,6336,4861,4500,4230,4027,3805,4354,4132,3968,3674,3759,3881
+"BE","TR","ESRA North-West","ESRA Mediterranean","Belgium","Turkey","internal",2998,2777,2726,3464,4410,3940,4294,4306,4484,4867,5049,5136,5348,5525,5475
+"BG","AT","ESRA East","ESRA North-West","Bulgaria","Austria","internal",0,0,0,0,1988,2089,2515,2971,2436,2752,2778,3189,2448,2318,2262
+"BG","BG","ESRA East","ESRA East","Bulgaria","Bulgaria","internal",3719,3206,2501,2852,3107,3788,4997,5799,4612,4255,4919,4372,3690,3380,3372
+"BG","DE","ESRA East","ESRA North-West","Bulgaria","Germany","internal",3716,4549,5033,5256,5685,6010,5985,6190,5596,5467,5491,5166,5351,5924,5790
+"BG","GB","ESRA East","ESRA North-West","Bulgaria","United Kingdom","internal",0,0,0,2145,2774,3403,3411,3522,3121,3010,3004,3021,3261,3328,3590
+"BG","IT","ESRA East","ESRA Mediterranean","Bulgaria","Italy","internal",0,0,0,0,0,0,2330,1884,0,0,1885,0,0,0,0
+"CH","AT","ESRA North-West","ESRA North-West","Switzerland","Austria","internal",11708,11353,10855,11792,10559,8609,9040,10027,9283,9091,9717,9337,9703,9190,9335
+"CH","BE","ESRA North-West","ESRA North-West","Switzerland","Belgium","internal",5916,5766,5189,5352,5164,5168,5812,5947,5446,5831,6086,6052,5746,5657,6115
+"CH","CH","ESRA North-West","ESRA North-West","Switzerland","Switzerland","internal",27942,24195,22615,19770,20994,20655,21664,21349,20927,20848,21183,20742,19895,21396,21994
+"CH","CZ","ESRA North-West","ESRA East","Switzerland","Czech Republic","internal",0,0,0,2200,2651,2660,3265,2665,2473,2461,2362,2594,3042,2335,1842
+"CH","DE","ESRA North-West","ESRA North-West","Switzerland","Germany","internal",42485,42651,41085,40343,39460,40195,40984,41488,38549,39040,42964,41488,38157,38552,38233
+"CH","DK","ESRA North-West","ESRA North-West","Switzerland","Denmark","internal",4451,3745,3572,3803,4068,3123,3264,3462,3189,3271,3424,3124,3208,3303,3140
+"CH","ES","ESRA North-West","ESRA Mediterranean","Switzerland","Spain","internal",13991,14553,13196,13447,14001,14994,15268,13637,12298,13795,17179,17921,17169,17222,17735
+"CH","FI","ESRA North-West","ESRA North-West","Switzerland","Finland","internal",0,0,0,0,0,0,0,1934,0,0,2167,0,0,0,2068
+"CH","FR","ESRA North-West","ESRA North-West","Switzerland","France","internal",35420,31683,28168,27680,26536,27142,28831,28457,27376,28040,28563,28528,27328,27125,25995
+"CH","GB","ESRA North-West","ESRA North-West","Switzerland","United Kingdom","internal",22760,24977,25904,25304,27077,29145,31741,33838,30024,30605,31885,31618,30409,30324,29664
+"CH","GR","ESRA North-West","ESRA Mediterranean","Switzerland","Greece","internal",3414,3201,3202,3017,2888,3226,3398,3399,3536,3454,3674,3598,3269,3726,4372
+"CH","HU","ESRA North-West","ESRA East","Switzerland","Hungary","internal",0,0,1883,2485,2581,2693,2793,2732,2832,2250,2233,0,1854,0,0
+"CH","IT","ESRA North-West","ESRA Mediterranean","Switzerland","Italy","internal",17334,15019,15476,14922,17135,15905,16653,16257,14285,14988,15387,16126,16033,15892,16204
+"CH","LU","ESRA North-West","ESRA North-West","Switzerland","Luxembourg","internal",2023,1919,1835,0,0,0,0,0,0,1923,2058,2456,2165,2195,2158
+"CH","NL","ESRA North-West","ESRA North-West","Switzerland","Netherlands","internal",7911,7128,7282,7891,6562,6895,7106,7133,6863,6563,7361,7789,7673,7693,7565
+"CH","PL","ESRA North-West","ESRA East","Switzerland","Poland","internal",2640,2333,2463,2548,2675,2570,2524,2537,2467,2437,2539,2462,2541,2665,2203
+"CH","PT","ESRA North-West","ESRA Mediterranean","Switzerland","Portugal","internal",3441,3444,3472,3418,3530,3732,4630,5246,4935,5024,5264,5416,5823,6085,6639
+"CH","RS","ESRA North-West","ESRA East","Switzerland","Serbia","internal",0,0,0,0,0,2849,2504,2443,2474,2564,2894,3019,3240,3322,3266
+"CH","SE","ESRA North-West","ESRA North-West","Switzerland","Sweden","internal",3828,3061,2813,2367,2647,2313,2372,2463,2463,2580,3003,2812,2557,2736,2787
+"CH","TR","ESRA North-West","ESRA Mediterranean","Switzerland","Turkey","internal",3042,2754,2766,3012,3479,2684,2883,3430,3571,3900,4359,4736,5274,5467,5638
+"CY","CY","ESRA Mediterranean","ESRA Mediterranean","Cyprus","Cyprus","internal",2356,2512,2660,2588,2376,2039,0,0,0,0,0,0,0,0,0
+"CY","GB","ESRA Mediterranean","ESRA North-West","Cyprus","United Kingdom","internal",7696,6862,7684,7263,8113,8066,8047,8073,7816,7588,7751,7425,7003,6766,6921
+"CY","GR","ESRA Mediterranean","ESRA Mediterranean","Cyprus","Greece","internal",3823,4358,4678,6291,6321,5773,6114,6089,6146,5904,5840,5849,4369,4749,5267
+"CZ","AT","ESRA East","ESRA North-West","Czech Republic","Austria","internal",2507,2597,2566,3020,3400,3885,4038,3477,2946,3062,3208,2728,2545,2440,2495
+"CZ","BE","ESRA East","ESRA North-West","Czech Republic","Belgium","internal",0,0,0,1986,2127,2025,2558,2650,2533,2424,2503,2082,2064,2068,2403
+"CZ","CH","ESRA East","ESRA North-West","Czech Republic","Switzerland","internal",0,0,0,2222,2632,2667,3261,2663,2512,2497,2385,2638,3057,2328,1840
+"CZ","CZ","ESRA East","ESRA East","Czech Republic","Czech Republic","internal",4776,4870,5662,7267,7269,8386,8441,9405,10238,8241,6515,5536,4377,5040,6422
+"CZ","DE","ESRA East","ESRA North-West","Czech Republic","Germany","internal",8811,9515,9749,10471,12675,13691,13563,13406,12254,11738,11392,10282,10761,9521,10001
+"CZ","DK","ESRA East","ESRA North-West","Czech Republic","Denmark","internal",0,0,0,1838,0,1853,1845,0,0,1853,0,0,0,0,0
+"CZ","ES","ESRA East","ESRA Mediterranean","Czech Republic","Spain","internal",1843,1902,2242,2474,2618,2801,3446,3904,3387,3326,3344,2703,2613,2476,2711
+"CZ","FR","ESRA East","ESRA North-West","Czech Republic","France","internal",3037,3297,3512,4364,4695,5232,5431,6063,5794,5930,6569,5788,5217,4797,4755
+"CZ","GB","ESRA East","ESRA North-West","Czech Republic","United Kingdom","internal",3599,4774,6297,10117,11958,10407,9877,8358,6726,5674,5394,5609,5436,5759,6443
+"CZ","GR","ESRA East","ESRA Mediterranean","Czech Republic","Greece","internal",0,1902,2101,2211,2511,2857,3151,3436,3295,2900,2403,2046,2055,2452,2568
+"CZ","HU","ESRA East","ESRA East","Czech Republic","Hungary","internal",0,0,0,2019,2000,1968,2129,2086,1976,1944,1909,0,0,0,0
+"CZ","IT","ESRA East","ESRA Mediterranean","Czech Republic","Italy","internal",1884,2271,2774,3396,3716,4920,5966,6324,5302,4919,4807,4549,4371,4266,4647
+"CZ","NL","ESRA East","ESRA North-West","Czech Republic","Netherlands","internal",0,1910,2108,2165,2170,2268,2456,2691,2401,2582,2928,2768,2772,2780,2653
+"CZ","PL","ESRA East","ESRA East","Czech Republic","Poland","internal",0,0,0,2050,2563,2438,2491,2534,2514,2808,2945,2512,2243,2557,2749
+"CZ","SK","ESRA East","ESRA East","Czech Republic","Slovakia","internal",2770,2838,3265,3450,3565,3547,4164,4376,3820,3726,3026,1920,0,1879,1866
+"CZ","TR","ESRA East","ESRA Mediterranean","Czech Republic","Turkey","internal",0,0,0,0,0,0,0,0,0,0,1851,1859,1866,1971,2407
+"DE","AT","ESRA North-West","ESRA North-West","Germany","Austria","internal",33519,33184,38621,41628,42825,44042,48710,50738,47747,47821,46790,43565,41272,41971,41524
+"DE","BE","ESRA North-West","ESRA North-West","Germany","Belgium","internal",21775,17906,17513,17497,17169,18366,19010,18462,16184,14410,15343,14600,13487,13437,14812
+"DE","BG","ESRA North-West","ESRA East","Germany","Bulgaria","internal",3711,4533,5011,5222,5714,6019,6049,6272,5647,5499,5529,5109,5339,5936,5741
+"DE","CH","ESRA North-West","ESRA North-West","Germany","Switzerland","internal",42219,42314,40829,40149,39136,40205,41108,41618,38570,39636,43180,41610,38351,38617,38455
+"DE","CZ","ESRA North-West","ESRA East","Germany","Czech Republic","internal",8823,9439,9695,10542,12659,13679,13453,13480,12270,11895,11391,10281,10664,9578,10198
+"DE","DE","ESRA North-West","ESRA North-West","Germany","Germany","internal",430356,424824,407259,402660,405046,404999,411604,408568,379076,377680,379516,353471,329218,330882,330317
+"DE","DK","ESRA North-West","ESRA North-West","Germany","Denmark","internal",17842,16490,16449,17329,17950,17965,17582,18890,17177,17287,17770,18071,17974,19092,20066
+"DE","ES","ESRA North-West","ESRA Mediterranean","Germany","Spain","internal",71404,68411,73607,76570,79016,78955,84537,82420,74169,76748,77773,76005,79051,83574,83549
+"DE","FI","ESRA North-West","ESRA North-West","Germany","Finland","internal",7290,6582,7098,8928,8434,8627,9703,9445,8670,8483,9678,8694,8228,8189,7902
+"DE","FR","ESRA North-West","ESRA North-West","Germany","France","internal",69776,68751,65650,68232,68460,75213,75106,74107,66248,63051,67131,65132,61243,58389,57674
+"DE","GB","ESRA North-West","ESRA North-West","Germany","United Kingdom","internal",71806,69137,71097,72121,74834,76818,78038,76096,71594,70452,71729,71327,70057,69964,72307
+"DE","GR","ESRA North-West","ESRA Mediterranean","Germany","Greece","internal",18469,17426,16810,17610,16774,16814,18644,18001,17584,17133,17557,15050,15583,18542,18934
+"DE","HR","ESRA North-West","ESRA East","Germany","Croatia","internal",3924,4232,4480,4643,6160,6900,7197,7415,7343,7840,7803,7956,8263,8178,8407
+"DE","HU","ESRA North-West","ESRA East","Germany","Hungary","internal",8181,8156,9441,11430,12598,12076,11842,11215,9846,10001,10341,9728,8747,8537,8444
+"DE","IE","ESRA North-West","ESRA North-West","Germany","Ireland","internal",4064,4152,4054,4637,6124,6781,6819,7006,6571,5619,5826,5964,6020,6598,7073
+"DE","IT","ESRA North-West","ESRA Mediterranean","Germany","Italy","internal",56287,54988,63726,65292,70629,75472,77648,71417,64840,66084,66829,66133,62995,62921,65888
+"DE","LT","ESRA North-West","Other Europe","Germany","Lithuania","internal",0,0,0,2057,2603,2665,2332,2036,0,0,0,0,1859,2105,2014
+"DE","LU","ESRA North-West","ESRA North-West","Germany","Luxembourg","internal",4516,4777,4072,3934,4061,4006,4157,4885,5043,5107,5754,6075,5711,5488,5703
+"DE","LV","ESRA North-West","Other Europe","Germany","Latvia","internal",0,0,0,0,2495,2135,2820,3348,3431,3846,3852,3981,3747,3723,4075
+"DE","MT","ESRA North-West","ESRA Mediterranean","Germany","Malta","internal",0,0,0,0,0,0,1973,2060,1899,1972,2092,2044,2203,2244,2372
+"DE","NL","ESRA North-West","ESRA North-West","Germany","Netherlands","internal",28055,25512,23142,23945,24378,27781,27429,26635,24966,24162,25841,26200,26227,26608,26586
+"DE","NO","ESRA North-West","ESRA North-West","Germany","Norway","internal",4114,4373,4994,6138,6879,8294,8459,9759,10142,10485,11056,10736,10434,9340,7609
+"DE","PL","ESRA North-West","ESRA East","Germany","Poland","internal",13963,12339,13337,17089,20643,22877,23980,26835,26115,26088,25583,27057,27111,25001,26014
+"DE","PT","ESRA North-West","ESRA Mediterranean","Germany","Portugal","internal",8852,8955,8663,8958,8740,9892,10279,10664,9815,10123,10437,10726,11398,11832,13420
+"DE","RO","ESRA North-West","ESRA East","Germany","Romania","internal",2363,2577,2824,4002,5405,5957,7376,9676,8630,8764,9172,9137,9094,8913,9731
+"DE","RS","ESRA North-West","ESRA East","Germany","Serbia","internal",0,0,0,0,0,4257,4404,5003,4834,5003,5784,5864,6148,5580,5788
+"DE","SE","ESRA North-West","ESRA North-West","Germany","Sweden","internal",11965,11466,12624,13909,15231,16980,17629,19343,17557,16943,17509,17079,17185,16422,17276
+"DE","SI","ESRA North-West","ESRA East","Germany","Slovenia","internal",2102,2301,2455,2597,2958,2962,3185,3714,3122,2948,3133,3095,3004,2422,2698
+"DE","SK","ESRA North-West","ESRA East","Germany","Slovakia","internal",0,0,0,0,2108,2178,2002,2263,0,0,0,0,0,0,0
+"DE","TR","ESRA North-West","ESRA Mediterranean","Germany","Turkey","internal",31183,34084,32906,35838,37393,34030,37107,38294,37855,43113,45003,46174,46091,49625,54146
+"DE","UA","ESRA North-West","ESRA East","Germany","Ukraine","internal",0,0,0,1945,2557,3227,3397,3757,4577,5214,5396,5331,5310,4209,3619
+"DK","AT","ESRA North-West","ESRA North-West","Denmark","Austria","internal",1956,2111,2374,2270,2391,2123,2193,2268,0,2140,2232,2404,2295,2175,0
+"DK","BE","ESRA North-West","ESRA North-West","Denmark","Belgium","internal",5846,4870,4608,4453,4559,3834,4121,4120,3440,3577,3875,3750,3542,3486,4073
+"DK","CH","ESRA North-West","ESRA North-West","Denmark","Switzerland","internal",4464,3753,3557,3767,4059,3140,3274,3454,3160,3264,3399,3110,3166,3333,3119
+"DK","CZ","ESRA North-West","ESRA East","Denmark","Czech Republic","internal",0,0,0,1852,0,1860,1855,1836,0,1850,0,0,0,0,0
+"DK","DE","ESRA North-West","ESRA North-West","Denmark","Germany","internal",17965,16660,16480,17400,18068,18069,17707,18813,17071,17336,17749,18217,18184,19184,20021
+"DK","DK","ESRA North-West","ESRA North-West","Denmark","Denmark","internal",51756,50537,48663,48268,45816,43145,43084,45520,43480,46860,47507,33893,33326,34014,34345
+"DK","ES","ESRA North-West","ESRA Mediterranean","Denmark","Spain","internal",4849,4760,5362,6272,6198,6169,7100,7108,7099,7859,7522,7251,8008,7971,7969
+"DK","FI","ESRA North-West","ESRA North-West","Denmark","Finland","internal",4496,5324,5905,5687,6788,5855,5910,6214,5122,4715,5488,5922,4963,4141,3588
+"DK","FR","ESRA North-West","ESRA North-West","Denmark","France","internal",7748,7747,6757,8049,8094,7364,7586,7012,6517,7080,7236,7170,6275,6027,6175
+"DK","GB","ESRA North-West","ESRA North-West","Denmark","United Kingdom","internal",14675,14257,14523,15124,14123,13840,14251,14521,14599,13833,14104,13586,14347,13996,15258
+"DK","GR","ESRA North-West","ESRA Mediterranean","Denmark","Greece","internal",2582,2550,2462,2135,2084,2243,2230,2195,2093,2194,2331,1970,2187,2501,2675
+"DK","IT","ESRA North-West","ESRA Mediterranean","Denmark","Italy","internal",4041,3741,3950,4440,3868,3910,4160,3992,3888,4709,4156,4336,5062,4800,5275
+"DK","LT","ESRA North-West","Other Europe","Denmark","Lithuania","internal",1867,0,0,1978,2533,2340,1983,2034,0,2171,0,0,0,0,1872
+"DK","LV","ESRA North-West","Other Europe","Denmark","Latvia","internal",2136,2077,2071,0,0,0,0,0,0,0,0,0,0,0,0
+"DK","NL","ESRA North-West","ESRA North-West","Denmark","Netherlands","internal",4817,4756,4515,4821,5035,5461,5752,5360,5061,5013,6544,6642,6807,6942,7256
+"DK","NO","ESRA North-West","ESRA North-West","Denmark","Norway","internal",17100,18884,18304,18135,17510,18749,18567,20603,16105,16180,17143,17631,18389,18758,17893
+"DK","PL","ESRA North-West","ESRA East","Denmark","Poland","internal",4713,3996,4304,4569,4028,3539,3681,3914,3497,2911,3235,4125,4326,4348,4595
+"DK","SE","ESRA North-West","ESRA North-West","Denmark","Sweden","internal",24168,20588,19808,19692,18051,15177,15799,15168,12319,12324,12294,12383,12088,12462,12768
+"DK","TR","ESRA North-West","ESRA Mediterranean","Denmark","Turkey","internal",0,0,0,1854,2385,2017,1947,2098,2263,2962,3477,3467,3771,3927,4067
+"EE","EE","Other Europe","Other Europe","Estonia","Estonia","internal",0,0,0,0,0,0,0,1909,2444,2560,3060,3021,2493,2354,2826
+"EE","FI","Other Europe","ESRA North-West","Estonia","Finland","internal",3502,3577,3357,3475,3489,3594,3550,3363,2767,3002,3263,4404,2920,2833,2720
+"EE","LV","Other Europe","Other Europe","Estonia","Latvia","internal",0,0,0,0,0,0,0,0,2121,2607,2426,2419,0,0,1872
+"EE","SE","Other Europe","ESRA North-West","Estonia","Sweden","internal",0,0,0,0,0,0,0,2103,1851,1882,1836,2418,1879,0,1856
+"ES","AT","ESRA Mediterranean","ESRA North-West","Spain","Austria","internal",3461,3514,3677,4027,4253,4901,5288,5564,4502,4817,5626,5649,5159,5676,5931
+"ES","BE","ESRA Mediterranean","ESRA North-West","Spain","Belgium","internal",16258,13450,14832,15317,15986,16583,16697,16030,14722,16259,17421,16530,17277,19535,20789
+"ES","CH","ESRA Mediterranean","ESRA North-West","Spain","Switzerland","internal",13886,14533,13234,13482,14042,15031,15216,13567,12283,13769,17254,17892,17140,17162,17750
+"ES","CZ","ESRA Mediterranean","ESRA East","Spain","Czech Republic","internal",1840,1929,2225,2468,2615,2743,3387,3910,3396,3296,3329,2692,2628,2509,2736
+"ES","DE","ESRA Mediterranean","ESRA North-West","Spain","Germany","internal",71188,67924,73228,76024,78627,78719,84157,81995,73808,76391,77362,75488,78592,83112,83117
+"ES","DK","ESRA Mediterranean","ESRA North-West","Spain","Denmark","internal",4797,4720,5320,6236,6186,6164,7061,7043,7095,7845,7493,7234,7954,7908,7920
+"ES","ES","ESRA Mediterranean","ESRA Mediterranean","Spain","Spain","internal",463888,450619,470875,493544,535396,562307,595627,566688,500337,485143,467878,393510,331553,337705,348014
+"ES","FI","ESRA Mediterranean","ESRA North-West","Spain","Finland","internal",1889,1898,2041,2179,2258,2472,3116,2857,2707,2555,3256,3383,4253,4502,4085
+"ES","FR","ESRA Mediterranean","ESRA North-West","Spain","France","internal",44710,43518,43086,45295,48591,50529,55965,57073,50304,49832,55317,54076,49476,50608,54570
+"ES","GB","ESRA Mediterranean","ESRA North-West","Spain","United Kingdom","internal",85134,90959,104798,110988,118783,120521,124078,120067,105188,97504,105923,103121,108369,113193,114391
+"ES","GR","ESRA Mediterranean","ESRA Mediterranean","Spain","Greece","internal",0,0,0,0,0,1932,2282,2201,2304,2495,2510,1854,0,0,1933
+"ES","IE","ESRA Mediterranean","ESRA North-West","Spain","Ireland","internal",5926,6780,7884,8643,9091,10082,12029,11544,9953,8862,9733,9503,10033,10072,10615
+"ES","IT","ESRA Mediterranean","ESRA Mediterranean","Spain","Italy","internal",29219,29736,31812,35939,39358,42695,50610,46324,43574,48045,50458,44149,37558,39399,42742
+"ES","LU","ESRA Mediterranean","ESRA North-West","Spain","Luxembourg","internal",1947,2425,2933,2624,2109,2220,2131,2093,1839,0,1905,1873,1975,2001,1889
+"ES","NL","ESRA Mediterranean","ESRA North-West","Spain","Netherlands","internal",14609,14885,15669,15488,15651,17652,19353,18463,16076,17352,20332,19483,18829,19979,21034
+"ES","NO","ESRA Mediterranean","ESRA North-West","Spain","Norway","internal",3366,3693,4140,4524,4784,5434,6144,6936,5573,6655,7252,7746,9988,9360,8504
+"ES","PL","ESRA Mediterranean","ESRA East","Spain","Poland","internal",0,0,0,0,0,1913,2418,2832,2786,3363,4098,3954,3950,4447,5374
+"ES","PT","ESRA Mediterranean","ESRA Mediterranean","Spain","Portugal","internal",16346,16437,17081,18987,20553,22240,24766,23926,21691,22715,22587,21433,20117,20290,21352
+"ES","RO","ESRA Mediterranean","ESRA East","Spain","Romania","internal",0,0,0,0,0,0,2952,4059,4251,4362,4595,3837,3731,3779,4045
+"ES","SE","ESRA Mediterranean","ESRA North-West","Spain","Sweden","internal",5942,5824,4913,5142,5316,5912,6483,6747,5092,6192,7335,7785,8969,8880,8825
+"ES","TR","ESRA Mediterranean","ESRA Mediterranean","Spain","Turkey","internal",0,0,0,0,0,0,1869,2212,2606,3169,3451,3507,3710,4699,5077
+"FI","BE","ESRA North-West","ESRA North-West","Finland","Belgium","internal",0,1828,2247,2215,0,1904,1972,0,0,0,1941,0,0,0,0
+"FI","CH","ESRA North-West","ESRA North-West","Finland","Switzerland","internal",0,0,0,0,0,0,0,1941,0,0,2164,0,0,0,2074
+"FI","DE","ESRA North-West","ESRA North-West","Finland","Germany","internal",7310,6584,7127,8929,8420,8733,9913,9756,8746,8503,9729,8698,8215,8190,7997
+"FI","DK","ESRA North-West","ESRA North-West","Finland","Denmark","internal",4809,5532,5817,5630,6721,5817,5853,6162,5042,4697,5469,5937,5002,4142,3610
+"FI","EE","ESRA North-West","Other Europe","Finland","Estonia","internal",3505,3537,3345,3472,3479,3590,3568,3393,2765,3047,3277,4430,2935,2844,2728
+"FI","ES","ESRA North-West","ESRA Mediterranean","Finland","Spain","internal",1876,1869,2022,2176,2269,2469,3097,2850,2690,2545,3232,3366,4213,4460,4090
+"FI","FI","ESRA North-West","ESRA North-West","Finland","Finland","internal",77477,70495,69516,70117,70548,72652,66237,65936,64302,60638,65022,53946,47983,46326,44455
+"FI","FR","ESRA North-West","ESRA North-West","Finland","France","internal",2147,1912,0,0,0,1947,2209,2399,2473,2711,2820,2414,2555,2480,2524
+"FI","GB","ESRA North-West","ESRA North-West","Finland","United Kingdom","internal",3403,2585,3321,3658,3510,4341,4397,4367,4294,4551,4679,4072,4155,4514,4667
+"FI","IT","ESRA North-West","ESRA Mediterranean","Finland","Italy","internal",0,0,0,0,0,0,1838,2258,1956,1894,2119,2064,1877,1994,2038
+"FI","LV","ESRA North-West","Other Europe","Finland","Latvia","internal",0,0,0,0,0,0,1915,2816,3294,4040,4560,3689,3193,2776,2631
+"FI","NL","ESRA North-West","ESRA North-West","Finland","Netherlands","internal",2075,0,0,1966,1980,2122,2201,2225,2195,2143,2457,1908,1854,1888,1899
+"FI","NO","ESRA North-West","ESRA North-West","Finland","Norway","internal",1928,1873,2282,2207,1936,2099,2377,2516,2405,2422,2710,2302,2441,2439,2235
+"FI","PL","ESRA North-West","ESRA East","Finland","Poland","internal",0,0,0,0,0,0,0,1852,0,0,1904,0,0,0,0
+"FI","SE","ESRA North-West","ESRA North-West","Finland","Sweden","internal",18824,17383,16905,17782,16373,15107,13515,13411,11843,12617,14206,14595,14820,14792,14564
+"FI","TR","ESRA North-West","ESRA Mediterranean","Finland","Turkey","internal",0,0,0,0,0,0,0,0,0,0,0,0,0,1893,2015
+"FR","AT","ESRA North-West","ESRA North-West","France","Austria","internal",7054,6961,6945,6856,8644,8494,8947,9036,7574,7664,7554,7601,6684,6601,6654
+"FR","BE","ESRA North-West","ESRA North-West","France","Belgium","internal",19502,14562,14691,13823,14288,14765,15731,16307,15301,15302,15678,15555,15385,16096,16136
+"FR","CH","ESRA North-West","ESRA North-West","France","Switzerland","internal",35590,31947,28593,27773,26599,27242,28947,28372,27372,27732,28389,28430,27146,26788,25892
+"FR","CZ","ESRA North-West","ESRA East","France","Czech Republic","internal",3031,3305,3509,4360,4675,5199,5446,6036,5771,5830,6540,5787,5208,4632,4724
+"FR","DE","ESRA North-West","ESRA North-West","France","Germany","internal",69863,68656,65494,68405,68436,75194,74797,73850,65899,63534,67394,65240,61579,58496,57643
+"FR","DK","ESRA North-West","ESRA North-West","France","Denmark","internal",7755,7719,6742,8031,8034,7360,7422,6821,6349,6843,6998,7114,6286,6063,6181
+"FR","ES","ESRA North-West","ESRA Mediterranean","France","Spain","internal",45129,43705,43292,45345,48646,50574,56096,57206,49939,49711,55136,53927,49497,50557,54435
+"FR","FI","ESRA North-West","ESRA North-West","France","Finland","internal",2167,1899,0,0,0,1950,2214,2388,2475,2686,2815,2418,2546,2473,2497
+"FR","FR","ESRA North-West","ESRA North-West","France","France","internal",526606,501448,462899,430993,431134,432699,425658,421475,407575,397968,415885,414419,401388,375746,371757
+"FR","GB","ESRA North-West","ESRA North-West","France","United Kingdom","internal",75288,79966,81363,82167,81466,83851,84819,80683,72699,65657,70088,68643,66456,67458,66889
+"FR","GR","ESRA North-West","ESRA Mediterranean","France","Greece","internal",5445,5119,6156,6033,5966,6026,6816,7014,7363,7229,7576,6872,6819,7884,8704
+"FR","HR","ESRA North-West","ESRA East","France","Croatia","internal",0,0,0,0,1981,2355,2442,2531,2320,2385,2627,2570,2413,2395,2466
+"FR","HU","ESRA North-West","ESRA East","France","Hungary","internal",2031,2177,2199,2959,3574,3472,3617,3054,3014,2612,2703,2277,2163,2237,2584
+"FR","IE","ESRA North-West","ESRA North-West","France","Ireland","internal",6773,6800,7453,7696,8289,9102,9780,10659,9274,7722,7526,7484,7360,7884,8349
+"FR","IT","ESRA North-West","ESRA Mediterranean","France","Italy","internal",54375,51083,54091,50440,47578,50566,56045,55781,51591,50358,54748,54608,54018,53824,55093
+"FR","LU","ESRA North-West","ESRA North-West","France","Luxembourg","internal",2750,2844,2912,2821,2829,2892,2651,2533,2415,2478,2615,2668,2744,2822,2940
+"FR","MT","ESRA North-West","ESRA Mediterranean","France","Malta","internal",0,0,0,0,0,0,0,0,0,0,0,0,0,1838,0
+"FR","NL","ESRA North-West","ESRA North-West","France","Netherlands","internal",17600,16570,16504,17098,15976,17080,17976,18545,16785,16136,17108,17216,17149,17634,18845
+"FR","NO","ESRA North-West","ESRA North-West","France","Norway","internal",3049,2925,2632,3070,3224,3400,3945,3702,3129,3455,3787,3796,3985,4150,3905
+"FR","PL","ESRA North-West","ESRA East","France","Poland","internal",3070,3056,3323,4215,5061,5849,5918,5742,5252,5162,5376,5280,5028,5203,5508
+"FR","PT","ESRA North-West","ESRA Mediterranean","France","Portugal","internal",11180,11343,11092,11489,10928,12363,13012,14137,14009,15260,15987,16634,18171,20006,21288
+"FR","RO","ESRA North-West","ESRA East","France","Romania","internal",0,0,0,0,2100,2528,2874,2717,3192,3272,3426,3313,3093,3054,3440
+"FR","RS","ESRA North-West","ESRA East","France","Serbia","internal",0,0,0,0,0,0,0,0,0,0,0,0,2074,2357,2522
+"FR","SE","ESRA North-West","ESRA North-West","France","Sweden","internal",6661,6967,5571,6055,5462,5887,6322,6427,4873,4786,5504,5156,5637,5450,5156
+"FR","SI","ESRA North-West","ESRA East","France","Slovenia","internal",0,0,0,0,0,0,1908,1840,0,0,0,0,0,0,0
+"FR","TR","ESRA North-West","ESRA Mediterranean","France","Turkey","internal",4976,5113,4735,5085,5983,5976,6280,6463,6964,8772,10065,10024,10066,10853,11468
+"FR","UA","ESRA North-West","ESRA East","France","Ukraine","internal",0,0,0,0,0,0,0,0,0,0,0,1846,2030,0,0
+"GB","AT","ESRA North-West","ESRA North-West","United Kingdom","Austria","internal",7036,6800,7461,8606,8731,8568,8919,8637,7794,7332,7609,7279,6590,6880,7552
+"GB","BE","ESRA North-West","ESRA North-West","United Kingdom","Belgium","internal",31709,30390,24600,22111,21973,21844,22750,19820,17335,16086,16198,16396,15020,14550,14773
+"GB","BG","ESRA North-West","ESRA East","United Kingdom","Bulgaria","internal",0,0,0,2152,2758,3421,3435,3566,3164,3088,3025,3018,3260,3312,3593
+"GB","CH","ESRA North-West","ESRA North-West","United Kingdom","Switzerland","internal",22634,24950,25734,25179,26840,28900,31568,33779,29969,30434,31745,31498,30248,30351,29465
+"GB","CY","ESRA North-West","ESRA Mediterranean","United Kingdom","Cyprus","internal",7705,7025,7585,7255,8062,8021,7934,8027,7716,7458,7609,7295,6935,6781,6920
+"GB","CZ","ESRA North-West","ESRA East","United Kingdom","Czech Republic","internal",3593,4767,6276,10014,11964,10332,9830,8277,6698,5614,5317,5554,5335,5660,6468
+"GB","DE","ESRA North-West","ESRA North-West","United Kingdom","Germany","internal",72332,70057,72004,72990,75635,77549,78971,76788,72021,71243,72257,71959,71215,70904,73302
+"GB","DK","ESRA North-West","ESRA North-West","United Kingdom","Denmark","internal",14625,14180,14414,15283,14295,13980,14265,14541,14699,13948,14202,13664,14352,14017,15299
+"GB","ES","ESRA North-West","ESRA Mediterranean","United Kingdom","Spain","internal",85135,90753,104498,110688,118481,120544,123937,119952,105223,97568,106049,103116,108490,113337,114703
+"GB","FI","ESRA North-West","ESRA North-West","United Kingdom","Finland","internal",3429,2638,3299,3642,3512,4336,4381,4358,4288,4558,4697,4090,4150,4503,4652
+"GB","FR","ESRA North-West","ESRA North-West","United Kingdom","France","internal",75715,79758,81271,82201,81520,83975,84944,80861,72747,65681,70093,68422,66327,67188,66860
+"GB","GB","ESRA North-West","ESRA North-West","United Kingdom","United Kingdom","internal",480877,474660,479986,508021,536381,543276,542168,527170,477998,445889,432437,416805,403211,388478,397870
+"GB","GR","ESRA North-West","ESRA Mediterranean","United Kingdom","Greece","internal",17857,17540,17633,17098,15966,16131,15864,15440,15141,14332,14499,14482,14856,17230,18751
+"GB","HR","ESRA North-West","ESRA East","United Kingdom","Croatia","internal",0,0,0,0,1939,2676,3044,2626,2814,2801,2831,3132,3589,3849,3867
+"GB","HU","ESRA North-West","ESRA East","United Kingdom","Hungary","internal",2030,1872,1893,3669,5397,4605,4147,4607,4050,3935,4096,4511,4656,5271,5759
+"GB","IE","ESRA North-West","ESRA North-West","United Kingdom","Ireland","internal",64416,62817,61988,62419,65117,62574,63653,64840,54440,50988,52831,53189,53399,56577,57670
+"GB","IT","ESRA North-West","ESRA Mediterranean","United Kingdom","Italy","internal",38693,35477,43600,44708,48856,47118,52002,48130,46026,43066,44812,46383,45455,48586,50455
+"GB","LT","ESRA North-West","Other Europe","United Kingdom","Lithuania","internal",0,0,0,0,0,0,0,0,0,0,1841,2351,2337,2298,2556
+"GB","LU","ESRA North-West","ESRA North-West","United Kingdom","Luxembourg","internal",4494,4473,4177,4264,4522,4517,4646,4139,3619,3449,3687,3811,4063,3768,3789
+"GB","LV","ESRA North-West","Other Europe","United Kingdom","Latvia","internal",0,0,0,0,0,1966,1872,0,0,1896,2060,0,1994,2226,2500
+"GB","MT","ESRA North-West","ESRA Mediterranean","United Kingdom","Malta","internal",3869,3813,3971,3933,4326,3877,4202,3833,3737,3861,3947,3901,4017,4406,4517
+"GB","NL","ESRA North-West","ESRA North-West","United Kingdom","Netherlands","internal",60184,58237,52245,50709,51521,54965,56727,50992,45949,43332,46327,46627,47914,49078,50357
+"GB","NO","ESRA North-West","ESRA North-West","United Kingdom","Norway","internal",9899,9093,9495,11316,11559,12595,12961,13278,12840,12567,13394,14112,15924,15727,14394
+"GB","PL","ESRA North-West","ESRA East","United Kingdom","Poland","internal",3346,3013,3233,5249,8229,13221,16563,19322,15445,15106,14855,15814,18104,16955,19637
+"GB","PT","ESRA North-West","ESRA Mediterranean","United Kingdom","Portugal","internal",13094,14253,14762,15736,17106,18388,20362,20974,19139,19018,20513,18884,19829,22142,23132
+"GB","RO","ESRA North-West","ESRA East","United Kingdom","Romania","internal",0,0,0,0,0,0,0,2260,2599,2825,2863,3172,3288,4317,5405
+"GB","SE","ESRA North-West","ESRA North-West","United Kingdom","Sweden","internal",12643,12400,12318,12473,11969,11974,11698,11927,9596,10237,12332,11300,11836,11388,11118
+"GB","SK","ESRA North-West","ESRA East","United Kingdom","Slovakia","internal",0,0,0,0,0,1930,2040,2994,2219,0,0,0,0,0,2154
+"GB","TR","ESRA North-West","ESRA Mediterranean","United Kingdom","Turkey","internal",6716,6932,7259,8687,10903,10940,12337,13643,15201,16538,15736,15207,16256,17515,17905
+"GE","TR","Other Europe","ESRA Mediterranean","Georgia","Turkey","internal",0,0,0,0,0,0,0,0,0,0,0,1838,2560,3119,3038
+"GE","UA","Other Europe","ESRA East","Georgia","Ukraine","internal",0,0,0,0,0,0,0,0,0,0,0,0,1830,0,0
+"GR","AT","ESRA Mediterranean","ESRA North-West","Greece","Austria","internal",3952,3744,3956,3864,3805,4180,4120,3880,3347,3198,2878,2697,3228,3590,3969
+"GR","BE","ESRA Mediterranean","ESRA North-West","Greece","Belgium","internal",3191,2543,3201,3288,3151,3153,3061,2945,2860,2844,3241,2860,2758,3312,3565
+"GR","CH","ESRA Mediterranean","ESRA North-West","Greece","Switzerland","internal",3425,3209,3226,2981,2900,3214,3403,3401,3567,3481,3662,3608,3241,3743,4359
+"GR","CY","ESRA Mediterranean","ESRA Mediterranean","Greece","Cyprus","internal",3872,4414,4738,6326,6332,5815,6387,6148,6104,5857,5776,5784,4281,4782,5276
+"GR","CZ","ESRA Mediterranean","ESRA East","Greece","Czech Republic","internal",0,1926,2100,2219,2514,2860,3159,3452,3296,2898,2412,2070,2055,2446,2570
+"GR","DE","ESRA Mediterranean","ESRA North-West","Greece","Germany","internal",18108,17315,16857,17598,16667,16705,18515,17640,17098,16661,17070,14502,15204,18029,18483
+"GR","DK","ESRA Mediterranean","ESRA North-West","Greece","Denmark","internal",2575,2550,2446,2132,2083,2227,2219,2173,2099,2195,2349,1972,2191,2477,2671
+"GR","ES","ESRA Mediterranean","ESRA Mediterranean","Greece","Spain","internal",0,0,0,0,0,1896,2289,2282,2302,2466,2478,1849,0,0,1886
+"GR","FR","ESRA Mediterranean","ESRA North-West","Greece","France","internal",5675,5243,6320,6041,5939,6040,6860,7188,7520,7501,7774,7046,6831,7986,8726
+"GR","GB","ESRA Mediterranean","ESRA North-West","Greece","United Kingdom","internal",17839,17617,17714,17107,16036,16150,15838,15336,15197,14360,14509,14555,14849,17261,18804
+"GR","GR","ESRA Mediterranean","ESRA Mediterranean","Greece","Greece","internal",110724,99317,102643,114686,107335,112734,117850,112994,126426,112528,100813,93850,87941,92242,99409
+"GR","HU","ESRA Mediterranean","ESRA East","Greece","Hungary","internal",0,0,0,0,0,0,1830,0,0,0,0,0,0,0,0
+"GR","IT","ESRA Mediterranean","ESRA Mediterranean","Greece","Italy","internal",10323,8940,10122,10621,10390,11127,12166,11284,10067,10021,11178,9783,9794,11713,12683
+"GR","NL","ESRA Mediterranean","ESRA North-West","Greece","Netherlands","internal",5228,5086,4823,4342,4092,4883,5270,4976,4446,3988,4467,3423,3690,4432,4641
+"GR","NO","ESRA Mediterranean","ESRA North-West","Greece","Norway","internal",0,0,0,0,0,0,0,1943,0,1870,1975,2298,2311,2488,2089
+"GR","PL","ESRA Mediterranean","ESRA East","Greece","Poland","internal",0,0,0,0,0,0,2107,2237,2296,2273,2615,2013,2373,3473,4046
+"GR","RO","ESRA Mediterranean","ESRA East","Greece","Romania","internal",0,0,0,0,0,2058,2712,2670,2745,2302,1875,0,0,0,0
+"GR","RS","ESRA Mediterranean","ESRA East","Greece","Serbia","internal",0,0,0,0,0,0,0,0,0,0,0,0,0,1832,0
+"GR","SE","ESRA Mediterranean","ESRA North-West","Greece","Sweden","internal",2468,2412,2055,1846,0,2031,2096,2087,0,1965,2243,2257,2429,3082,3156
+"GR","TR","ESRA Mediterranean","ESRA Mediterranean","Greece","Turkey","internal",0,0,0,1932,2399,2340,2454,2418,2598,3145,3202,3559,4025,4568,5093
+"HR","AT","ESRA East","ESRA North-West","Croatia","Austria","internal",2385,2733,2731,3183,3474,3596,3778,3849,3507,3338,3239,3143,2939,3025,3011
+"HR","CH","ESRA East","ESRA North-West","Croatia","Switzerland","internal",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1826
+"HR","DE","ESRA East","ESRA North-West","Croatia","Germany","internal",3916,4252,4501,4653,6228,6964,7191,7418,7318,7897,7790,7969,8216,8149,8428
+"HR","FR","ESRA East","ESRA North-West","Croatia","France","internal",0,0,0,0,2000,2358,2434,2512,2272,2366,2660,2616,2410,2437,2553
+"HR","GB","ESRA East","ESRA North-West","Croatia","United Kingdom","internal",0,0,0,0,1972,2712,3071,2651,2852,2835,2871,3155,3640,3886,3928
+"HR","HR","ESRA East","ESRA East","Croatia","Croatia","internal",7521,8609,10243,10836,11308,9879,10986,11676,13057,9906,9494,8614,8359,9647,9208
+"HR","IT","ESRA East","ESRA Mediterranean","Croatia","Italy","internal",0,0,0,0,2517,2530,2664,1911,0,2021,2140,1831,0,2127,2280
+"HU","AT","ESRA East","ESRA North-West","Hungary","Austria","internal",1895,2072,1873,2385,1892,1903,1863,1871,0,1870,0,0,1835,1932,0
+"HU","BE","ESRA East","ESRA North-West","Hungary","Belgium","internal",0,0,0,0,0,0,1833,0,0,1831,1836,2132,2033,2026,2176
+"HU","CH","ESRA East","ESRA North-West","Hungary","Switzerland","internal",0,0,1877,2489,2572,2707,2792,2725,2828,2224,2223,0,1855,0,0
+"HU","CZ","ESRA East","ESRA East","Hungary","Czech Republic","internal",0,0,0,2051,2011,1955,2094,2058,1959,1957,1949,0,0,0,0
+"HU","DE","ESRA East","ESRA North-West","Hungary","Germany","internal",8244,8298,9478,11480,12605,12062,11842,11060,9652,9930,10199,9520,8553,8268,8271
+"HU","FR","ESRA East","ESRA North-West","Hungary","France","internal",2059,2195,2219,2998,3612,3461,3652,3125,3149,2770,2826,2349,2223,2215,2622
+"HU","GB","ESRA East","ESRA North-West","Hungary","United Kingdom","internal",2050,1893,1915,3701,5422,4600,4170,4636,4080,3977,4114,4545,4690,5279,5798
+"HU","GR","ESRA East","ESRA Mediterranean","Hungary","Greece","internal",0,0,0,0,0,0,1830,0,0,0,0,0,0,0,0
+"HU","IT","ESRA East","ESRA Mediterranean","Hungary","Italy","internal",0,0,2236,3429,4447,4214,4012,3539,3801,3499,3314,3025,2807,2773,3380
+"HU","NL","ESRA East","ESRA North-West","Hungary","Netherlands","internal",0,0,1920,2071,2342,2526,2458,2134,2076,1931,2310,2086,2278,2189,2128
+"HU","PL","ESRA East","ESRA East","Hungary","Poland","internal",0,0,0,0,0,1840,0,0,0,0,0,0,0,0,0
+"HU","RO","ESRA East","ESRA East","Hungary","Romania","internal",0,0,2270,2890,3168,3954,4256,3872,3792,3399,3958,2355,1985,1998,1988
+"HU","TR","ESRA East","ESRA Mediterranean","Hungary","Turkey","internal",0,0,0,0,0,0,0,0,0,0,0,0,0,1869,2265
+"IE","BE","ESRA North-West","ESRA North-West","Ireland","Belgium","internal",3018,3001,3370,3194,2645,2307,1985,2035,1834,0,0,0,1987,1949,2381
+"IE","DE","ESRA North-West","ESRA North-West","Ireland","Germany","internal",4200,4177,3996,4636,6028,6736,7036,7152,6556,5521,5716,5963,6016,6550,7031
+"IE","ES","ESRA North-West","ESRA Mediterranean","Ireland","Spain","internal",5887,6782,7848,8619,9050,10069,12029,11546,9919,8832,9724,9486,10004,10046,10635
+"IE","FR","ESRA North-West","ESRA North-West","Ireland","France","internal",6579,6767,7461,7724,8329,9156,9817,10682,9286,7685,7513,7532,7346,7858,8297
+"IE","GB","ESRA North-West","ESRA North-West","Ireland","United Kingdom","internal",64578,62853,62024,62322,64990,62516,63292,64659,54372,50421,52238,52567,52789,55989,57058
+"IE","IE","ESRA North-West","ESRA North-West","Ireland","Ireland","internal",21498,21281,21338,21365,21996,22773,23819,21750,17696,14700,9179,5667,5835,5365,5240
+"IE","IT","ESRA North-West","ESRA Mediterranean","Ireland","Italy","internal",0,2054,2635,2655,3396,4299,4654,4355,4032,3241,3261,3521,3437,3511,4128
+"IE","NL","ESRA North-West","ESRA North-West","Ireland","Netherlands","internal",2836,2777,2949,2790,3043,3001,3046,3150,2729,2608,2933,2979,3101,3022,3185
+"IE","PL","ESRA North-West","ESRA East","Ireland","Poland","internal",0,0,0,0,0,3172,5191,4144,3360,2979,2926,3025,3001,2738,2895
+"IE","PT","ESRA North-West","ESRA Mediterranean","Ireland","Portugal","internal",0,0,0,0,0,2050,2339,2225,1995,2030,2083,2099,2366,2564,2586
+"IT","AL","ESRA Mediterranean","ESRA East","Italy","Albania","internal",1847,0,1963,2307,3641,3629,4146,4065,4526,5166,5950,5716,5587,4697,5251
+"IT","AT","ESRA Mediterranean","ESRA North-West","Italy","Austria","internal",7463,7813,8658,10974,10769,11252,12383,11789,9088,9280,9322,8769,8386,9006,8797
+"IT","BE","ESRA Mediterranean","ESRA North-West","Italy","Belgium","internal",16839,16245,16452,15161,14039,14607,14880,14299,14033,15311,15863,15535,15338,16289,16311
+"IT","BG","ESRA Mediterranean","ESRA East","Italy","Bulgaria","internal",0,0,0,0,0,0,2304,1897,0,0,1877,0,0,0,0
+"IT","CH","ESRA Mediterranean","ESRA North-West","Italy","Switzerland","internal",17225,14992,15483,14694,17032,15734,16439,16278,14251,14900,15425,16051,15983,15820,16145
+"IT","CZ","ESRA Mediterranean","ESRA East","Italy","Czech Republic","internal",1888,2256,2811,3375,3684,4908,6006,6345,5290,4917,4832,4511,4350,4261,4639
+"IT","DE","ESRA Mediterranean","ESRA North-West","Italy","Germany","internal",56507,55187,63782,65250,70669,75242,77403,71469,64963,66121,67078,66238,62989,62860,66117
+"IT","DK","ESRA Mediterranean","ESRA North-West","Italy","Denmark","internal",4047,3760,3943,4426,3851,3901,4180,4005,3875,4707,4153,4322,5055,4780,5276
+"IT","ES","ESRA Mediterranean","ESRA Mediterranean","Italy","Spain","internal",29073,29761,31770,36006,39375,42776,50703,46521,43721,48113,50386,44115,37536,39430,42724
+"IT","FI","ESRA Mediterranean","ESRA North-West","Italy","Finland","internal",0,0,0,0,0,0,1828,2258,1945,1898,2107,2041,1863,1983,2030
+"IT","FR","ESRA Mediterranean","ESRA North-West","Italy","France","internal",54263,51017,54183,50660,47463,50348,56147,55759,51513,50373,54747,54550,54112,53728,55083
+"IT","GB","ESRA Mediterranean","ESRA North-West","Italy","United Kingdom","internal",38987,35801,43828,44996,48977,47362,52262,48517,46076,43054,44747,46387,45448,48338,50399
+"IT","GR","ESRA Mediterranean","ESRA Mediterranean","Italy","Greece","internal",9637,8444,9748,10238,9908,10807,11834,10862,9828,9724,10899,9591,9459,11417,12244
+"IT","HR","ESRA Mediterranean","ESRA East","Italy","Croatia","internal",0,0,0,0,2576,2550,2698,1932,0,2073,2235,1915,0,2161,2341
+"IT","HU","ESRA Mediterranean","ESRA East","Italy","Hungary","internal",0,0,2211,3427,4467,4221,4034,3454,3680,3515,3294,3003,2802,2763,3286
+"IT","IE","ESRA Mediterranean","ESRA North-West","Italy","Ireland","internal",1940,2150,2762,2809,3505,4429,4821,4505,4147,3391,3405,3628,3500,3655,4269
+"IT","IT","ESRA Mediterranean","ESRA Mediterranean","Italy","Italy","internal",353296,359768,366805,354120,350179,368661,391647,373725,357090,354482,354070,327110,294402,291062,280779
+"IT","LU","ESRA Mediterranean","ESRA North-West","Italy","Luxembourg","internal",2302,2249,2286,2348,2401,2437,2305,2211,2015,1934,2165,2136,2255,2326,2413
+"IT","MT","ESRA Mediterranean","ESRA Mediterranean","Italy","Malta","internal",2054,2028,2207,2422,2561,2711,3062,2974,2761,3354,3040,2857,3101,3288,3694
+"IT","NL","ESRA Mediterranean","ESRA North-West","Italy","Netherlands","internal",12089,11721,12109,12004,12268,13120,13851,13425,12504,13090,13996,14373,13948,15403,16658
+"IT","NO","ESRA Mediterranean","ESRA North-West","Italy","Norway","internal",0,0,0,0,0,1961,2085,2086,0,2095,1962,1967,2119,1913,0
+"IT","PL","ESRA Mediterranean","ESRA East","Italy","Poland","internal",2260,2129,2777,3826,5047,6262,7136,5126,4933,5928,5509,5602,5506,5901,6240
+"IT","PT","ESRA Mediterranean","ESRA Mediterranean","Italy","Portugal","internal",3903,4020,3997,4280,4721,5557,5837,5989,5197,5921,6204,6196,5834,5826,6713
+"IT","RO","ESRA Mediterranean","ESRA East","Italy","Romania","internal",2659,3474,4637,5888,8603,9341,10712,10042,10823,11808,11108,9852,9169,8806,10112
+"IT","RS","ESRA Mediterranean","ESRA East","Italy","Serbia","internal",0,0,0,0,0,2648,2654,2688,2340,2375,2536,2353,2375,2741,2251
+"IT","SE","ESRA Mediterranean","ESRA North-West","Italy","Sweden","internal",2026,0,0,2765,2617,2481,2868,3175,2947,3468,3796,3137,3144,2857,2805
+"IT","TR","ESRA Mediterranean","ESRA Mediterranean","Italy","Turkey","internal",3061,2379,2090,2261,2873,3188,3936,4267,4318,5591,6980,7471,8522,9190,10350
+"IT","UA","ESRA Mediterranean","ESRA East","Italy","Ukraine","internal",0,0,0,0,0,0,1978,2002,1939,1895,2012,2184,2605,2143,0
+"LT","DE","Other Europe","ESRA North-West","Lithuania","Germany","internal",0,0,0,2074,2605,2662,2342,2050,0,0,0,0,0,2006,1978
+"LT","DK","Other Europe","ESRA North-West","Lithuania","Denmark","internal",1873,0,0,1969,2535,2340,1982,2028,0,2159,0,0,0,0,1879
+"LT","GB","Other Europe","ESRA North-West","Lithuania","United Kingdom","internal",0,0,0,0,0,0,0,0,0,0,1843,2354,2342,2309,2553
+"LT","LV","Other Europe","Other Europe","Lithuania","Latvia","internal",0,0,0,0,0,0,0,0,2942,3013,2992,2705,2412,2202,2290
+"LU","CH","ESRA North-West","ESRA North-West","Luxembourg","Switzerland","internal",2015,1944,1831,0,0,0,0,0,0,1910,2074,2495,2168,2229,2184
+"LU","DE","ESRA North-West","ESRA North-West","Luxembourg","Germany","internal",4368,4701,3987,3873,4021,3924,4090,4800,4915,5027,5650,6030,5760,5347,5565
+"LU","ES","ESRA North-West","ESRA Mediterranean","Luxembourg","Spain","internal",1908,2389,2870,2481,2031,2084,2008,1922,0,0,1831,1832,1933,1966,1950
+"LU","FR","ESRA North-West","ESRA North-West","Luxembourg","France","internal",3187,3360,3427,3288,3330,3335,2785,2531,2315,2414,2494,2618,2680,2719,2799
+"LU","GB","ESRA North-West","ESRA North-West","Luxembourg","United Kingdom","internal",3912,3734,3505,3778,4222,4129,4102,3595,3075,3084,3151,3274,3723,3294,3227
+"LU","IT","ESRA North-West","ESRA Mediterranean","Luxembourg","Italy","internal",2307,2249,2297,2388,2464,2482,2336,2233,2055,1944,2146,2038,2167,2278,2354
+"LV","DE","Other Europe","ESRA North-West","Latvia","Germany","internal",0,0,0,0,2485,2143,2856,3332,3445,3852,3857,3989,3763,3721,4074
+"LV","DK","Other Europe","ESRA North-West","Latvia","Denmark","internal",2134,2073,2064,0,0,0,0,0,0,0,0,0,0,0,0
+"LV","EE","Other Europe","Other Europe","Latvia","Estonia","internal",0,0,0,0,0,0,0,0,2111,2593,2411,2397,0,0,1878
+"LV","FI","Other Europe","ESRA North-West","Latvia","Finland","internal",0,0,0,0,0,0,1897,2786,3286,4037,4568,3686,3194,2775,2630
+"LV","GB","Other Europe","ESRA North-West","Latvia","United Kingdom","internal",0,0,0,0,0,1954,1880,0,0,1914,2042,0,1993,2224,2490
+"LV","LT","Other Europe","Other Europe","Latvia","Lithuania","internal",0,0,0,0,0,0,0,0,2932,2957,2967,2697,2352,2187,2267
+"LV","NO","Other Europe","ESRA North-West","Latvia","Norway","internal",0,0,0,0,0,0,0,0,0,1970,2160,2307,2335,2021,1945
+"LV","SE","Other Europe","ESRA North-West","Latvia","Sweden","internal",0,0,0,0,0,1859,2045,2180,2302,2171,2288,0,1921,0,2323
+"MT","DE","ESRA Mediterranean","ESRA North-West","Malta","Germany","internal",0,0,0,0,0,0,1974,2057,1931,1966,2105,2039,2206,2263,2398
+"MT","GB","ESRA Mediterranean","ESRA North-West","Malta","United Kingdom","internal",3874,3818,3968,3956,4300,3883,4202,3829,3702,3844,3934,3874,4039,4386,4514
+"MT","IT","ESRA Mediterranean","ESRA Mediterranean","Malta","Italy","internal",2035,2010,2209,2381,2544,2676,3064,2915,2728,3352,3043,2877,3114,3455,3888
+"NL","AT","ESRA North-West","ESRA North-West","Netherlands","Austria","internal",6048,5667,5522,4585,4171,3444,3741,4124,3660,3606,4059,4154,4084,4125,4151
+"NL","BE","ESRA North-West","ESRA North-West","Netherlands","Belgium","internal",7036,5302,4777,4312,3946,4532,4362,3951,3437,3341,3535,3327,3124,3021,2912
+"NL","CH","ESRA North-West","ESRA North-West","Netherlands","Switzerland","internal",7908,7117,7244,7858,6521,6898,7129,7157,6874,6584,7388,7787,7676,7703,7534
+"NL","CZ","ESRA North-West","ESRA East","Netherlands","Czech Republic","internal",0,1914,2110,2168,2157,2282,2463,2675,2364,2479,2888,2737,2761,2791,2737
+"NL","DE","ESRA North-West","ESRA North-West","Netherlands","Germany","internal",28074,25649,23368,24220,24605,28089,27706,27068,25456,24522,26291,26449,26325,26810,26883
+"NL","DK","ESRA North-West","ESRA North-West","Netherlands","Denmark","internal",4940,4858,4571,4871,5054,5494,5792,5494,5253,5106,6681,6803,6982,7131,7398
+"NL","ES","ESRA North-West","ESRA Mediterranean","Netherlands","Spain","internal",14682,14862,15577,15463,15679,17663,19456,18514,16230,17468,20454,19666,19025,20261,21195
+"NL","FI","ESRA North-West","ESRA North-West","Netherlands","Finland","internal",2079,0,0,1950,1963,2128,2192,2213,2168,2109,2442,1898,1854,1889,1904
+"NL","FR","ESRA North-West","ESRA North-West","Netherlands","France","internal",17636,16736,16517,17317,16145,17197,18202,18644,16901,16312,17267,17295,17176,17619,19017
+"NL","GB","ESRA North-West","ESRA North-West","Netherlands","United Kingdom","internal",60213,58031,51988,50549,51292,54261,56154,50677,45657,43213,46186,46524,47770,48997,50376
+"NL","GR","ESRA North-West","ESRA Mediterranean","Netherlands","Greece","internal",4883,4725,4447,4120,4069,4877,5256,4953,4347,3889,4351,3404,3684,4436,4606
+"NL","HU","ESRA North-West","ESRA East","Netherlands","Hungary","internal",0,0,1956,2073,2323,2510,2452,2161,2099,1913,2311,2080,2274,2247,2156
+"NL","IE","ESRA North-West","ESRA North-West","Netherlands","Ireland","internal",2923,2738,2866,2794,3056,3018,3090,3196,2761,2617,2952,2984,3089,3009,3190
+"NL","IT","ESRA North-West","ESRA Mediterranean","Netherlands","Italy","internal",12089,11674,12148,11967,12298,13262,14016,13663,12800,13398,14241,14624,14134,15590,16900
+"NL","NL","ESRA North-West","ESRA North-West","Netherlands","Netherlands","internal",23428,24423,18081,18220,15349,13134,15187,15014,14372,16624,14997,12481,11037,9921,7913
+"NL","NO","ESRA North-West","ESRA North-West","Netherlands","Norway","internal",5850,5911,6283,7033,6821,7430,7779,7961,7857,7580,8355,9200,9528,9657,9637
+"NL","PL","ESRA North-West","ESRA East","Netherlands","Poland","internal",0,0,0,2001,2263,2217,2349,2397,2194,2492,2724,3206,3397,3863,4281
+"NL","PT","ESRA North-West","ESRA Mediterranean","Netherlands","Portugal","internal",3417,3662,3480,3710,3874,4195,4120,4364,3968,4109,4511,5007,5650,5551,5827
+"NL","RO","ESRA North-West","ESRA East","Netherlands","Romania","internal",0,0,0,0,0,0,0,0,0,0,0,0,0,1917,1921
+"NL","SE","ESRA North-West","ESRA North-West","Netherlands","Sweden","internal",6438,4827,4686,4749,4486,4641,4794,5792,4958,5106,5552,5691,5671,5708,5516
+"NL","TR","ESRA North-West","ESRA Mediterranean","Netherlands","Turkey","internal",5261,6195,6330,7965,8515,7294,6950,6806,6853,7734,8190,8598,9428,9787,9829
+"NO","BE","ESRA North-West","ESRA North-West","Norway","Belgium","internal",0,0,0,0,0,0,0,0,0,1836,0,0,0,0,0
+"NO","DE","ESRA North-West","ESRA North-West","Norway","Germany","internal",4183,4426,4905,6150,6789,8269,8561,10041,10490,10796,11489,11003,10633,9517,7842
+"NO","DK","ESRA North-West","ESRA North-West","Norway","Denmark","internal",16971,18810,18495,18295,17669,18861,18698,20723,16227,16322,17192,17744,18481,18903,17955
+"NO","ES","ESRA North-West","ESRA Mediterranean","Norway","Spain","internal",3362,3673,4114,4517,4772,5397,6133,6913,5528,6608,7224,7731,9955,9304,8476
+"NO","FI","ESRA North-West","ESRA North-West","Norway","Finland","internal",2214,2173,2555,2487,2180,2250,2378,2536,2412,2420,2696,2331,2482,2420,2230
+"NO","FR","ESRA North-West","ESRA North-West","Norway","France","internal",3051,2953,2644,3086,3213,3420,3937,3682,3148,3438,3765,3790,4002,4145,3905
+"NO","GB","ESRA North-West","ESRA North-West","Norway","United Kingdom","internal",9955,9085,9431,11306,11565,12574,12926,13247,12804,12591,13394,14100,15888,15665,14289
+"NO","GR","ESRA North-West","ESRA Mediterranean","Norway","Greece","internal",0,0,0,0,0,0,0,1939,0,1865,1973,2305,2312,2489,2077
+"NO","IT","ESRA North-West","ESRA Mediterranean","Norway","Italy","internal",0,0,0,0,0,1948,2087,2088,0,2093,1959,1946,2068,1895,0
+"NO","LV","ESRA North-West","Other Europe","Norway","Latvia","internal",0,0,0,0,0,0,0,0,0,1963,2156,2300,2326,2011,1948
+"NO","NL","ESRA North-West","ESRA North-West","Norway","Netherlands","internal",5852,5913,6272,7037,6798,7405,7767,7940,7812,7530,8366,9180,9500,9673,9652
+"NO","NO","ESRA North-West","ESRA North-West","Norway","Norway","internal",264228,241664,243897,245526,248760,254837,263234,260249,254143,253317,259902,267971,268298,273512,269004
+"NO","PL","ESRA North-West","ESRA East","Norway","Poland","internal",0,0,0,0,0,0,2256,2848,2558,3106,3222,4259,5543,5703,6685
+"NO","SE","ESRA North-West","ESRA North-West","Norway","Sweden","internal",10761,9373,8905,9373,9341,10318,9504,9995,8972,9502,10495,10052,9951,11417,10613
+"NO","TR","ESRA North-West","ESRA Mediterranean","Norway","Turkey","internal",0,0,0,0,0,0,0,0,0,1842,2382,2694,2841,2344,2345
+"PL","AT","ESRA East","ESRA North-West","Poland","Austria","internal",2925,2653,2915,3220,3139,2920,3211,3992,3504,3361,3641,3457,3129,2772,2685
+"PL","BE","ESRA East","ESRA North-West","Poland","Belgium","internal",2272,0,0,1995,1835,2035,2443,2644,2659,2780,2779,2769,2390,2940,3691
+"PL","CH","ESRA East","ESRA North-West","Poland","Switzerland","internal",2643,2320,2471,2540,2669,2566,2493,2553,2472,2444,2527,2459,2536,2677,2195
+"PL","CZ","ESRA East","ESRA East","Poland","Czech Republic","internal",0,0,0,2107,2610,2484,2591,2569,2578,2870,2990,2628,2451,2582,2802
+"PL","DE","ESRA East","ESRA North-West","Poland","Germany","internal",13986,12392,13409,17216,20732,22962,23862,26837,26102,25990,25425,26904,26899,24955,25839
+"PL","DK","ESRA East","ESRA North-West","Poland","Denmark","internal",4723,3985,4291,4574,4023,3556,3701,3948,3507,2929,3251,4115,4315,4360,4600
+"PL","ES","ESRA East","ESRA Mediterranean","Poland","Spain","internal",0,0,0,0,0,1907,2426,2841,2833,3376,4150,3968,3960,4448,5316
+"PL","FI","ESRA East","ESRA North-West","Poland","Finland","internal",0,0,0,0,0,0,0,1865,0,0,1902,0,0,0,0
+"PL","FR","ESRA East","ESRA North-West","Poland","France","internal",3074,3057,3292,4214,5056,5847,5993,5789,5173,5195,5536,5448,5196,5369,5707
+"PL","GB","ESRA East","ESRA North-West","Poland","United Kingdom","internal",3285,2999,3202,5256,8243,13208,16647,19320,15498,15135,14881,15805,18122,16988,19710
+"PL","GR","ESRA East","ESRA Mediterranean","Poland","Greece","internal",0,0,0,0,0,0,2112,2227,2311,2276,2612,2022,2361,3460,4042
+"PL","IE","ESRA East","ESRA North-West","Poland","Ireland","internal",0,0,0,0,0,3159,5195,4169,3361,2982,2922,3023,3009,2737,2907
+"PL","IT","ESRA East","ESRA Mediterranean","Poland","Italy","internal",2218,2117,2727,3811,5050,6269,7124,5132,4927,5967,5509,5591,5498,5887,6321
+"PL","NL","ESRA East","ESRA North-West","Poland","Netherlands","internal",0,0,0,2026,2256,2208,2352,2407,2185,2478,2732,3218,3397,3865,4262
+"PL","NO","ESRA East","ESRA North-West","Poland","Norway","internal",0,0,0,0,0,0,2255,2844,2555,3095,3218,4268,5523,5701,6674
+"PL","PL","ESRA East","ESRA East","Poland","Poland","internal",33462,33104,34348,35454,33616,38645,39963,39229,37007,36016,39044,47928,37459,37998,35671
+"PL","SE","ESRA East","ESRA North-West","Poland","Sweden","internal",0,0,0,1827,2055,2804,3352,3293,2976,2595,2809,3184,3495,3536,4075
+"PL","TR","ESRA East","ESRA Mediterranean","Poland","Turkey","internal",0,0,0,0,0,0,0,2157,2282,2405,2650,2304,2330,2706,2832
+"PL","UA","ESRA East","ESRA East","Poland","Ukraine","internal",0,0,0,0,0,0,1841,1948,1940,2109,2308,2874,2369,2623,2537
+"PT","BE","ESRA Mediterranean","ESRA North-West","Portugal","Belgium","internal",3434,2500,2929,3215,3274,3236,3747,4154,3974,3976,4123,3888,3979,5082,5519
+"PT","CH","ESRA Mediterranean","ESRA North-West","Portugal","Switzerland","internal",3436,3431,3432,3369,3493,3720,4580,5224,4893,4959,5238,5385,5819,6071,6610
+"PT","DE","ESRA Mediterranean","ESRA North-West","Portugal","Germany","internal",9119,9256,8988,9354,8777,9826,10266,10611,9796,10114,10352,10631,11255,11741,13261
+"PT","ES","ESRA Mediterranean","ESRA Mediterranean","Portugal","Spain","internal",15728,15780,16559,18498,20166,21857,24236,23380,21235,22322,22056,20932,19686,19793,20744
+"PT","FR","ESRA Mediterranean","ESRA North-West","Portugal","France","internal",11230,11359,11160,11556,11084,12669,13217,14393,14155,15312,15936,16645,18047,19870,21158
+"PT","GB","ESRA Mediterranean","ESRA North-West","Portugal","United Kingdom","internal",13137,14316,14807,15737,17171,18465,20504,21145,19233,19169,20557,18991,19960,22245,23304
+"PT","IE","ESRA Mediterranean","ESRA North-West","Portugal","Ireland","internal",0,0,0,0,0,2041,2353,2239,2017,2035,2113,2110,2375,2588,2617
+"PT","IT","ESRA Mediterranean","ESRA Mediterranean","Portugal","Italy","internal",3903,3997,3971,4268,4736,5542,5803,5924,5166,5903,6154,6190,5821,5784,6663
+"PT","NL","ESRA Mediterranean","ESRA North-West","Portugal","Netherlands","internal",3410,3686,3466,3716,3904,4242,4190,4367,4031,4077,4522,5015,5627,5490,5805
+"PT","PT","ESRA Mediterranean","ESRA Mediterranean","Portugal","Portugal","internal",47782,47725,47125,48295,48484,48649,48664,48143,49365,48374,45805,42942,41144,42077,44330
+"RO","AT","ESRA East","ESRA North-West","Romania","Austria","internal",0,0,0,2152,2662,3238,3925,4577,4375,4672,4298,4648,3500,3405,3244
+"RO","BE","ESRA East","ESRA North-West","Romania","Belgium","internal",0,0,0,0,0,0,0,0,0,0,0,0,0,0,2229
+"RO","DE","ESRA East","ESRA North-West","Romania","Germany","internal",2382,2558,2909,3988,5413,6016,7609,10069,8762,8899,9255,9394,9393,9175,9916
+"RO","ES","ESRA East","ESRA Mediterranean","Romania","Spain","internal",0,0,0,0,0,0,2946,4077,4271,4361,4616,3832,3734,3783,4051
+"RO","FR","ESRA East","ESRA North-West","Romania","France","internal",0,0,0,0,2076,2518,2888,2733,3219,3239,3374,3325,3099,3065,3442
+"RO","GB","ESRA East","ESRA North-West","Romania","United Kingdom","internal",0,0,0,0,0,0,0,2262,2573,2823,2873,3203,3262,4330,5406
+"RO","GR","ESRA East","ESRA Mediterranean","Romania","Greece","internal",0,0,0,0,0,2075,2712,2690,2747,2286,1848,0,0,0,0
+"RO","HU","ESRA East","ESRA East","Romania","Hungary","internal",0,0,2280,2888,3180,3989,4247,3865,3811,3414,3972,2364,1994,1995,2037
+"RO","IT","ESRA East","ESRA Mediterranean","Romania","Italy","internal",2664,3457,4613,5898,8625,9353,10709,10026,10864,11868,11184,9839,9163,8712,10134
+"RO","NL","ESRA East","ESRA North-West","Romania","Netherlands","internal",0,0,0,0,0,0,0,0,0,0,0,0,0,1925,1930
+"RO","RO","ESRA East","ESRA East","Romania","Romania","internal",11384,12505,14255,14250,17564,18020,19610,22105,26659,27536,20902,18374,15423,13803,13280
+"RO","TR","ESRA East","ESRA Mediterranean","Romania","Turkey","internal",0,0,0,0,0,0,2172,2523,2413,2314,2639,2729,2727,2840,2860
+"RS","AT","ESRA East","ESRA North-West","Serbia","Austria","internal",0,0,0,0,0,2348,2646,2878,2760,3299,3433,3977,3288,3131,2946
+"RS","CH","ESRA East","ESRA North-West","Serbia","Switzerland","internal",0,0,0,0,0,2859,2524,2433,2491,2578,2892,3036,3271,3336,3293
+"RS","DE","ESRA East","ESRA North-West","Serbia","Germany","internal",0,0,0,0,0,4198,4357,4985,4768,4963,5670,5831,6098,5445,5665
+"RS","FR","ESRA East","ESRA North-West","Serbia","France","internal",0,0,0,0,0,0,0,0,0,0,0,0,2125,2390,2546
+"RS","GR","ESRA East","ESRA Mediterranean","Serbia","Greece","internal",0,0,0,0,0,0,0,0,0,0,0,0,0,1841,0
+"RS","IT","ESRA East","ESRA Mediterranean","Serbia","Italy","internal",0,0,0,0,0,2623,2651,2677,2362,2396,2524,2408,2371,2747,2265
+"RS","RS","ESRA East","ESRA East","Serbia","Serbia","internal",0,0,0,0,0,8869,9323,9839,8402,8985,8308,7986,7826,7176,7643
+"RS","SI","ESRA East","ESRA East","Serbia","Slovenia","internal",0,0,0,0,0,0,0,0,0,1865,0,0,0,0,0
+"RS","TR","ESRA East","ESRA Mediterranean","Serbia","Turkey","internal",0,0,0,0,0,0,0,0,0,0,0,2312,3119,3433,3356
+"SE","AT","ESRA North-West","ESRA North-West","Sweden","Austria","internal",0,0,0,0,2053,2496,2632,2752,2652,2662,2746,2041,0,0,1847
+"SE","BE","ESRA North-West","ESRA North-West","Sweden","Belgium","internal",5317,4610,5999,6204,4734,4318,4023,3867,3830,4337,4145,3977,3735,3789,3878
+"SE","CH","ESRA North-West","ESRA North-West","Sweden","Switzerland","internal",3841,3071,2795,2332,2660,2309,2366,2480,2479,2604,2979,2830,2558,2713,2761
+"SE","DE","ESRA North-West","ESRA North-West","Sweden","Germany","internal",11779,11296,12524,13820,15121,16779,17303,18908,17319,16708,17334,16959,16972,16323,17397
+"SE","DK","ESRA North-West","ESRA North-West","Sweden","Denmark","internal",24272,20809,20192,19885,18305,15424,15912,15085,12058,12317,12310,12575,12283,12703,12775
+"SE","EE","ESRA North-West","Other Europe","Sweden","Estonia","internal",0,0,0,0,0,0,0,2052,1855,1851,1845,2427,1868,0,1902
+"SE","ES","ESRA North-West","ESRA Mediterranean","Sweden","Spain","internal",5882,5794,4926,5137,5318,5912,6508,6718,5065,6177,7312,7770,8936,8860,8789
+"SE","FI","ESRA North-West","ESRA North-West","Sweden","Finland","internal",18855,17562,16621,17409,16077,14920,13661,13654,11687,12521,14026,14314,14512,14507,14405
+"SE","FR","ESRA North-West","ESRA North-West","Sweden","France","internal",6639,7061,5574,6093,5515,5891,6356,6452,4865,4747,5465,5130,5607,5435,5141
+"SE","GB","ESRA North-West","ESRA North-West","Sweden","United Kingdom","internal",12797,12360,12154,12406,11876,11998,11737,11859,9634,10241,12359,11268,11929,11473,11241
+"SE","GR","ESRA North-West","ESRA Mediterranean","Sweden","Greece","internal",2444,2388,2037,0,0,2044,2072,2088,0,1961,2235,2239,2413,3055,3135
+"SE","IT","ESRA North-West","ESRA Mediterranean","Sweden","Italy","internal",2053,0,0,2802,2657,2503,2865,3176,2918,3470,3779,3106,3132,2840,2759
+"SE","LV","ESRA North-West","Other Europe","Sweden","Latvia","internal",0,0,0,0,0,1845,2038,2189,2301,2173,2283,0,1904,0,2315
+"SE","NL","ESRA North-West","ESRA North-West","Sweden","Netherlands","internal",6424,4868,4815,4757,4500,4651,4734,5613,5020,4983,5368,5450,5444,5518,5333
+"SE","NO","ESRA North-West","ESRA North-West","Sweden","Norway","internal",11019,9580,9111,9710,9563,10409,9536,10250,9222,9796,10943,10385,10226,11551,10632
+"SE","PL","ESRA North-West","ESRA East","Sweden","Poland","internal",0,0,0,1830,2020,2773,3322,3297,2965,2582,2804,3171,3465,3527,4129
+"SE","SE","ESRA North-West","ESRA North-West","Sweden","Sweden","internal",200005,186882,174897,175028,168613,162704,158065,155510,144408,142537,153099,146977,148047,147135,144030
+"SE","TR","ESRA North-West","ESRA Mediterranean","Sweden","Turkey","internal",0,0,0,0,1970,0,0,2022,2089,2881,3782,4160,4845,4737,4485
+"SI","AT","ESRA East","ESRA North-West","Slovenia","Austria","internal",0,0,0,2130,2618,2110,2002,2288,2049,1965,0,1874,0,0,0
+"SI","DE","ESRA East","ESRA North-West","Slovenia","Germany","internal",2100,2317,2491,2629,2958,2977,3174,3412,3040,2939,3050,3018,2830,2467,2667
+"SI","FR","ESRA East","ESRA North-West","Slovenia","France","internal",0,0,0,0,0,0,1902,1905,0,0,0,0,0,0,0
+"SI","RS","ESRA East","ESRA East","Slovenia","Serbia","internal",0,0,0,0,0,0,0,0,0,1870,0,0,0,0,0
+"SK","CZ","ESRA East","ESRA East","Slovakia","Czech Republic","internal",2753,2852,3320,3441,3574,3529,4180,4378,3836,3752,3024,1907,0,1875,1908
+"SK","DE","ESRA East","ESRA North-West","Slovakia","Germany","internal",0,0,0,0,2119,2203,2026,2299,0,0,0,0,0,0,0
+"SK","GB","ESRA East","ESRA North-West","Slovakia","United Kingdom","internal",0,0,0,0,0,1925,2043,2979,2234,0,0,0,0,0,2138
+"SK","SK","ESRA East","ESRA East","Slovakia","Slovakia","internal",2268,2877,2870,2880,3085,2475,3760,3755,4313,3228,2809,2545,2111,2075,2294
+"TR","AT","ESRA Mediterranean","ESRA North-West","Turkey","Austria","internal",3839,3844,3371,3914,4125,3589,3705,3879,3489,3977,4668,4623,5086,5192,5334
+"TR","BE","ESRA Mediterranean","ESRA North-West","Turkey","Belgium","internal",3089,2933,2839,3557,4517,4078,4394,4337,4504,4856,4994,5120,5349,5561,5504
+"TR","CH","ESRA Mediterranean","ESRA North-West","Turkey","Switzerland","internal",3073,2759,2766,3034,3499,2694,2887,3360,3591,3941,4355,4660,5108,5342,5590
+"TR","CZ","ESRA Mediterranean","ESRA East","Turkey","Czech Republic","internal",0,0,0,0,0,0,0,0,0,0,1858,1838,1869,1988,2430
+"TR","DE","ESRA Mediterranean","ESRA North-West","Turkey","Germany","internal",31246,33937,32828,35763,37365,33831,36923,38141,37724,42783,44775,45927,45812,49580,54162
+"TR","DK","ESRA Mediterranean","ESRA North-West","Turkey","Denmark","internal",0,0,0,1843,2359,2012,1947,2106,2288,2958,3481,3476,3786,3923,4071
+"TR","ES","ESRA Mediterranean","ESRA Mediterranean","Turkey","Spain","internal",0,0,0,0,0,0,1878,2205,2551,3088,3351,3384,3674,4625,5044
+"TR","FI","ESRA Mediterranean","ESRA North-West","Turkey","Finland","internal",0,0,0,0,0,0,0,0,0,0,0,0,0,2010,2111
+"TR","FR","ESRA Mediterranean","ESRA North-West","Turkey","France","internal",4951,5116,4714,5055,6042,6087,6376,6603,7122,8914,10228,10165,10265,11024,11701
+"TR","GB","ESRA Mediterranean","ESRA North-West","Turkey","United Kingdom","internal",6872,6957,7247,8766,10806,10921,12549,13682,15061,16429,15603,15178,16219,17497,17882
+"TR","GE","ESRA Mediterranean","Other Europe","Turkey","Georgia","internal",0,0,0,0,0,0,0,0,0,0,0,1851,2565,3143,3047
+"TR","GR","ESRA Mediterranean","ESRA Mediterranean","Turkey","Greece","internal",0,0,0,0,2291,2247,2343,2364,2558,3124,3237,3611,4057,4601,5118
+"TR","HU","ESRA Mediterranean","ESRA East","Turkey","Hungary","internal",0,0,0,0,0,0,0,0,0,0,0,0,0,0,2146
+"TR","IT","ESRA Mediterranean","ESRA Mediterranean","Turkey","Italy","internal",2925,2340,2172,2296,2851,3184,3888,4218,4267,5502,6902,7319,8441,9122,10350
+"TR","NL","ESRA Mediterranean","ESRA North-West","Turkey","Netherlands","internal",5318,6179,6399,7996,8597,7078,6826,6704,6819,7823,8247,8531,9363,9684,9632
+"TR","NO","ESRA Mediterranean","ESRA North-West","Turkey","Norway","internal",0,0,0,0,0,0,0,0,0,1858,2377,2711,2868,2347,2386
+"TR","PL","ESRA Mediterranean","ESRA East","Turkey","Poland","internal",0,0,0,0,0,0,0,2142,2285,2402,2654,2341,2318,2714,2830
+"TR","RO","ESRA Mediterranean","ESRA East","Turkey","Romania","internal",0,0,0,0,0,0,2159,2527,2389,2312,2657,2739,2755,2843,2868
+"TR","RS","ESRA Mediterranean","ESRA East","Turkey","Serbia","internal",0,0,0,0,0,0,0,0,0,0,0,2340,3109,3409,3318
+"TR","SE","ESRA Mediterranean","ESRA North-West","Turkey","Sweden","internal",0,0,0,0,1967,0,0,2013,2104,2925,3790,4117,4704,4650,4393
+"TR","TR","ESRA Mediterranean","ESRA Mediterranean","Turkey","Turkey","internal",70125,62598,62084,81432,111567,146813,161275,166857,179454,218949,251633,265007,301873,329324,359224
+"TR","UA","ESRA Mediterranean","ESRA East","Turkey","Ukraine","internal",2372,3090,3301,3955,4750,5519,6491,7622,6425,6791,6893,7518,8557,6410,6790
+"UA","AT","ESRA East","ESRA North-West","Ukraine","Austria","internal",0,0,2028,2325,2672,3371,3792,4286,4028,3936,3825,3665,3500,2505,2337
+"UA","DE","ESRA East","ESRA North-West","Ukraine","Germany","internal",0,0,0,1938,2552,3249,3357,3770,4606,5236,5314,5294,5354,4229,3684
+"UA","FR","ESRA East","ESRA North-West","Ukraine","France","internal",0,0,0,0,0,0,0,0,0,0,1832,1852,2013,0,0
+"UA","IT","ESRA East","ESRA Mediterranean","Ukraine","Italy","internal",0,0,0,0,0,0,1974,2027,1930,1896,1994,2160,2608,2132,0
+"UA","PL","ESRA East","ESRA East","Ukraine","Poland","internal",0,0,0,0,0,0,1845,1949,1937,2138,2364,2870,2373,2650,2548
+"UA","TR","ESRA East","ESRA Mediterranean","Ukraine","Turkey","internal",1983,2831,3305,3983,4699,5421,6377,7472,6242,6637,6774,7213,8166,6135,6518
+"UA","UA","ESRA East","ESRA East","Ukraine","Ukraine","internal",0,8636,33159,37078,34306,37311,38932,39040,31336,33004,33210,34749,31054,17385,12254

@@ -1,0 +1,276 @@
+"origin_iso","destination_iso","originregion_name","destinationregion_name","origin_name","destination_name","ftype","countryflow_2001","countryflow_2002","countryflow_2003","countryflow_2004","countryflow_2005","countryflow_2006","countryflow_2007","countryflow_2008","countryflow_2009","countryflow_2010","countryflow_2011","countryflow_2012","countryflow_2013","countryflow_2014","countryflow_2015"
+"AE","CH","Middle East","Eurocontrol","United Arab Emirates","Switzerland","inbound",0,0,0,0,0,0,0,0,0,0,1828,2023,2024,2218,2355
+"AE","DE","Middle East","Eurocontrol","United Arab Emirates","Germany","inbound",3972,4095,4969,5529,6069,7261,7048,7440,7136,7464,8037,8847,8317,8667,9219
+"AE","FR","Middle East","Eurocontrol","United Arab Emirates","France","inbound",1975,2294,2352,1865,2229,2623,2762,2624,2718,2817,2900,2970,3344,3491,3527
+"AE","GB","Middle East","Eurocontrol","United Arab Emirates","United Kingdom","inbound",5684,5660,6572,8248,9203,9434,9611,10036,9846,9430,9922,10221,11002,11141,11516
+"AE","IT","Middle East","Eurocontrol","United Arab Emirates","Italy","inbound",0,0,0,0,0,0,0,0,2019,2394,2528,2923,3329,3457,4864
+"AE","LB","Middle East","Middle East","United Arab Emirates","Lebanon","overflying",0,0,0,0,0,0,0,0,0,0,0,0,2749,3262,3639
+"AE","NL","Middle East","Eurocontrol","United Arab Emirates","Netherlands","inbound",0,0,2073,2453,2513,2580,2345,2110,0,2639,2877,2317,2595,2651,2710
+"AE","RU","Middle East","Asia","United Arab Emirates","Russian Federation","overflying",0,0,0,0,0,0,0,0,0,0,1992,0,0,2187,0
+"AE","TR","Middle East","Eurocontrol","United Arab Emirates","Turkey","inbound",0,0,0,0,0,0,1998,2455,2709,2970,2989,2918,3516,3585,3348
+"AE","UA","Middle East","Eurocontrol","United Arab Emirates","Ukraine","inbound",0,0,0,0,0,0,0,0,0,0,0,0,2073,0,0
+"AE","US","Middle East","America","United Arab Emirates","United States","overflying",0,0,0,0,0,0,0,0,2582,3019,3156,3243,3690,4666,5982
+"AM","RU","Eurocontrol","Asia","Armenia","Russian Federation","outbound",0,0,0,0,0,0,5292,5821,5564,6237,6006,6950,6291,7472,6224
+"AT","EG","Eurocontrol","Middle East","Austria","Egypt","outbound",0,0,0,0,0,0,0,1862,1835,1995,0,0,0,0,0
+"AT","RU","Eurocontrol","Asia","Austria","Russian Federation","outbound",0,1914,2150,2539,2864,3413,4475,5413,4767,5120,5601,5558,6040,5820,4180
+"AZ","AZ","Asia","Asia","Azerbaijan","Azerbaijan","overflying",0,0,0,0,0,0,2883,4324,4485,2451,3658,3593,3002,2169,0
+"AZ","TR","Asia","Eurocontrol","Azerbaijan","Turkey","inbound",0,0,0,0,0,0,0,1879,2090,2458,3099,3610,4461,4312,4424
+"BE","EG","Eurocontrol","Middle East","Belgium","Egypt","outbound",0,0,0,0,0,0,0,1946,0,0,0,0,0,0,0
+"BE","MA","Eurocontrol","Africa","Belgium","Morocco","outbound",0,0,0,1908,2314,2520,2954,3036,3290,3847,4341,4175,4541,4615,4390
+"BE","US","Eurocontrol","America","Belgium","United States","outbound",4759,3345,3521,3486,3324,3085,3448,4014,4025,4277,4441,3944,3767,3898,4117
+"BG","RU","Eurocontrol","Asia","Bulgaria","Russian Federation","outbound",0,0,0,0,0,0,1843,2178,2130,2798,3242,3609,3978,4169,3249
+"BR","ES","America","Eurocontrol","Brazil","Spain","inbound",0,0,0,0,0,1966,1929,2073,0,0,2039,1916,1905,2142,2201
+"BR","FR","America","Eurocontrol","Brazil","France","inbound",0,0,0,0,0,1844,2341,2761,2414,2374,2395,2099,1954,1868,1880
+"BR","PT","America","Eurocontrol","Brazil","Portugal","inbound",0,1830,2165,2624,2828,2760,3002,3341,2963,3294,3537,3611,3551,3700,3684
+"CA","DE","America","Eurocontrol","Canada","Germany","inbound",2956,2700,2900,3353,3686,3709,3777,4031,3949,4197,4309,4020,3810,3925,3901
+"CA","FR","America","Eurocontrol","Canada","France","inbound",3046,2815,2829,3113,3350,3558,3662,3738,3619,3721,3680,3457,3412,3406,3764
+"CA","GB","America","Eurocontrol","Canada","United Kingdom","inbound",8402,7725,7598,8615,9361,9485,10527,9296,8006,8083,7790,7837,7495,7416,7469
+"CA","NL","America","Eurocontrol","Canada","Netherlands","inbound",0,0,0,0,0,0,0,0,0,0,0,0,0,0,2072
+"CH","AE","Eurocontrol","Middle East","Switzerland","United Arab Emirates","outbound",0,0,0,0,0,0,0,0,0,0,0,2042,2008,2206,2360
+"CH","EG","Eurocontrol","Middle East","Switzerland","Egypt","outbound",0,0,0,0,0,0,0,1900,1981,2045,0,0,0,0,0
+"CH","IL","Eurocontrol","Middle East","Switzerland","Israel","outbound",0,0,0,0,0,0,0,0,0,0,1950,1908,1899,1917,1910
+"CH","RU","Eurocontrol","Asia","Switzerland","Russian Federation","outbound",2179,2267,2458,2615,2755,3044,3491,3931,3743,3868,4496,5093,5084,5064,4448
+"CH","US","Eurocontrol","America","Switzerland","United States","outbound",5859,4630,4782,4592,4796,4911,5509,5450,5356,5847,6172,6234,6303,6372,6404
+"CN","DE","Asia","Eurocontrol","China","Germany","inbound",0,0,0,2209,2737,3477,4051,4449,4240,4567,4856,4825,4868,5522,6206
+"CN","FR","Asia","Eurocontrol","China","France","inbound",0,0,0,2396,2674,2867,2828,2764,2456,2587,2769,3155,3191,3279,3934
+"CN","GB","Asia","Eurocontrol","China","United Kingdom","inbound",0,0,0,0,0,0,0,0,0,0,0,1877,2144,2464,2864
+"CN","NL","Asia","Eurocontrol","China","Netherlands","inbound",0,0,0,0,0,0,2449,2621,2201,2416,2984,3045,3260,3556,3394
+"CO","ES","America","Eurocontrol","Colombia","Spain","inbound",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1836
+"CY","IL","Eurocontrol","Middle East","Cyprus","Israel","outbound",0,2167,0,0,0,0,0,0,0,0,0,0,0,0,0
+"CY","RU","Eurocontrol","Asia","Cyprus","Russian Federation","outbound",0,0,0,0,0,0,0,1905,0,2246,2791,3298,3692,4277,3435
+"CZ","RU","Eurocontrol","Asia","Czech Republic","Russian Federation","outbound",0,1846,1906,2200,2423,2845,3678,4503,4579,4733,5679,6543,7247,6632,4714
+"DE","AE","Eurocontrol","Middle East","Germany","United Arab Emirates","outbound",3004,2874,3604,4195,4883,5614,5842,6239,6363,6586,7075,8229,8149,8246,8876
+"DE","BR","Eurocontrol","America","Germany","Brazil","outbound",0,0,0,0,0,0,0,0,0,0,0,1919,1846,0,0
+"DE","CA","Eurocontrol","America","Germany","Canada","outbound",2858,2637,2827,3226,3657,3784,3722,3964,4020,4176,4340,4137,3981,4047,3970
+"DE","CN","Eurocontrol","Asia","Germany","China","outbound",0,0,0,2220,2825,3589,3891,4231,4023,4715,5172,5154,5460,6332,6839
+"DE","EG","Eurocontrol","Middle East","Germany","Egypt","outbound",5934,5813,5638,7156,7341,7082,8090,8447,8291,8877,7001,8373,6700,6686,8362
+"DE","IL","Eurocontrol","Middle East","Germany","Israel","outbound",2035,0,0,0,0,2030,2067,2283,2695,2933,3000,3315,3679,4054,4550
+"DE","IN","Eurocontrol","Asia","Germany","India","outbound",2027,1868,2126,2584,3118,3713,3704,3845,4322,4523,4266,3623,3661,3442,3389
+"DE","JP","Eurocontrol","Asia","Germany","Japan","outbound",1842,1874,1844,2002,2089,2407,2505,2422,2294,2357,2493,2884,2919,3292,3475
+"DE","KR","Eurocontrol","Asia","Germany","Korea, Republic of","outbound",0,0,0,0,0,0,1896,2181,2207,2128,2116,1921,1939,1962,2191
+"DE","MA","Eurocontrol","Africa","Germany","Morocco","outbound",0,0,0,0,0,0,1864,2083,1986,2374,2615,2287,2957,2846,3300
+"DE","QA","Eurocontrol","Middle East","Germany","Qatar","outbound",0,0,0,0,0,0,0,0,0,0,2293,2417,2637,2696,2643
+"DE","RU","Eurocontrol","Asia","Germany","Russian Federation","outbound",10460,11535,12388,14984,15240,17219,20716,22245,20190,20289,24171,25334,24960,24814,20743
+"DE","SA","Eurocontrol","Middle East","Germany","Saudi Arabia","outbound",0,0,0,0,0,0,0,0,0,0,0,1885,2073,1930,1958
+"DE","SG","Eurocontrol","Asia","Germany","Singapore","outbound",0,0,0,0,0,0,0,0,0,1931,2166,2024,0,0,0
+"DE","TH","Eurocontrol","Asia","Germany","Thailand","outbound",0,0,0,1992,2107,1834,2214,2185,2025,2144,2318,2073,0,1888,0
+"DE","TN","Eurocontrol","Africa","Germany","Tunisia","outbound",7710,5560,4717,4883,4905,4639,4474,4526,4477,4369,3107,3955,4001,4182,3058
+"DE","US","Eurocontrol","America","Germany","United States","outbound",19888,19617,21073,22263,24028,25521,27272,27596,25172,25866,27262,26951,26396,25433,25146
+"DK","IS","Eurocontrol","America","Denmark","Iceland","outbound",0,0,0,0,0,0,1852,0,0,0,0,0,0,0,0
+"DK","US","Eurocontrol","America","Denmark","United States","outbound",0,0,0,0,0,1930,2159,2073,1969,2009,1859,0,0,2152,2210
+"DZ","ES","Africa","Eurocontrol","Algeria","Spain","inbound",0,0,0,0,0,0,0,0,1978,2641,2787,2565,3123,3312,3575
+"DZ","FR","Africa","Eurocontrol","Algeria","France","inbound",7776,9980,10333,10558,10525,11636,11992,12442,13491,14771,15643,16788,18224,18984,19649
+"DZ","TR","Africa","Eurocontrol","Algeria","Turkey","inbound",0,0,0,0,0,0,0,0,0,0,0,0,0,1906,2289
+"EE","RU","Eurocontrol","Asia","Estonia","Russian Federation","outbound",0,0,0,0,0,0,0,0,0,0,0,2515,1935,0,0
+"EG","AT","Middle East","Eurocontrol","Egypt","Austria","inbound",0,0,0,0,0,0,0,1855,1848,2009,0,0,0,0,0
+"EG","BE","Middle East","Eurocontrol","Egypt","Belgium","inbound",0,0,0,0,1992,1939,2148,2462,2247,2416,2071,0,0,0,0
+"EG","CH","Middle East","Eurocontrol","Egypt","Switzerland","inbound",0,0,0,0,0,0,0,1890,1959,2039,0,0,0,0,0
+"EG","DE","Middle East","Eurocontrol","Egypt","Germany","inbound",5863,5763,5672,7098,7294,7028,7928,8234,8148,8717,6778,8193,6619,6516,8199
+"EG","FR","Middle East","Eurocontrol","Egypt","France","inbound",2659,2425,2555,3452,3513,2676,3167,3725,3508,3846,2462,2235,0,0,0
+"EG","GB","Middle East","Eurocontrol","Egypt","United Kingdom","inbound",2253,2392,2665,2890,4098,5522,5474,5933,6537,7101,6071,5542,5731,5725,5570
+"EG","IT","Middle East","Eurocontrol","Egypt","Italy","inbound",5825,6154,7185,8229,7111,6949,8046,8486,8378,9051,5629,6719,5561,5103,3979
+"EG","LB","Middle East","Middle East","Egypt","Lebanon","overflying",0,0,0,0,0,0,0,0,0,2013,0,1957,2500,2324,2427
+"EG","NL","Middle East","Eurocontrol","Egypt","Netherlands","inbound",0,0,0,0,0,0,0,0,0,1861,1922,2051,0,0,0
+"EG","PL","Middle East","Eurocontrol","Egypt","Poland","inbound",0,0,0,0,0,0,1845,2954,2464,3301,2195,2775,0,0,0
+"EG","RU","Middle East","Asia","Egypt","Russian Federation","overflying",0,0,2152,3118,3586,4588,6496,7654,9211,12282,7970,10328,10066,13417,10491
+"EG","TR","Middle East","Eurocontrol","Egypt","Turkey","inbound",0,0,0,0,0,0,0,0,1998,2591,2547,2645,3212,3391,3715
+"EG","UA","Middle East","Eurocontrol","Egypt","Ukraine","inbound",0,0,0,0,0,0,2411,2985,0,2259,1851,0,1834,2146,1869
+"ES","BR","Eurocontrol","America","Spain","Brazil","outbound",0,0,0,0,0,2026,1951,2133,0,1922,2285,2130,2113,2394,2270
+"ES","CO","Eurocontrol","America","Spain","Colombia","outbound",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1853
+"ES","DZ","Eurocontrol","Africa","Spain","Algeria","outbound",0,0,0,0,0,0,0,0,1990,2639,2796,2574,3089,3272,3527
+"ES","IL","Eurocontrol","Middle East","Spain","Israel","outbound",0,0,0,0,0,0,0,2039,1934,2241,2486,2240,2188,2325,2489
+"ES","MA","Eurocontrol","Africa","Spain","Morocco","outbound",5983,5370,5283,6091,6985,6772,8262,7822,8861,9834,9270,7740,8255,8193,8362
+"ES","MX","Eurocontrol","America","Spain","Mexico","outbound",0,0,0,0,0,1967,1888,1913,0,1869,1838,0,0,0,0
+"ES","RU","Eurocontrol","Asia","Spain","Russian Federation","outbound",0,1899,1845,2059,2557,2893,3863,4477,3549,4500,6281,7834,9358,9255,6572
+"ES","US","Eurocontrol","America","Spain","United States","outbound",4657,4010,3949,4040,4024,4379,5169,5976,6324,7068,7795,7243,6886,7325,7645
+"FI","RU","Eurocontrol","Asia","Finland","Russian Federation","outbound",2443,2308,2405,2537,2435,2610,2987,3560,3204,3188,3405,3057,2776,3526,3439
+"FR","AE","Eurocontrol","Middle East","France","United Arab Emirates","outbound",2010,2031,2091,0,2251,2598,2698,2792,2809,2878,3008,3128,3458,3536,3651
+"FR","BR","Eurocontrol","America","France","Brazil","outbound",0,0,0,0,0,1843,2363,2773,2455,2385,2380,2119,1952,1879,1928
+"FR","CA","Eurocontrol","America","France","Canada","outbound",2999,2784,2822,3166,3391,3564,3628,3777,3616,3708,3713,3481,3428,3427,3816
+"FR","CN","Eurocontrol","Asia","France","China","outbound",0,0,0,2398,2673,2889,2960,2885,2791,3058,3282,3582,3433,3537,4156
+"FR","DZ","Eurocontrol","Africa","France","Algeria","outbound",7887,10058,10282,10499,10530,11724,12093,12597,13582,14833,15673,16796,18201,18977,19666
+"FR","EG","Eurocontrol","Middle East","France","Egypt","outbound",2691,2541,2685,3557,3697,2882,3364,3809,3546,3896,2462,2273,0,0,0
+"FR","IL","Eurocontrol","Middle East","France","Israel","outbound",1991,0,0,1951,2062,2403,2632,2755,2542,2658,2975,3022,3473,3600,3817
+"FR","IN","Eurocontrol","Asia","France","India","outbound",0,0,0,0,1862,2340,2171,2236,0,0,1915,0,0,1991,2193
+"FR","JP","Eurocontrol","Asia","France","Japan","outbound",1968,2056,2284,2540,2818,2937,2910,2754,2441,2084,2226,2271,2253,2714,2774
+"FR","MA","Eurocontrol","Africa","France","Morocco","outbound",10882,11488,12490,13615,15644,17296,20218,20698,20587,22024,21256,20426,21530,21431,21103
+"FR","MQ","Eurocontrol","America","France","Martinique","outbound",2896,3012,2336,2653,2638,2697,2816,2768,2668,2666,2829,2907,3203,3026,3024
+"FR","RU","Eurocontrol","Asia","France","Russian Federation","outbound",3368,3926,4768,5567,6151,6740,7393,8574,7316,7551,8702,9629,10538,10044,8486
+"FR","SA","Eurocontrol","Middle East","France","Saudi Arabia","outbound",0,0,0,0,0,0,0,0,0,1835,0,0,0,0,0
+"FR","SN","Eurocontrol","Africa","France","Senegal","outbound",0,0,2052,1954,1910,1928,1837,0,0,0,0,0,0,0,0
+"FR","TN","Eurocontrol","Africa","France","Tunisia","outbound",12141,11329,10951,12231,12955,13569,14840,15586,15359,15792,12297,14463,12860,12102,11080
+"FR","US","Eurocontrol","America","France","United States","outbound",17884,16463,15444,16431,16913,16763,17070,18111,17054,16934,18267,17313,17354,17284,17968
+"GB","AE","Eurocontrol","Middle East","United Kingdom","United Arab Emirates","outbound",5134,5141,5788,7359,8242,8630,8890,9483,9567,9383,10019,10381,11039,11070,11401
+"GB","CA","Eurocontrol","America","United Kingdom","Canada","outbound",8188,7542,7364,8384,9200,9198,10172,9032,7766,7942,7722,7689,7513,7360,7401
+"GB","CN","Eurocontrol","Asia","United Kingdom","China","outbound",0,0,0,0,0,0,0,0,0,0,0,1876,2150,2454,2809
+"GB","EG","Eurocontrol","Middle East","United Kingdom","Egypt","outbound",1851,2073,2243,2693,4022,5326,5231,5708,6426,6972,5945,5530,5674,5689,5487
+"GB","HK","Eurocontrol","Asia","United Kingdom","Hong Kong","outbound",2119,2095,2008,2402,2785,3465,4089,3842,3611,3152,3264,3142,2793,2936,3109
+"GB","IL","Eurocontrol","Middle East","United Kingdom","Israel","outbound",0,0,0,1834,1856,2001,2085,2466,2594,2263,2323,2227,2826,2831,3096
+"GB","IN","Eurocontrol","Asia","United Kingdom","India","outbound",1999,1858,1845,2016,3461,5743,6204,6149,5896,5699,5952,5033,5646,5920,5818
+"GB","IS","Eurocontrol","America","United Kingdom","Iceland","outbound",2412,1990,2328,2826,2584,2821,3172,2487,2086,2133,2396,2544,3143,3702,4259
+"GB","JP","Eurocontrol","Asia","United Kingdom","Japan","outbound",2335,2369,2304,2556,2560,2344,2294,2269,1841,0,0,0,0,0,0
+"GB","MA","Eurocontrol","Africa","United Kingdom","Morocco","outbound",0,0,0,0,0,2523,3409,2303,2431,3006,3329,2967,3346,3989,4132
+"GB","MX","Eurocontrol","America","United Kingdom","Mexico","outbound",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1909
+"GB","NG","Eurocontrol","Africa","United Kingdom","Nigeria","outbound",0,0,0,0,0,0,0,0,0,1859,1892,1863,0,0,0
+"GB","QA","Eurocontrol","Middle East","United Kingdom","Qatar","outbound",0,0,0,0,0,1939,2083,2312,2251,2254,2343,2498,2455,2945,3463
+"GB","RU","Eurocontrol","Asia","United Kingdom","Russian Federation","outbound",2574,2578,2861,3489,3825,4392,5334,5846,5115,5156,5764,5739,5640,5696,4879
+"GB","SA","Eurocontrol","Middle East","United Kingdom","Saudi Arabia","outbound",0,0,0,0,0,0,0,0,0,2020,2204,2187,2064,2305,2312
+"GB","SG","Eurocontrol","Asia","United Kingdom","Singapore","outbound",2455,2358,2670,2851,2970,2845,2851,2929,2685,2471,2534,2653,2311,2135,2178
+"GB","TN","Eurocontrol","Africa","United Kingdom","Tunisia","outbound",1888,0,0,0,1982,2163,1986,0,0,2197,0,2103,2478,2436,0
+"GB","US","Eurocontrol","America","United Kingdom","United States","outbound",44427,43401,42828,45408,46956,48129,50565,49781,43362,41596,44414,44632,44471,45958,48271
+"GB","ZA","Eurocontrol","Africa","United Kingdom","South Africa","outbound",2644,2671,2757,2984,2897,2963,3133,2919,2888,2835,2814,2807,2617,2610,2521
+"GE","RU","Eurocontrol","Asia","Georgia","Russian Federation","outbound",0,0,0,0,0,0,0,0,0,0,0,0,0,0,2210
+"GR","IL","Eurocontrol","Middle East","Greece","Israel","outbound",0,0,0,0,0,0,0,0,0,2418,2725,2881,2898,3431,3739
+"GR","RU","Eurocontrol","Asia","Greece","Russian Federation","outbound",0,0,0,1865,0,2442,3174,3895,3053,3723,5310,6449,9288,8776,5410
+"HK","GB","Asia","Eurocontrol","Hong Kong","United Kingdom","inbound",1826,1924,1890,2301,2665,3363,4026,3784,3551,3099,3218,3132,2769,2902,3082
+"IE","US","Eurocontrol","America","Ireland","United States","outbound",4835,3920,4845,5011,5885,6599,7318,7764,6927,6591,6873,6295,6809,7452,8166
+"IL","BE","Middle East","Eurocontrol","Israel","Belgium","inbound",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1917
+"IL","CH","Middle East","Eurocontrol","Israel","Switzerland","inbound",0,0,0,0,0,0,0,0,0,0,1946,1887,1873,1901,1894
+"IL","DE","Middle East","Eurocontrol","Israel","Germany","inbound",1996,1963,0,0,2013,2323,2309,2567,2931,3161,3188,3511,3782,4129,4499
+"IL","ES","Middle East","Eurocontrol","Israel","Spain","inbound",0,0,0,0,0,0,0,2032,1931,2246,2458,2225,2202,2318,2464
+"IL","FR","Middle East","Eurocontrol","Israel","France","inbound",1993,0,0,1964,2110,2426,2671,2819,2592,2748,3024,3089,3511,3682,3867
+"IL","GB","Middle East","Eurocontrol","Israel","United Kingdom","inbound",1937,1849,0,1864,1865,2011,2108,2452,2582,2260,2273,2226,2805,2850,3066
+"IL","GR","Middle East","Eurocontrol","Israel","Greece","inbound",0,0,0,0,0,0,0,0,0,2167,2527,2681,2706,3221,3560
+"IL","IT","Middle East","Eurocontrol","Israel","Italy","inbound",2063,0,0,1977,2322,2356,2723,3023,3343,3744,3630,3595,3833,4081,4208
+"IL","RU","Middle East","Asia","Israel","Russian Federation","overflying",0,0,0,0,0,2005,2335,2974,2913,3489,3819,3762,3794,3989,3305
+"IL","TR","Middle East","Eurocontrol","Israel","Turkey","inbound",2783,2443,2728,2639,3028,3173,3827,4849,3744,2634,2645,3040,4595,5372,6062
+"IL","UA","Middle East","Eurocontrol","Israel","Ukraine","inbound",0,0,0,0,0,0,0,0,0,0,2158,2256,2011,1905,2114
+"IL","US","Middle East","America","Israel","United States","overflying",0,0,0,0,1896,2375,2621,2739,2740,2897,2720,2622,2666,2663,2747
+"IN","DE","Asia","Eurocontrol","India","Germany","inbound",0,0,0,2323,2823,3190,3250,3374,4055,4092,3881,3858,3850,3804,3710
+"IN","FR","Asia","Eurocontrol","India","France","inbound",0,0,0,0,1830,2077,1867,0,0,0,0,0,0,0,0
+"IN","GB","Asia","Eurocontrol","India","United Kingdom","inbound",2034,1957,1952,2529,4009,6283,6853,6721,6547,6294,6523,5545,6072,6070,5889
+"IN","US","Asia","America","India","United States","overflying",0,0,0,0,0,0,0,1898,1827,0,1850,0,0,0,0
+"IQ","TR","Middle East","Eurocontrol","Iraq","Turkey","inbound",0,0,0,0,0,0,0,0,0,0,1893,3346,3885,4711,6539
+"IR","SY","Middle East","Middle East","Iran, Islamic Republic of","Syrian Arab Republic","overflying",0,0,0,0,0,0,0,0,0,2369,0,0,0,0,0
+"IR","TR","Middle East","Eurocontrol","Iran, Islamic Republic of","Turkey","inbound",0,0,0,0,0,0,0,1904,2566,3480,4457,5132,5809,7874,8881
+"IS","DK","America","Eurocontrol","Iceland","Denmark","inbound",0,0,0,0,0,0,1852,0,0,0,0,0,0,0,0
+"IS","GB","America","Eurocontrol","Iceland","United Kingdom","inbound",2177,1888,2365,2682,2770,3063,3223,2811,2218,2273,2361,2420,2933,3535,4024
+"IT","AE","Eurocontrol","Middle East","Italy","United Arab Emirates","outbound",0,0,0,0,0,0,0,0,2300,2842,2849,3241,3515,3494,4768
+"IT","EG","Eurocontrol","Middle East","Italy","Egypt","outbound",5545,6010,6975,8122,6942,6750,7815,8299,8276,8964,5575,6648,5482,4995,3891
+"IT","IL","Eurocontrol","Middle East","Italy","Israel","outbound",1914,0,0,1947,2316,2337,2675,3010,3344,3740,3658,3613,3839,4138,4180
+"IT","MA","Eurocontrol","Africa","Italy","Morocco","outbound",1957,1833,1832,2031,2411,2595,3288,3569,3912,5227,4967,3905,4571,4514,4777
+"IT","QA","Eurocontrol","Middle East","Italy","Qatar","outbound",0,0,0,0,0,0,0,0,0,0,0,1975,2076,2139,2200
+"IT","RU","Eurocontrol","Asia","Italy","Russian Federation","outbound",2673,2868,3289,3624,4228,5436,7154,7502,6485,7559,8870,9640,11803,11731,9146
+"IT","TN","Eurocontrol","Africa","Italy","Tunisia","outbound",4709,4500,4827,5162,5497,5394,5326,5034,4553,4536,2794,3487,3614,3695,2472
+"IT","US","Eurocontrol","America","Italy","United States","outbound",7555,6713,6623,7347,7750,8284,9015,9144,7843,7782,7749,7175,7328,8233,8364
+"JO","TR","Middle East","Eurocontrol","Jordan","Turkey","inbound",0,0,0,0,0,0,0,0,0,0,1908,2056,2127,2453,2536
+"JP","DE","Asia","Eurocontrol","Japan","Germany","inbound",1841,1863,1846,2004,2063,2139,2171,2164,2093,2238,2459,2885,2931,3278,3430
+"JP","FR","Asia","Eurocontrol","Japan","France","inbound",1955,2052,2274,2545,2818,2939,2896,2749,2411,2051,2148,2194,2197,2833,2975
+"JP","GB","Asia","Eurocontrol","Japan","United Kingdom","inbound",2351,2354,2300,2556,2543,2218,2193,2181,0,0,0,0,0,0,0
+"KG","TR","Asia","Eurocontrol","Kyrgyzstan","Turkey","inbound",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1880
+"KR","DE","Asia","Eurocontrol","Korea, Republic of","Germany","inbound",0,0,0,0,0,0,0,1826,0,0,1953,0,0,0,0
+"KW","TR","Middle East","Eurocontrol","Kuwait","Turkey","inbound",0,0,0,0,0,0,0,0,0,0,0,0,0,2128,2876
+"KZ","DE","Asia","Eurocontrol","Kazakhstan","Germany","inbound",0,0,0,0,0,0,2467,2684,1973,1948,0,0,0,0,0
+"KZ","TR","Asia","Eurocontrol","Kazakhstan","Turkey","inbound",0,0,0,0,0,1874,1995,2296,2287,2432,3124,3188,3403,3765,3399
+"LB","AE","Middle East","Middle East","Lebanon","United Arab Emirates","overflying",0,0,0,0,0,0,0,0,0,0,0,0,2768,3262,3625
+"LB","EG","Middle East","Middle East","Lebanon","Egypt","overflying",0,0,0,0,0,0,0,0,0,2110,0,2004,2551,2311,2417
+"LB","TR","Middle East","Eurocontrol","Lebanon","Turkey","inbound",0,0,0,0,0,0,0,0,0,0,2354,2854,2787,3149,4425
+"LV","RU","Eurocontrol","Asia","Latvia","Russian Federation","outbound",0,0,0,0,0,0,0,0,0,0,3186,3881,4188,4235,3662
+"LY","TR","Africa","Eurocontrol","Libya","Turkey","inbound",0,0,0,0,0,0,0,0,0,2291,0,3205,3575,3048,2028
+"MA","BE","Africa","Eurocontrol","Morocco","Belgium","inbound",0,0,0,1902,2336,2537,2940,2993,3294,3862,4370,4185,4548,4547,4366
+"MA","DE","Africa","Eurocontrol","Morocco","Germany","inbound",0,0,0,0,0,0,1848,2064,1984,2436,2627,2235,2961,2853,3294
+"MA","ES","Africa","Eurocontrol","Morocco","Spain","inbound",5546,5184,4827,5401,6079,5932,7650,7717,8841,9756,9259,7841,8312,8244,8402
+"MA","FR","Africa","Eurocontrol","Morocco","France","inbound",10705,11656,12653,13760,15579,17246,20180,20727,20600,21771,21111,20462,21613,21470,21072
+"MA","GB","Africa","Eurocontrol","Morocco","United Kingdom","inbound",0,0,0,0,0,2500,3433,2331,2451,3007,3328,2952,3340,4000,4131
+"MA","IT","Africa","Eurocontrol","Morocco","Italy","inbound",1910,1859,1872,2034,2408,2625,3270,3582,3909,5241,4982,3905,4604,4501,4782
+"MA","MA","Africa","Africa","Morocco","Morocco","overflying",12542,15165,15203,14297,8102,20126,19852,21012,23022,24360,20319,16064,17240,19044,19259
+"MA","NL","Africa","Eurocontrol","Morocco","Netherlands","inbound",0,0,0,0,0,0,0,0,0,0,0,0,2220,2238,2148
+"MD","RU","Eurocontrol","Asia","Moldova, Republic of","Russian Federation","outbound",0,0,0,0,0,0,0,0,0,0,0,0,1831,2447,3883
+"MQ","FR","America","Eurocontrol","Martinique","France","inbound",3050,3112,2398,2716,2621,2730,2920,2840,2748,2791,2935,2914,3223,3047,3039
+"MX","ES","America","Eurocontrol","Mexico","Spain","inbound",0,0,0,0,1852,1991,1877,1926,0,1865,0,0,0,0,0
+"MX","GB","America","Eurocontrol","Mexico","United Kingdom","inbound",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1893
+"NG","GB","Africa","Eurocontrol","Nigeria","United Kingdom","inbound",0,0,0,0,0,0,0,1835,0,0,1845,1848,0,0,0
+"NL","AE","Eurocontrol","Middle East","Netherlands","United Arab Emirates","outbound",0,1950,2181,2200,2349,2237,1923,0,0,2519,2722,1964,2455,2700,2641
+"NL","CA","Eurocontrol","America","Netherlands","Canada","outbound",0,0,0,0,0,0,0,0,0,0,0,0,0,0,2058
+"NL","CN","Eurocontrol","Asia","Netherlands","China","outbound",0,0,0,0,0,0,1956,2192,1948,2434,2721,2943,3169,3314,3224
+"NL","MA","Eurocontrol","Africa","Netherlands","Morocco","outbound",0,0,0,0,0,0,0,0,0,0,0,0,2214,2223,2142
+"NL","RU","Eurocontrol","Asia","Netherlands","Russian Federation","outbound",0,0,0,0,0,0,1870,2223,2236,2636,2807,2846,2648,3129,3233
+"NL","US","Eurocontrol","America","Netherlands","United States","outbound",11033,10984,11233,11760,12606,12109,12661,13465,11528,11082,11670,11155,11140,11128,11523
+"PL","EG","Eurocontrol","Middle East","Poland","Egypt","outbound",0,0,0,0,0,0,1841,2956,2463,3279,2197,2760,0,0,0
+"PL","RU","Eurocontrol","Asia","Poland","Russian Federation","outbound",0,0,0,0,0,0,1873,1850,0,2005,2517,2653,2526,2242,1969
+"PT","BR","Eurocontrol","America","Portugal","Brazil","outbound",0,0,2152,2609,2867,2803,3100,3448,2995,3300,3549,3607,3558,3705,3684
+"PT","US","Eurocontrol","America","Portugal","United States","outbound",0,0,0,0,0,0,0,0,0,0,0,0,0,1833,0
+"QA","DE","Middle East","Eurocontrol","Qatar","Germany","inbound",0,0,0,0,0,0,0,0,0,0,2203,2440,2572,2609,2556
+"QA","GB","Middle East","Eurocontrol","Qatar","United Kingdom","inbound",0,0,0,0,0,1892,2095,2322,2273,2258,2326,2505,2454,3103,3714
+"QA","IT","Middle East","Eurocontrol","Qatar","Italy","inbound",0,0,0,0,0,0,0,0,0,0,0,1973,2054,2010,1995
+"QA","TR","Middle East","Eurocontrol","Qatar","Turkey","inbound",0,0,0,0,0,0,0,0,0,0,0,0,0,1953,2995
+"QA","US","Middle East","America","Qatar","United States","overflying",0,0,0,0,0,0,0,0,0,0,0,0,0,2044,2480
+"RS","RU","Eurocontrol","Asia","Serbia","Russian Federation","outbound",0,0,0,0,0,0,2080,2494,2365,2623,2851,3024,3780,4064,3834
+"RU","AE","Asia","Middle East","Russian Federation","United Arab Emirates","overflying",0,0,0,0,0,0,0,0,0,0,2439,2741,2874,3328,2598
+"RU","AM","Asia","Eurocontrol","Russian Federation","Armenia","inbound",0,0,0,0,0,0,5227,5771,5535,6245,5998,6916,6274,7496,6210
+"RU","AT","Asia","Eurocontrol","Russian Federation","Austria","inbound",0,1914,2163,2557,2834,3417,4491,5393,4904,5319,5756,5739,6302,6074,4425
+"RU","BG","Asia","Eurocontrol","Russian Federation","Bulgaria","inbound",0,0,0,0,0,0,1865,2164,2116,2824,3245,3622,3992,4148,3248
+"RU","CH","Asia","Eurocontrol","Russian Federation","Switzerland","inbound",2169,2260,2513,2644,2811,2998,3465,3937,3739,3829,4465,4991,5067,5033,4432
+"RU","CY","Asia","Eurocontrol","Russian Federation","Cyprus","inbound",0,0,0,0,0,0,0,1922,0,2272,2775,3296,3677,4279,3434
+"RU","CZ","Asia","Eurocontrol","Russian Federation","Czech Republic","inbound",0,0,1852,2129,2307,2725,3571,4496,4540,4717,5689,6600,7249,6636,4711
+"RU","DE","Asia","Eurocontrol","Russian Federation","Germany","inbound",10495,11603,12433,14944,15317,17171,20827,22362,20428,20593,24851,25713,25431,25352,21042
+"RU","EE","Asia","Eurocontrol","Russian Federation","Estonia","inbound",0,0,0,0,0,0,0,0,0,0,0,2517,1893,0,0
+"RU","EG","Asia","Middle East","Russian Federation","Egypt","overflying",0,0,2234,3117,3598,4572,6522,7660,9203,12242,8102,10427,10121,13476,10429
+"RU","ES","Asia","Eurocontrol","Russian Federation","Spain","inbound",0,1860,0,2042,2518,2864,3860,4413,3513,4451,6256,7788,9298,9233,6590
+"RU","FI","Asia","Eurocontrol","Russian Federation","Finland","inbound",2413,2237,2408,2540,2445,2543,2949,3607,3179,3180,3420,3053,2806,3562,3511
+"RU","FR","Asia","Eurocontrol","Russian Federation","France","inbound",3391,3963,4739,5595,6079,6693,7251,8631,7199,7454,8617,9565,10348,9967,8431
+"RU","GB","Asia","Eurocontrol","Russian Federation","United Kingdom","inbound",2694,2632,2961,3567,3848,4462,5369,5901,5145,5216,5922,5746,5732,5755,5015
+"RU","GE","Asia","Eurocontrol","Russian Federation","Georgia","inbound",0,0,0,0,0,0,0,0,0,0,0,0,0,0,2216
+"RU","GR","Asia","Eurocontrol","Russian Federation","Greece","inbound",0,0,0,0,0,2425,3170,3881,3049,3757,5274,6399,9250,8762,5419
+"RU","IL","Asia","Middle East","Russian Federation","Israel","overflying",0,0,0,0,0,1983,2303,2968,2916,3465,3824,3799,3810,3963,3299
+"RU","IT","Asia","Eurocontrol","Russian Federation","Italy","inbound",2623,2837,3260,3606,4199,5451,7196,7459,6429,7506,8812,9643,11753,11734,9185
+"RU","LV","Asia","Eurocontrol","Russian Federation","Latvia","inbound",0,0,0,0,0,0,0,0,0,0,3187,3911,4215,4256,3696
+"RU","MD","Asia","Eurocontrol","Russian Federation","Moldova, Republic of","inbound",0,0,0,0,0,0,0,0,0,0,0,0,1838,2435,3880
+"RU","NL","Asia","Eurocontrol","Russian Federation","Netherlands","inbound",0,0,0,0,0,0,0,2058,2179,2637,2762,2838,2688,3219,3279
+"RU","PL","Asia","Eurocontrol","Russian Federation","Poland","inbound",0,0,0,0,0,0,1934,1953,0,2041,2553,2714,2572,2303,2000
+"RU","RS","Asia","Eurocontrol","Russian Federation","Serbia","inbound",0,0,0,0,0,0,2073,2536,2399,2607,2896,3083,3846,4132,3900
+"RU","RU","Asia","Asia","Russian Federation","Russian Federation","overflying",0,0,2268,0,2223,10613,14806,18519,13364,10319,12545,11591,12013,12264,12461
+"RU","SE","Asia","Eurocontrol","Russian Federation","Sweden","inbound",0,0,0,0,0,0,0,1826,0,0,1833,1993,0,1871,0
+"RU","TR","Asia","Eurocontrol","Russian Federation","Turkey","inbound",7102,8471,9448,11592,12634,12362,14570,16236,16216,18846,20691,20855,23996,26151,21873
+"RU","UA","Asia","Eurocontrol","Russian Federation","Ukraine","inbound",0,2134,7998,9440,9945,10496,10997,12028,11200,13901,16434,19410,21708,10817,7393
+"RU","US","Asia","America","Russian Federation","United States","overflying",0,0,0,0,0,0,0,0,2081,2049,2391,2478,2787,2773,2687
+"SA","DE","Middle East","Eurocontrol","Saudi Arabia","Germany","inbound",0,0,0,0,0,0,0,0,0,0,0,0,1833,0,1868
+"SA","GB","Middle East","Eurocontrol","Saudi Arabia","United Kingdom","inbound",0,0,0,0,0,0,0,0,0,1999,2131,2104,1953,2298,2281
+"SA","TR","Middle East","Eurocontrol","Saudi Arabia","Turkey","inbound",0,0,1860,2319,2648,3004,3658,4234,4033,4789,6206,7197,8061,9576,10607
+"SE","RU","Eurocontrol","Asia","Sweden","Russian Federation","outbound",0,0,0,0,0,0,0,1843,0,0,0,1929,0,1917,0
+"SG","DE","Asia","Eurocontrol","Singapore","Germany","inbound",0,0,0,0,0,0,0,0,0,1933,2144,2025,0,0,0
+"SG","GB","Asia","Eurocontrol","Singapore","United Kingdom","inbound",2382,2349,2617,2838,2961,2849,2838,2905,2656,2456,2527,2647,2300,2131,2173
+"SN","FR","Africa","Eurocontrol","Senegal","France","inbound",0,0,2139,2073,2061,2046,1940,0,0,0,0,0,0,0,0
+"TH","DE","Asia","Eurocontrol","Thailand","Germany","inbound",0,0,0,1832,1926,0,2034,2066,1953,1992,1990,0,0,0,0
+"TJ","TR","Asia","Eurocontrol","Tajikistan","Turkey","inbound",0,0,0,0,0,0,0,0,0,0,0,0,1836,0,0
+"TN","DE","Africa","Eurocontrol","Tunisia","Germany","inbound",7692,5535,4689,4876,4884,4625,4457,4516,4457,4335,3081,3912,3934,4137,3025
+"TN","FR","Africa","Eurocontrol","Tunisia","France","inbound",12108,11290,11002,12201,12883,13456,14789,15508,15266,15768,12377,14472,12904,12106,11074
+"TN","GB","Africa","Eurocontrol","Tunisia","United Kingdom","inbound",1884,0,0,0,1999,2172,1983,0,0,2205,0,2099,2469,2426,0
+"TN","IT","Africa","Eurocontrol","Tunisia","Italy","inbound",4694,4518,4849,5153,5520,5410,5320,5035,4585,4547,2800,3514,3637,3713,2497
+"TR","AE","Eurocontrol","Middle East","Turkey","United Arab Emirates","outbound",0,0,0,0,0,0,1940,2481,2635,2884,2928,2841,3399,3464,3272
+"TR","AZ","Eurocontrol","Asia","Turkey","Azerbaijan","outbound",0,0,0,0,0,0,0,1864,2100,2466,3096,3613,4468,4302,4420
+"TR","DZ","Eurocontrol","Africa","Turkey","Algeria","outbound",0,0,0,0,0,0,0,0,0,0,0,0,0,2082,2430
+"TR","EG","Eurocontrol","Middle East","Turkey","Egypt","outbound",0,0,0,0,0,0,0,0,1905,2482,2349,2467,3114,3208,3775
+"TR","IL","Eurocontrol","Middle East","Turkey","Israel","outbound",2740,2637,2852,2613,3034,3164,3902,4912,3776,2681,2627,2981,4566,5332,5966
+"TR","IQ","Eurocontrol","Middle East","Turkey","Iraq","outbound",0,0,0,0,0,0,0,0,0,0,2087,3391,4054,4676,6556
+"TR","IR","Eurocontrol","Middle East","Turkey","Iran, Islamic Republic of","outbound",0,0,0,0,0,0,0,2017,2710,3665,4910,5622,6165,8292,9167
+"TR","JO","Eurocontrol","Middle East","Turkey","Jordan","outbound",0,0,0,0,0,0,0,0,0,0,0,1949,2037,2247,2367
+"TR","KW","Eurocontrol","Middle East","Turkey","Kuwait","outbound",0,0,0,0,0,0,0,0,0,0,0,0,0,2147,2948
+"TR","KZ","Eurocontrol","Asia","Turkey","Kazakhstan","outbound",0,0,0,0,0,1984,2167,2449,2424,2612,3220,3318,3614,3905,3538
+"TR","LB","Eurocontrol","Middle East","Turkey","Lebanon","outbound",0,0,0,0,0,0,0,0,0,0,2430,2845,2852,3252,4516
+"TR","LY","Eurocontrol","Africa","Turkey","Libya","outbound",0,0,0,0,0,0,0,0,0,2369,0,3279,3657,3094,1945
+"TR","QA","Eurocontrol","Middle East","Turkey","Qatar","outbound",0,0,0,0,0,0,0,0,0,0,0,0,0,1960,3001
+"TR","RU","Eurocontrol","Asia","Turkey","Russian Federation","outbound",7150,8545,9446,11677,12722,12415,14590,16158,16213,18949,20844,20929,24072,26301,21848
+"TR","SA","Eurocontrol","Middle East","Turkey","Saudi Arabia","outbound",0,0,0,2216,2663,2888,3519,4253,4245,4897,6348,7264,8056,9548,10433
+"TR","US","Eurocontrol","America","Turkey","United States","outbound",0,0,0,0,0,0,0,0,0,0,1853,2372,2688,2782,3344
+"UA","AE","Eurocontrol","Middle East","Ukraine","United Arab Emirates","outbound",0,0,0,0,0,0,0,0,0,0,0,0,2065,0,0
+"UA","EG","Eurocontrol","Middle East","Ukraine","Egypt","outbound",0,0,0,0,0,0,2423,2997,0,2276,1869,0,1849,2155,1883
+"UA","IL","Eurocontrol","Middle East","Ukraine","Israel","outbound",0,0,0,0,0,0,0,0,0,0,2167,2247,1992,1893,2092
+"UA","RU","Eurocontrol","Asia","Ukraine","Russian Federation","outbound",0,2232,7898,9462,9871,10541,11108,11945,11143,13959,16353,19294,21569,10728,7332
+"US","AE","America","Middle East","United States","United Arab Emirates","overflying",0,0,0,0,0,0,0,1904,2901,3391,4112,4268,4780,5948,7419
+"US","BE","America","Eurocontrol","United States","Belgium","inbound",5184,3782,3845,4102,4322,4202,4778,5411,4700,5161,5532,4901,4404,4326,4841
+"US","CH","America","Eurocontrol","United States","Switzerland","inbound",5931,4733,4888,4684,4880,5059,5633,5589,5416,5971,6295,6330,6385,6469,6476
+"US","DE","America","Eurocontrol","United States","Germany","inbound",19982,19809,21513,22835,24279,25697,27154,27560,25155,26220,27739,27286,26316,25744,25622
+"US","DK","America","Eurocontrol","United States","Denmark","inbound",0,0,0,0,0,1951,2160,1962,0,0,0,0,0,2314,2543
+"US","ES","America","Eurocontrol","United States","Spain","inbound",5091,4411,4542,4282,4201,4543,5308,6018,6444,7122,7861,7301,6969,7411,7728
+"US","FR","America","Eurocontrol","United States","France","inbound",17947,16690,15794,16799,17100,17032,17268,18459,17197,17126,18347,17503,17678,17653,18223
+"US","GB","America","Eurocontrol","United States","United Kingdom","inbound",45957,44846,44382,46586,48221,49161,51470,50451,44143,42956,45887,45856,45739,47195,49451
+"US","IE","America","Eurocontrol","United States","Ireland","inbound",4821,3845,4661,4629,5513,6178,6807,7249,6399,5621,5892,5417,6041,6501,7108
+"US","IL","America","Middle East","United States","Israel","overflying",0,0,0,0,1938,2401,2644,2761,2746,2905,2770,2667,2708,2723,2814
+"US","IN","America","Asia","United States","India","overflying",0,0,0,0,0,0,0,2130,1954,0,2131,0,1826,0,1845
+"US","IT","America","Eurocontrol","United States","Italy","inbound",7638,6906,6820,7530,7879,8360,9154,9174,7838,7743,7500,6948,6955,7838,8261
+"US","NL","America","Eurocontrol","United States","Netherlands","inbound",10806,10719,10925,11913,12540,11895,12337,13287,11537,11389,11993,11530,11592,11776,12395
+"US","QA","America","Middle East","United States","Qatar","overflying",0,0,0,0,0,0,0,0,0,0,0,0,0,2069,2491
+"US","RU","America","Asia","United States","Russian Federation","overflying",0,0,0,0,0,0,0,0,2038,2037,2410,2441,2621,2649,2466
+"US","TR","America","Eurocontrol","United States","Turkey","inbound",0,0,0,0,0,0,0,0,0,0,1847,2429,2712,2817,3407
+"ZA","GB","Africa","Eurocontrol","South Africa","United Kingdom","inbound",2549,2548,2739,2949,2888,2896,2934,2869,2872,2822,2811,2762,2576,2562,2521
